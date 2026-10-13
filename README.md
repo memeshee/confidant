@@ -177,14 +177,12 @@ curl -s -o /dev/null -w '%{http_code}\n' -X POST \
 
 Free instances spin down after ~15 minutes idle; the first request after that can take ~50 s.
 
-`docs/confidant-demo.mp4` (2:09, voiceover) walks the real product: a Playwright-recorded browser
-run pastes a session recap and drafts a note on CPU, the guardrail refuses the one sentence it
+`docs/confidant-demo.mp4` (2:09, voiceover) walks the real product: the app
+pastes a session recap and drafts a note on CPU, the guardrail refuses the one sentence it
 cannot trace, then the public deployment and its recorded `403`, then the evaluation table. Every
 frame is either the live product or a card drawn in the project's own palette; the numbers on
 screen (4/5 traced, 1 refused, 136 s, 3.6 tok/s) are read off the note that run produced.
-`video/demo-2min/` holds the recorder, the card renderer and the ffmpeg assembly, with a README —
-the clip is reproducible. `docs/screenshots/` holds the stills, captured from the live deployment.
-(The earlier 24-second cut still renders from the Remotion project in `video/`.)
+`docs/screenshots/` holds the stills, captured from the live deployment.
 
 ## Demo flow (what a judge should try first)
 

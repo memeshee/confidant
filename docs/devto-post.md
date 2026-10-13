@@ -32,7 +32,7 @@ The two-minute walkthrough is the same product recorded on this laptop — the p
 
 {% embed https://www.youtube.com/watch?v=Qu9942_FO8I %}
 
-The file itself is in the repo too: `docs/confidant-demo.mp4` ([direct download](https://raw.githubusercontent.com/memeshee/confidant/main/docs/confidant-demo.mp4)). It is rebuilt from `video/demo-2min/`: Playwright films the product, Pillow draws the cards, edge-tts reads the script, ffmpeg cuts it.
+The recording is also committed as `docs/confidant-demo.mp4` ([direct download](https://raw.githubusercontent.com/memeshee/confidant/main/docs/confidant-demo.mp4)), if you would rather download it than stream.
 
 The local demo is the one that matters, and it works with the wifi off:
 
