@@ -25,3 +25,5 @@ video/render.log
 
 # the one video we ship on purpose (the rest stay local)
 !docs/confidant-demo.mp4
+eval/__pycache__/
+__pycache__/
