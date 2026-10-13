@@ -160,6 +160,10 @@ curl -s -o /dev/null -w '%{http_code}\n' -X POST \
 
 Free instances spin down after ~15 minutes idle; the first request after that can take ~50 s.
 
+`docs/confidant-demo.mp4` (24 s) shows the deployed page, the recorded `403`, and the evaluation
+table; `docs/screenshots/` holds the stills. The clip is reproducible — it renders from real
+screenshots and recorded output via the Remotion project in `video/` (`cd video && npm i && npm run render`).
+
 ## Demo flow (what a judge should try first)
 
 1. Open the app with the **wifi off** and press *Record instead*.

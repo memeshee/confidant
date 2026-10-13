@@ -17,3 +17,11 @@ models/
 *.wav
 scratch/
 .DS_Store
+
+# video project
+video/node_modules/
+video/out/
+video/render.log
+
+# the one video we ship on purpose (the rest stay local)
+!docs/confidant-demo.mp4
