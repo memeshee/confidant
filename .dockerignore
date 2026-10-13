@@ -12,3 +12,5 @@ scratch/
 *.db
 *.db-wal
 *.db-shm
+video/node_modules/
+video/out/
