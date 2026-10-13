@@ -85,24 +85,26 @@ impl Demo {
 }
 
 /// The newest `eval/results/*.json`, by mtime.
+///
+/// A fresh git checkout gives every file the same timestamp, and readdir order is not stable
+/// across container starts — so ties are broken by path. Without that, the same image can serve
+/// a different evaluation table after a restart, which is exactly the kind of drift a demo that
+/// claims to replay a recording cannot have.
 fn newest_eval(root: &std::path::Path) -> (Option<serde_json::Value>, Option<String>) {
     let dir = root.join("eval/results");
-    let mut newest: Option<(std::time::SystemTime, std::path::PathBuf)> = None;
+    let mut candidates: Vec<(std::time::SystemTime, std::path::PathBuf)> = Vec::new();
     if let Ok(entries) = std::fs::read_dir(&dir) {
         for entry in entries.flatten() {
             let path = entry.path();
             if path.extension().map(|x| x == "json").unwrap_or(false) {
                 if let Ok(meta) = entry.metadata() {
-                    let t = meta.modified().unwrap_or(std::time::UNIX_EPOCH);
-                    if newest.as_ref().map(|(bt, _)| t > *bt).unwrap_or(true) {
-                        newest = Some((t, path));
-                    }
+                    candidates.push((meta.modified().unwrap_or(std::time::UNIX_EPOCH), path));
                 }
             }
         }
     }
-    match newest {
-        Some((_, path)) => {
+    match pick_newest(candidates) {
+        Some(path) => {
             let name = path.file_name().map(|f| f.to_string_lossy().to_string());
             match std::fs::read_to_string(&path).ok().and_then(|s| serde_json::from_str(&s).ok()) {
                 Some(v) => (Some(v), name),
@@ -111,6 +113,12 @@ fn newest_eval(root: &std::path::Path) -> (Option<serde_json::Value>, Option<Str
         }
         None => (None, None),
     }
+}
+
+/// Pure so the tie-break can be tested without touching the filesystem.
+fn pick_newest(mut candidates: Vec<(std::time::SystemTime, std::path::PathBuf)>) -> Option<std::path::PathBuf> {
+    candidates.sort();
+    candidates.pop().map(|(_, path)| path)
 }
 
 fn authorised(state: &AppState, headers: &HeaderMap) -> bool {
@@ -569,5 +577,28 @@ mod demo_tests {
         assert_eq!(status, StatusCode::OK);
         assert_eq!(body["mode"], "demo");
         assert_eq!(body["read_only"], true);
+    }
+
+    #[test]
+    fn equal_timestamps_pick_the_same_file_whatever_the_order() {
+        let t = std::time::UNIX_EPOCH + std::time::Duration::from_secs(1);
+        let a = (t, std::path::PathBuf::from("eval-a.json"));
+        let b = (t, std::path::PathBuf::from("eval-b.json"));
+        let forward = pick_newest(vec![a.clone(), b.clone()]).unwrap();
+        let backward = pick_newest(vec![b, a]).unwrap();
+        assert_eq!(forward, backward, "a git checkout ties every mtime; the choice must not depend on readdir order");
+        assert_eq!(forward, std::path::PathBuf::from("eval-b.json"));
+    }
+
+    #[test]
+    fn a_newer_file_beats_a_name_that_sorts_later() {
+        let t0 = std::time::UNIX_EPOCH + std::time::Duration::from_secs(1);
+        let t1 = std::time::UNIX_EPOCH + std::time::Duration::from_secs(2);
+        let picked = pick_newest(vec![
+            (t1, std::path::PathBuf::from("eval-a.json")),
+            (t0, std::path::PathBuf::from("eval-z.json")),
+        ])
+        .unwrap();
+        assert_eq!(picked, std::path::PathBuf::from("eval-a.json"));
     }
 }
