@@ -66,7 +66,7 @@ Then the measurements, because "runs on your machine" is a claim until it has a 
 - **Gemma 4B (3.2 GB weights + 0.85 GB vision tower).** 81 seconds just to load, then 0.26 tokens/sec. A note would take about four minutes. I deleted it from disk. Whatever the download page implies, it is not a small-laptop model, and I would rather say that than ship it.
 - **Gemma 3 27B (open weights, hosted via Nebius Token Factory, opt-in remote mode).** 16 sentences in 9.9 s, all 16 traceable, 0 refused — 549 prompt tokens + 505 completion tokens. That is the trade in full: better notes, faster, and the transcript leaves the machine. Hosted endpoints also do not enforce JSON schemas (I probed), so the remote path uses a flat line protocol parsed in Rust instead of the schema the local path uses.
 
-The evaluation has four arms: a rules-only baseline (deterministic sentence-splitting by trigger words, no model), the local 1B raw, the local 1B behind the guardrail, and the hosted 27B behind the guardrail. The corpus is synthetic and frozen: **90 recaps, 760 annotated facts and 427 planted distractors** — recaps and fact lists written for this project, no real client data anywhere — and the harness is `eval/run_eval.py`; results are committed under `eval/results/`.
+The evaluation has five measured rows: a rules-only baseline (deterministic sentence-splitting by trigger words, no model), the local 1B raw and the same 1B behind the guardrail, and the hosted 27B both raw over the full corpus and behind the guardrail. The corpus is synthetic and frozen: **90 recaps, 760 annotated facts and 427 planted distractors** — recaps and fact lists written for this project, no real client data anywhere — and the harness is `eval/run_eval.py`; results are committed under `eval/results/`.
 
 <!-- TODO: fill the evaluation table from the final eval run before publishing. -->
 
@@ -110,11 +110,11 @@ The standing rule for the build was never invent evidence. It is why the metric 
 
 <!-- TODO: clinician's verbatim words, what she asked to change, the price she named -->
 
-No clinician was available within the five-day window, so this section carries no quote and no testimonial; the evidence that someone would actually pay for this is the measured evaluation instead — the baseline that files the transcript as a note, the 1B that produces three traceable sentences and no more, and the 27B comparison that produces sixteen. All of it is re-runnable from the repo with `python3 eval/run_eval.py`. A fabricated quote would have been easy to write, and it would have made every other number in this post suspect.
+No clinician was available within the five-day window, so this section carries no quote and no testimonial; the evidence that someone would actually pay for this is the measured evaluation instead — the baseline that files the transcript as a note, the 1B that keeps about two sentences a note once the guardrail has refused the rest, and the 27B comparison that produces sixteen. All of it is re-runnable from the repo with `python3 eval/run_eval.py`. A fabricated quote would have been easy to write, and it would have made every other number in this post suspect.
 
 ## Prize Categories
 
-**Best Use of Gemma.** Gemma 3 1B QAT is the shipped default runtime, running on CPU with no GPU: measured at ~7.5 tokens/sec, drafting 3 traceable sentences from a 230-word recap in 56 s. Gemma 3 27B (open weights) is the hosted comparison row — 16 sentences, all 16 traceable, in 9.9 s — and the model picker lists whatever is installed on the machine, with real sizes.
+**Best Use of Gemma.** Gemma 3 1B QAT is the shipped default runtime, running on CPU with no GPU: on this laptop it drafts a note in one to two minutes (3.6–4.8 tokens/sec; median 74 s end to end behind the guardrail across the corpus block above). Its honest limits are in that table too — at 1B, raw, 69% of its sentences cannot be traced to the recap, and the guardrail refuses most of them — which is exactly why the same product, pointed at Gemma 3 27B (open weights, hosted, opt-in), reads 87.5% recall at 0% unsupported through the same guardrail. The model picker lists whatever is installed on the machine, with real sizes.
 
 **Best Use of Render.** The public read-only demo of real recorded runs, plus the evaluation table, is hosted on Render at https://uconfidant.tech (fallback: confidant-demo.onrender.com; service `srv-db73srid0e5s73avf6i0`, free plan, Docker runtime). Every mutating route answers 403 there — it is a replay, not a live service.
 
