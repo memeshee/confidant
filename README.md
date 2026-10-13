@@ -58,6 +58,10 @@ Not "it uses AI". Three specific things:
 
 ## Architecture
 
+![Confidant architecture: everything clinical stays inside the laptop trust boundary — the only exits are a one-time model download, metadata-only tracing, and the opt-in remote path](docs/architecture.png)
+
+[`docs/architecture.html`](docs/architecture.html) is the same diagram as a self-contained page — no CDN, no webfonts, no scripts, so it renders offline, which is the point of the product it documents. The text version, for terminals:
+
 ```
 microphone ─► faster-whisper (local, CPU) ─► transcript  [audio deleted]
                       │
@@ -80,8 +84,8 @@ microphone ─► faster-whisper (local, CPU) ─► transcript  [audio deleted]
   website cannot post a transcript into the local store.
 - **Frontend: Next.js (App Router) + TypeScript + Tailwind, exported statically** and served by
   the daemon. Stated deviation from the "Next.js on Vercel" default: the product's whole claim
-  is that it works with the wifi off, so the app cannot live on a host. Vercel serves only the
-  public landing page for the `.tech` domain.
+  is that it works with the wifi off, so the app cannot live on a host. The public deployment on
+  Render (`uconfidant.tech`) serves only the read-only replay; the local app is the product.
 - **Inference**: Ollama on loopback. `assert_policy()` **refuses** any base URL that is not
   loopback in local mode — a hard error, not a warning, because that is the single
   misconfiguration that would make this README's privacy claims false.
@@ -136,8 +140,11 @@ Configuration (all optional, all defaulted): `CONFIDANT_MODEL`, `CONFIDANT_OLLAM
 
 ## Public demo (Render) — a read-only replay
 
-<https://confidant-demo.onrender.com> · service `srv-db73srid0e5s73avf6i0` (free plan, Docker
-runtime, Oregon) · built from the `Dockerfile` at the repo root.
+<https://confidant-demo.onrender.com> (custom domain `uconfidant.tech`, once its DNS resolves) ·
+service `srv-db73srid0e5s73avf6i0` (free plan, Docker runtime, Oregon) · built from the `Dockerfile`
+at the repo root.
+
+![The public demo page: a recorded replay banner, a run switcher, the session note with its refused sentences, and the evaluation table](docs/screenshots/demo-note.png)
 
 The public deployment deliberately **cannot take input**. It runs the daemon with
 `CONFIDANT_DEMO=1`, which:
