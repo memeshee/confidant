@@ -484,8 +484,16 @@ export default function Page() {
             confidant
           </h1>
           <p className="io">
-            session notes that never leave the room · {health?.runtime.model ?? "local model"} ·{" "}
-            {health?.transcriber.available ? `local speech-to-text (${health.transcriber.model})` : "speech-to-text not installed"} · loopback only
+            {demo ? (
+              <>
+                recorded replay of local runs · {demo.note.model} · read-only, no input accepted
+              </>
+            ) : (
+              <>
+                session notes that never leave the room · {health?.runtime.model ?? "local model"} ·{" "}
+                {health?.transcriber.available ? `local speech-to-text (${health.transcriber.model})` : "speech-to-text not installed"} · loopback only
+              </>
+            )}
           </p>
         </div>
         <nav className="flex items-center gap-2">
