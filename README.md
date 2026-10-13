@@ -12,8 +12,10 @@ per-note cost.
 > stage timings, token counts and cost — and a local sink (`eval/sentry_envelope_sink.py`)
 > captures the envelope it actually sends, so "never clinical text" is checkable rather than
 > asserted. **Tinker** has a real run behind it as well (`eval/tinker_finetune.py`: a 40-step LoRA
-> on Qwen3.5-4B, held-out scoring with the committed eval's own scorer) — and that run says the
-> tuned arm *lost* to the deterministic floor. Neither category is claimed here. A claim without a
+> on Qwen3.5-4B, held-out scoring with the committed eval's own scorer). Two runs of that config
+> landed on either side of the floor on section placement (2.17 and 3.17 of 7 against 2.50) while
+> producing unsupported claims the floor never produces — so the honest statement is that the
+> tuned arm does not *dominate* the floor. Neither category is claimed here. A claim without a
 > run behind it is exactly what this project refuses to file; a run that loses gets filed as a
 > loss.
 
