@@ -8,9 +8,14 @@ per-note cost.
 > This is an entry in the [Hacktoberfest Open-Source AI Challenge: Week 2 — Side
 > Hustle](https://dev.to/challenges/hacktoberfest-week2-2026-10-12). Categories claimed:
 > **Best Use of Render**, **Best Use of Gemma**, **Best Use of a .tech Domain**.
-> Two further categories (**Tinker** fine-tuning, **Sentry agent tracing**) are described in the
-> post as the measured next step and are *not* claimed here, because a claim without a run
-> behind it is exactly what this project refuses to file.
+> **Sentry tracing** is wired and verified: the daemon posts a `note.draft` transaction carrying
+> stage timings, token counts and cost — and a local sink (`eval/sentry_envelope_sink.py`)
+> captures the envelope it actually sends, so "never clinical text" is checkable rather than
+> asserted. **Tinker** has a real run behind it as well (`eval/tinker_finetune.py`: a 40-step LoRA
+> on Qwen3.5-4B, held-out scoring with the committed eval's own scorer) — and that run says the
+> tuned arm *lost* to the deterministic floor. Neither category is claimed here. A claim without a
+> run behind it is exactly what this project refuses to file; a run that loses gets filed as a
+> loss.
 
 ## The problem
 

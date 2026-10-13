@@ -158,7 +158,7 @@ def main() -> int:
             print(f"  step {step:>3}/{args.steps}  loss {shown}  ({time.time()-t0:.0f}s)")
 
     # ---------- sample the held-out recaps ----------
-    samp = tc.save_weights_and_get_sampling_client(name=f"confidant-{int(time.time())}")
+    samp = tc.save_weights_and_get_sampling_client()   # ephemeral by design; a checkpoint is not claimed
     rows, scored = [], []
     for r in holdout:
         ids = chat_tokens(
