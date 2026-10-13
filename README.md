@@ -6,7 +6,10 @@ every sentence in it is traceable to the words she actually said. No cloud, no r
 per-note cost.
 
 > This is an entry in the [Hacktoberfest Open-Source AI Challenge: Week 2 — Side
-> Hustle](https://dev.to/challenges/hacktoberfest-week2-2026-10-12). Categories claimed:
+> Hustle](https://dev.to/challenges/hacktoberfest-week2-2026-10-12) — submitted as
+> [Confidant: a 1B Gemma drafts a therapist's session notes on her own laptop, and nothing
+> leaves the room](https://dev.to/memeshe/confidant-a-1b-gemma-drafts-a-therapists-session-notes-on-her-own-laptop-and-nothing-leaves-the-5fnp).
+> Categories claimed:
 > **Best Use of Render**, **Best Use of Gemma**, **Best Use of a .tech Domain**.
 > **Sentry tracing** is wired and verified: the daemon posts a `note.draft` transaction carrying
 > stage timings, token counts and cost — and a local sink (`eval/sentry_envelope_sink.py`)
