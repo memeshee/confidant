@@ -1,6 +1,6 @@
 # Confidant: a 1B Gemma drafts a therapist's session notes on her own laptop, and nothing leaves the room
 
-<!-- Draft: repo URL and Render demo URL are filled in. Still to fill before publishing: {{TECH_DOMAIN}} and the eval table (TBD cells). dev.to tags: #devchallenge #hf26challenge -->
+<!-- Draft: repo URL and Render demo URL are filled in. Still to fill before publishing: the eval table (TBD cells). dev.to tags: #devchallenge #hf26challenge -->
 
 It is 9pm, and a solo therapist still owes the day a set of notes. She has two options. Type them — about twenty minutes every day, after the last client. Or pay $69–114 a month for a cloud "AI scribe" that records the session, which her clients did not consent to.
 
@@ -26,7 +26,7 @@ There is one honest escape hatch: remote mode, opt-in, for hardware that cannot 
 
 ## Demo
 
-Live demo: https://confidant-demo.onrender.com
+Live demo: https://uconfidant.tech
 
 The demo on Render is read-only. It replays real recorded runs of the pipeline on the synthetic corpus, so you can watch the whole flow without installing anything: recap in, drafted note out, and at least one sentence struck through where the guardrail refused it. Underneath the replay is the evaluation table from the next section, rendered from the committed results.
 
@@ -38,7 +38,7 @@ The local demo is the one that matters, and it works with the wifi off:
 4. Find the struck-through line — that is the guardrail refusing something the model invented.
 5. Export to print-ready HTML. The footer shows `0.0000 USD/note`, the tokens/sec, and the model name.
 
-The landing page and the docs live at {{TECH_DOMAIN}} <!-- TODO: fill the .tech domain -->.
+The landing page and the docs live at https://uconfidant.tech, the read-only demo deployment itself — one URL, no separate marketing site.
 
 ## Code
 
@@ -116,9 +116,9 @@ No clinician was available within the five-day window, so this section carries n
 
 **Best Use of Gemma.** Gemma 3 1B QAT is the shipped default runtime, running on CPU with no GPU: measured at ~7.5 tokens/sec, drafting 3 traceable sentences from a 230-word recap in 56 s. Gemma 3 27B (open weights) is the hosted comparison row — 16 sentences, all 16 traceable, in 9.9 s — and the model picker lists whatever is installed on the machine, with real sizes.
 
-**Best Use of Render.** The public read-only demo of real recorded runs, plus the evaluation table, is hosted on Render: https://confidant-demo.onrender.com (service `srv-db73srid0e5s73avf6i0`, free plan, Docker runtime). Every mutating route answers 403 there — it is a replay, not a live service.
+**Best Use of Render.** The public read-only demo of real recorded runs, plus the evaluation table, is hosted on Render at https://uconfidant.tech (fallback: confidant-demo.onrender.com; service `srv-db73srid0e5s73avf6i0`, free plan, Docker runtime). Every mutating route answers 403 there — it is a replay, not a live service.
 
-**Best Use of a .tech Domain.** The project's landing page and docs live on a .tech domain claimed through Hacktoberfest: {{TECH_DOMAIN}}.
+**Best Use of a .tech Domain.** The project's landing page and docs live on a .tech domain claimed through Hacktoberfest: https://uconfidant.tech. The domain points at the read-only Render deployment, so the landing page is the product demo itself — TLS issued, DNS on the registrar's own nameservers.
 
 **Not claimed, and why.** Two categories are described in this post as the measured next step and are explicitly not claimed: Tinker fine-tuning (a LoRA on a clinician's note format — no run yet) and Sentry tracing (stage, latency, token and cost metadata, hashes only, never clinical text — designed, not wired). A claim without a run behind it is exactly what this project refuses to file.
 

@@ -140,9 +140,9 @@ Configuration (all optional, all defaulted): `CONFIDANT_MODEL`, `CONFIDANT_OLLAM
 
 ## Public demo (Render) — a read-only replay
 
-<https://confidant-demo.onrender.com> (custom domain `uconfidant.tech`, once its DNS resolves) ·
-service `srv-db73srid0e5s73avf6i0` (free plan, Docker runtime, Oregon) · built from the `Dockerfile`
-at the repo root.
+<https://uconfidant.tech> (custom domain, TLS issued) · fallback URL
+<https://confidant-demo.onrender.com> · service `srv-db73srid0e5s73avf6i0` (free plan, Docker
+runtime, Oregon) · built from the `Dockerfile` at the repo root.
 
 ![The public demo page: a recorded replay banner, a run switcher, the session note with its refused sentences, and the evaluation table](docs/screenshots/demo-note.png)
 
