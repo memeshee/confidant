@@ -30,9 +30,9 @@ The demo on Render is read-only. It replays real recorded runs of the pipeline o
 
 The two-minute walkthrough is the same product recorded on this laptop — the paste, the CPU draft, the guardrail refusing one sentence it could not trace, then the deployed page answering `403` on every write:
 
-[![the two-minute walkthrough](https://raw.githubusercontent.com/memeshee/confidant/main/docs/screenshots/demo-stats.png)](https://raw.githubusercontent.com/memeshee/confidant/main/docs/confidant-demo.mp4)
+{% embed https://www.youtube.com/watch?v=Qu9942_FO8I %}
 
-It is rebuilt from `video/demo-2min/`: Playwright films the product, Pillow draws the cards, edge-tts reads the script, ffmpeg cuts it.
+The file itself is in the repo too: `docs/confidant-demo.mp4` ([direct download](https://raw.githubusercontent.com/memeshee/confidant/main/docs/confidant-demo.mp4)). It is rebuilt from `video/demo-2min/`: Playwright films the product, Pillow draws the cards, edge-tts reads the script, ffmpeg cuts it.
 
 The local demo is the one that matters, and it works with the wifi off:
 
@@ -120,8 +120,6 @@ No clinician was available within the five-day window, so this section carries n
 **Best Use of Gemma.** Gemma 3 1B QAT is the shipped default runtime, running on CPU with no GPU: on this laptop it drafts a note in one to two minutes (3.6–4.8 tokens/sec; median 74 s end to end behind the guardrail across the corpus block above). Its honest limits are in that table too — at 1B, raw, 69% of its sentences cannot be traced to the recap, and the guardrail refuses most of them — which is exactly why the same product, pointed at Gemma 3 27B (open weights, hosted, opt-in), reads 87.5% recall at 0% unsupported through the same guardrail. The model picker lists whatever is installed on the machine, with real sizes.
 
 **Best Use of Render.** The public read-only demo of real recorded runs, plus the evaluation table, is hosted on Render at https://uconfidant.tech (fallback: confidant-demo.onrender.com; service `srv-db73srid0e5s73avf6i0`, free plan, Docker runtime). Every mutating route answers 403 there — it is a replay, not a live service.
-
-A two-minute narrated walkthrough is in the repo at `docs/confidant-demo.mp4`: the real app pasting a recap and drafting a note on CPU, the guardrail refusing the one sentence it cannot trace, the deployed page, and the recorded `403`. It is reproducible from `video/demo-2min/` — Playwright records the product, Pillow draws the cards in the app's palette, edge-tts reads the script, ffmpeg assembles it.
 
 **Best Use of a .tech Domain.** The project's landing page and docs live on a .tech domain claimed through Hacktoberfest: https://uconfidant.tech. The domain points at the read-only Render deployment, so the landing page is the product demo itself — TLS issued, DNS on the registrar's own nameservers.
 
