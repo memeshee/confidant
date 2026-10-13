@@ -6,3 +6,22 @@ corpus: 8 recaps · arm=local model=gemma3:1b-it-qat
   [5/8] r-035  recall 3/9  right-section 2/9  distractors 0/5  unsupported 4/5  words 88 (x0.466)  98132 ms
   [6/8] r-036  recall 4/9  right-section 3/9  distractors 0/5  unsupported 2/5  words 84 (x0.412)  175743 ms
   [7/8] r-037  recall 2/8  right-section 2/8  distractors 1/5  unsupported 3/5  words 44 (x0.219)  90396 ms
+  [8/8] r-038  recall 3/10  right-section 3/10  distractors 0/5  unsupported 5/5  words 70 (x0.347)  255508 ms
+
+SUMMARY {
+  "arm": "local",
+  "model": "gemma3:1b-it-qat",
+  "recaps": 8,
+  "seconds": 1581.6,
+  "fact_recall": 0.375,
+  "fact_section_accuracy": 0.25,
+  "distractor_rate": 0.0263,
+  "unsupported_rate": 0.6905,
+  "mean_claims_per_note": 5.25,
+  "mean_refused_by_guardrail": 0.0,
+  "brevity": 0.4411,
+  "median_ms": 201560,
+  "mean_tok_s": 2.8912,
+  "usd_per_note": 0.0
+}
+written: eval/results/eval-local-1b-raw-8.json
