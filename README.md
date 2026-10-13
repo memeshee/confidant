@@ -129,9 +129,36 @@ CONFIDANT_ROOT=$PWD CONFIDANT_PORT=8791 ./target/release/confidant-daemon
 ```
 
 Configuration (all optional, all defaulted): `CONFIDANT_MODEL`, `CONFIDANT_OLLAMA`,
-`CONFIDANT_THREADS`, `CONFIDANT_DB`, `CONFIDANT_PORT`, `CONFIDANT_STT_MODEL`,
-`CONFIDANT_PYTHON`, `CONFIDANT_PROVIDER=local|remote`, `CONFIDANT_REMOTE_URL`,
-`CONFIDANT_REMOTE_KEY`, `CONFIDANT_REMOTE_MAX_TOKENS`, `SENTRY_DSN`.
+`CONFIDANT_THREADS`, `CONFIDANT_DB`, `CONFIDANT_PORT` (or the platform's `PORT`),
+`CONFIDANT_BIND`, `CONFIDANT_STT_MODEL`, `CONFIDANT_PYTHON`, `CONFIDANT_PROVIDER=local|remote`,
+`CONFIDANT_REMOTE_URL`, `CONFIDANT_REMOTE_KEY`, `CONFIDANT_REMOTE_MAX_TOKENS`, `CONFIDANT_DEMO`,
+`CONFIDANT_DEMO_DIR`, `SENTRY_DSN`.
+
+## Public demo (Render) — a read-only replay
+
+<https://confidant-demo.onrender.com> · service `srv-db73srid0e5s73avf6i0` (free plan, Docker
+runtime, Oregon) · built from the `Dockerfile` at the repo root.
+
+The public deployment deliberately **cannot take input**. It runs the daemon with
+`CONFIDANT_DEMO=1`, which:
+
+- loads `demo/note.json` and `demo/note-b.json` — notes produced by real runs of this pipeline
+  against a local model (`gemma3:1b-it-qat` on loopback; the second run's synthetic input is
+  committed at `demo/recap-b.txt`) — plus the newest `eval/results/*.json` at startup;
+- serves them at `GET /api/demo` and renders them as a replay: a banner that says so, a switcher
+  between the two recorded runs, and the evaluation table rendered from the committed results;
+- answers **every** POST, PATCH and DELETE with `403` from a middleware that runs before any
+  handler, so nobody can type a client's words into a page that could store them. `cargo test`
+  drives the real router and asserts exactly that.
+
+```bash
+curl -s https://confidant-demo.onrender.com/api/demo | head -c 120      # the replay payload
+curl -s -o /dev/null -w '%{http_code}\n' -X POST \
+  https://confidant-demo.onrender.com/api/recap/text \
+  -H 'content-type: application/json' -d '{"transcript":"client words"}'  # 403, by design
+```
+
+Free instances spin down after ~15 minutes idle; the first request after that can take ~50 s.
 
 ## Demo flow (what a judge should try first)
 
@@ -145,7 +172,7 @@ Configuration (all optional, all defaulted): `CONFIDANT_MODEL`, `CONFIDANT_OLLAM
 ## Testing
 
 ```bash
-cargo test                 # 15 tests: guardrail, provider policy, exports, store, line parser
+cargo test                 # 18 tests: guardrail, provider policy, exports, store, line parser, demo mode
 python3 eval/run_eval.py --arm rules-only            # baseline, no model
 python3 eval/run_eval.py --arm local+guard --limit 4  # shipped path via the daemon
 scripts/cleanup.sh         # dry run: lists everything this project added to the machine

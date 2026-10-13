@@ -18,7 +18,7 @@ RUN npm run build
 # --- 2. the daemon, release -----------------------------------------------------------------
 # rusqlite is built with the bundled SQLite (needs a C compiler); reqwest pulls native-tls, so
 # the build stage needs OpenSSL headers. No runtime API key is read at any point in the build.
-FROM rust:1-slim AS daemon
+FROM rust:1-slim-bookworm AS daemon
 RUN apt-get update \
  && apt-get install -y --no-install-recommends gcc libc6-dev libssl-dev pkg-config \
  && rm -rf /var/lib/apt/lists/*

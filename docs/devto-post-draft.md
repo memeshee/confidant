@@ -1,6 +1,6 @@
 # Confidant: a 1B Gemma drafts a therapist's session notes on her own laptop, and nothing leaves the room
 
-<!-- Draft: fill {{GITHUB_REPO_URL}}, {{RENDER_DEMO_URL}}, {{TECH_DOMAIN}} and the eval table (TBD cells) before publishing. dev.to tags: #devchallenge #hf26challenge -->
+<!-- Draft: repo URL and Render demo URL are filled in. Still to fill before publishing: {{TECH_DOMAIN}} and the eval table (TBD cells). dev.to tags: #devchallenge #hf26challenge -->
 
 It is 9pm, and a solo therapist still owes the day a set of notes. She has two options. Type them — about twenty minutes every day, after the last client. Or pay $69–114 a month for a cloud "AI scribe" that records the session, which her clients did not consent to.
 
@@ -26,7 +26,7 @@ There is one honest escape hatch: remote mode, opt-in, for hardware that cannot 
 
 ## Demo
 
-Live demo: {{RENDER_DEMO_URL}} <!-- TODO: fill the live Render demo URL -->
+Live demo: https://confidant-demo.onrender.com
 
 The demo on Render is read-only. It replays real recorded runs of the pipeline on the synthetic corpus, so you can watch the whole flow without installing anything: recap in, drafted note out, and at least one sentence struck through where the guardrail refused it. Underneath the replay is the evaluation table from the next section, rendered from the committed results.
 
@@ -42,7 +42,7 @@ The landing page and the docs live at {{TECH_DOMAIN}} <!-- TODO: fill the .tech 
 
 ## Code
 
-Repo: {{GITHUB_REPO_URL}} <!-- TODO: fill the GitHub repo URL -->
+Repo: https://github.com/memeshee/confidant
 
 Everything is in there: the Rust daemon (`daemon/src/`), the statically exported Next.js UI (`ui/`), the prompts shared by the product and the eval harness (`prompts/`), the synthetic corpus and the harness (`eval/`), and the footprint documents (`docs/`).
 
@@ -116,7 +116,7 @@ No clinician was available within the five-day window, so this section carries n
 
 **Best Use of Gemma.** Gemma 3 1B QAT is the shipped default runtime, running on CPU with no GPU: measured at ~7.5 tokens/sec, drafting 3 traceable sentences from a 230-word recap in 56 s. Gemma 3 27B (open weights) is the hosted comparison row — 16 sentences, all 16 traceable, in 9.9 s — and the model picker lists whatever is installed on the machine, with real sizes.
 
-**Best Use of Render.** The public read-only demo of real recorded runs, plus the evaluation table, is hosted on Render: {{RENDER_DEMO_URL}}.
+**Best Use of Render.** The public read-only demo of real recorded runs, plus the evaluation table, is hosted on Render: https://confidant-demo.onrender.com (service `srv-db73srid0e5s73avf6i0`, free plan, Docker runtime). Every mutating route answers 403 there — it is a replay, not a live service.
 
 **Best Use of a .tech Domain.** The project's landing page and docs live on a .tech domain claimed through Hacktoberfest: {{TECH_DOMAIN}}.
 
