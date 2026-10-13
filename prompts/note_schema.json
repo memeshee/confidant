@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "properties": {
+    "subjective": {
+      "type": "array",
+      "description": "What the client reported. Empty array if the transcript says nothing for this section.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": { "type": "string", "description": "Note sentence, clinician voice, no invention." },
+          "quote": { "type": "string", "description": "Exact substring copied from the transcript that supports text." }
+        },
+        "required": ["text", "quote"]
+      }
+    },
+    "objective": {
+      "type": "array",
+      "description": "What was observed or done in session. Empty array if the transcript says nothing for this section.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": { "type": "string", "description": "Note sentence, clinician voice, no invention." },
+          "quote": { "type": "string", "description": "Exact substring copied from the transcript that supports text." }
+        },
+        "required": ["text", "quote"]
+      }
+    },
+    "assessment": {
+      "type": "array",
+      "description": "The clinician's working impression. Empty array if the transcript says nothing for this section.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": { "type": "string", "description": "Note sentence, clinician voice, no invention." },
+          "quote": { "type": "string", "description": "Exact substring copied from the transcript that supports text." }
+        },
+        "required": ["text", "quote"]
+      }
+    },
+    "plan": {
+      "type": "array",
+      "description": "Actions agreed with the client. Empty array if the transcript says nothing for this section.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": { "type": "string", "description": "Note sentence, clinician voice, no invention." },
+          "quote": { "type": "string", "description": "Exact substring copied from the transcript that supports text." }
+        },
+        "required": ["text", "quote"]
+      }
+    },
+    "next_focus": {
+      "type": "array",
+      "description": "What the clinician wants to raise next session. Empty array if the transcript says nothing for this section.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": { "type": "string", "description": "Note sentence, clinician voice, no invention." },
+          "quote": { "type": "string", "description": "Exact substring copied from the transcript that supports text." }
+        },
+        "required": ["text", "quote"]
+      }
+    }
+  },
+  "required": ["subjective", "objective", "assessment", "plan", "next_focus"]
+}

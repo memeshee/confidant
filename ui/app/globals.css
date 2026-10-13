@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+/* ── Confidant design system ─────────────────────────────────────────────────────
+   Paper, ink, one accent. Reference-informed (Nordiska Museet band: #fdfaf5 paper,
+   black text, a single warm accent, one hairline rule) — our accent is a step off
+   the population's coral so the identity is ours. No cards, no shadows, no gradients.
+   VARIANCE 2 / MOTION 2 / DENSITY 3. */
+
+@theme {
+  --color-paper: #fdfaf5;
+  --color-paper-deep: #f7f2e9;
+  --color-ink: #171310;
+  --color-muted: #8a8078;
+  --color-rule: #e7ded1;
+  --color-accent: #c25a44;
+  --color-accent-soft: #f4e3dd;
+  --font-display: "Inter Tight", system-ui, -apple-system, sans-serif;
+  --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("/fonts/inter-tight-600.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Tight";
+  src: url("/fonts/inter-tight-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/fonts/source-serif-4-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/ibm-plex-mono-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.62;
+}
+
+.io {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: var(--color-muted);
+}
+.label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+/* The provenance mark: the only "effect" in the product, and it is information. */
+mark.source {
+  background: var(--color-accent-soft);
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-accent);
+  padding: 0 1px;
+}
+.claim {
+  transition: background 120ms linear;
+  border-radius: 2px;
+}
+.claim[data-active="true"] {
+  background: #fbf3ee;
+  box-shadow: -8px 0 0 #fbf3ee, 8px 0 0 #fbf3ee;
+}
+.refused {
+  text-decoration: line-through;
+  text-decoration-color: var(--color-accent);
+  color: var(--color-muted);
+}
+button.quiet {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 13px;
+  border: 1px solid var(--color-rule);
+  background: transparent;
+  padding: 7px 14px;
+  border-radius: 999px;
+  transition: border-color 120ms linear, color 120ms linear;
+}
+button.quiet:hover:not(:disabled) {
+  border-color: var(--color-ink);
+}
+button.primary {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 13px;
+  background: var(--color-ink);
+  color: var(--color-paper);
+  padding: 9px 18px;
+  border-radius: 999px;
+}
+button.primary:disabled,
+button.quiet:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+textarea,
+input {
+  font-family: var(--font-body);
+  background: transparent;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  resize: vertical;
+}
+::selection {
+  background: var(--color-accent-soft);
+}
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

@@ -1,0 +1,8 @@
+corpus: 8 recaps · arm=local model=gemma3:1b-it-qat
+  [1/8] r-031  recall 4/9  right-section 1/9  distractors 0/4  unsupported 5/7  words 90 (x0.5)  321636 ms
+  [2/8] r-032  recall 4/9  right-section 2/9  distractors 0/4  unsupported 4/5  words 148 (x0.755)  227377 ms
+  [3/8] r-033  recall 2/9  right-section 2/9  distractors 0/5  unsupported 5/5  words 64 (x0.327)  125938 ms
+  [4/8] r-034  recall 5/9  right-section 3/9  distractors 0/5  unsupported 1/5  words 98 (x0.503)  286827 ms
+  [5/8] r-035  recall 3/9  right-section 2/9  distractors 0/5  unsupported 4/5  words 88 (x0.466)  98132 ms
+  [6/8] r-036  recall 4/9  right-section 3/9  distractors 0/5  unsupported 2/5  words 84 (x0.412)  175743 ms
+  [7/8] r-037  recall 2/8  right-section 2/8  distractors 1/5  unsupported 3/5  words 44 (x0.219)  90396 ms

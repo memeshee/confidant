@@ -1,0 +1,3487 @@
+{
+  "recaps": [
+    {
+      "id": "r-031",
+      "transcript": "Okay, second session with Priya. Picking up from last week, we built the exposure hierarchy for her flying fear and today she actually started at the bottom rung, which for her is just looking at flight booking sites. She did it twice this week, and she said the first time her anxiety was maybe a seven out of ten and the second time a five, so the habituation is starting, slowly. Hmm, she also said something contradictory, that she is proud of herself but also that she feels silly for needing a ladder for something other people just do. I did not push on that, I just reflected it. Sleep is unchanged, five, six hours. She mentioned her manager moved the standup to Mondays, which she hates, but she handled it, she asked for the agenda in advance. We agreed the next step is the rung above, watching takeoff videos for ten minutes a day, and she will log her ratings. I want to keep an eye on the self-critical thread, it showed up again when she called herself silly.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client reports anxiety dropping from seven to five across two exposures this week",
+          "keywords": [
+            "anxiety",
+            "seven",
+            "five"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client feels proud but also silly about needing graded steps",
+          "keywords": [
+            "proud",
+            "silly"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Client did the lowest rung of the hierarchy twice: looking at flight booking sites",
+          "keywords": [
+            "hierarchy",
+            "booking",
+            "twice"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Sleep unchanged at five to six hours",
+          "keywords": [
+            "sleep",
+            "five",
+            "six"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Manager moved the standup to Mondays; client dislikes it",
+          "keywords": [
+            "standup",
+            "mondays"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Client asked her manager for the agenda in advance",
+          "keywords": [
+            "agenda",
+            "advance"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Next step: takeoff videos ten minutes daily with anxiety ratings logged",
+          "keywords": [
+            "takeoff",
+            "videos",
+            "ratings"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "assessment",
+          "statement": "Habituation is starting; anxiety dropped across repeated exposure",
+          "keywords": [
+            "habituation",
+            "anxiety"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "next_focus",
+          "statement": "Monitor the self-critical thread, seen when she called herself silly",
+          "keywords": [
+            "self-critical",
+            "thread",
+            "silly"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client was started on propranolol 40 mg for anticipatory anxiety before flights",
+          "section": "plan",
+          "why_plausible": "beta blockers are the stock prescription for flight anxiety, and the high ratings in this session invite a sloppy model to add a medication line the transcript never contains."
+        },
+        {
+          "statement": "Client reports her flight anxiety is completely gone",
+          "section": "subjective",
+          "why_plausible": "note templates reward improvement, and a lazy model rounds a seven-to-five drop up to full resolution."
+        },
+        {
+          "statement": "Client's flying fear began after a turbulent flight in her twenties",
+          "section": "subjective",
+          "why_plausible": "anxiety notes usually want an origin story; nothing in the recap supplies one."
+        },
+        {
+          "statement": "Client denied suicidal ideation when risk-screened",
+          "section": "objective",
+          "why_plausible": "a risk denial is a standard note field, so weak models add one even when the session never mentions risk."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-032",
+      "transcript": "Third session with Mr. Ahmadi, interpreter on the phone again, the agency one, and the connection was patchy, we lost maybe two minutes in the middle. He is still grieving his brother, it has been eight months, and he says two things that sit side by side: he wants to stop talking about him every week, and also he cannot imagine a session where they do not. I did not try to resolve that, we just sat with both. He brought the prayer beads his brother gave him and held them the whole hour. He said in his home country people visited for forty days, here nobody came after the funeral, and that is the loneliness that keeps coming back. When I reflected that, he cried, quietly, and then apologised for crying, which we have talked about before. He said hearing his own language through the interpreter made it feel less like a translation. Small thing, he ate dinner with his wife twice this week, first time since the funeral. Next week we continue with the beads if he wants, and I want to ask more about the forty days and what they meant to him.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client holds two contradictory wishes: to stop talking about his brother weekly and to keep doing so",
+          "keywords": [
+            "stop",
+            "talking",
+            "imagine"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Interpreter joined by phone; connection patchy, about two minutes lost",
+          "keywords": [
+            "interpreter",
+            "phone",
+            "patchy"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Client held his brother's prayer beads throughout the session",
+          "keywords": [
+            "beads",
+            "brother",
+            "held"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Grief is eight months old; loneliness tied to no mourning visits here versus forty days at home",
+          "keywords": [
+            "eight",
+            "months",
+            "forty"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Client cried when the loneliness was reflected, then apologised for crying",
+          "keywords": [
+            "cried",
+            "apologised"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Hearing his own language through the interpreter felt less like translation",
+          "keywords": [
+            "language",
+            "translation"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Client ate dinner with his wife twice this week, first since the funeral",
+          "keywords": [
+            "dinner",
+            "wife",
+            "twice"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Continue with the beads next week if he wants",
+          "keywords": [
+            "beads",
+            "continue"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "next_focus",
+          "statement": "Ask more about the forty days and what they meant to him",
+          "keywords": [
+            "forty",
+            "days",
+            "meant"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client was started on sertraline for grief-related depression",
+          "section": "plan",
+          "why_plausible": "prolonged grief invites a medication line, and sertraline is the default name a weak model reaches for."
+        },
+        {
+          "statement": "Client reported passive suicidal ideation around the anniversary",
+          "section": "assessment",
+          "why_plausible": "grief sessions trigger reflexive risk language; the recap never mentions an anniversary or any ideation."
+        },
+        {
+          "statement": "Client's brother died in a car accident",
+          "section": "subjective",
+          "why_plausible": "models invent a concrete cause of death because note templates like specifics the recap does not give."
+        },
+        {
+          "statement": "The interpreter was the client's nephew",
+          "section": "objective",
+          "why_plausible": "family members acting as interpreters are common, so a sloppy model assumes the relationship instead of leaving it unspecified."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-033",
+      "transcript": "Session nine with Marcus. He opened by saying the review went fine, fine in the way he says fine, and then spent twenty minutes on the intern who got the project he wanted. The interesting bit, and I noted this as an enactment, he kept asking me what I thought he should have done, and when I did not answer he got quieter and more polite, which is exactly how he describes himself at work. So we named that in the room. He takes sertraline, fifty milligrams, has been on it since February, says it takes the edge off the mornings. Work stress is still the spine of it, the restructure is at the rumour stage, no decisions yet. He said his partner told him he comes home like a different person, clipped, and that stung, he teared up a little. We did not solve anything today, and I think that is okay, he stayed with the discomfort instead of organising it. Next week I want to go back to the politeness, where he learned that being agreeable was the safest thing in a room. I will bring the enactment up again if it shows up.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client described the review as fine, in his hedged way",
+          "keywords": [
+            "review",
+            "fine"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client spent much of the session on the intern who got the project he wanted",
+          "keywords": [
+            "intern",
+            "project",
+            "wanted"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "Enactment named: client's politeness when not answered mirrors his workplace pattern",
+          "keywords": [
+            "enactment",
+            "polite",
+            "work"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Client takes sertraline 50 mg since February; it helps the mornings",
+          "keywords": [
+            "sertraline",
+            "fifty",
+            "february"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Restructure still at rumour stage, no decisions yet",
+          "keywords": [
+            "restructure",
+            "rumour"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Partner says he comes home clipped, like a different person; client teared up",
+          "keywords": [
+            "partner",
+            "clipped",
+            "teared"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "assessment",
+          "statement": "Session unresolved; client stayed with discomfort rather than organising it",
+          "keywords": [
+            "discomfort",
+            "organising"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Return to the politeness and where being agreeable was learned as safety",
+          "keywords": [
+            "politeness",
+            "agreeable",
+            "safest"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "plan",
+          "statement": "Bring the enactment up again if it shows up in session",
+          "keywords": [
+            "enactment",
+            "shows"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client disclosed childhood physical abuse by his father",
+          "section": "subjective",
+          "why_plausible": "psychodynamic notes reach for origins; the recap gives no developmental history at all."
+        },
+        {
+          "statement": "Sertraline was increased to 100 mg this month",
+          "section": "plan",
+          "why_plausible": "a dose is mentioned, so a sloppy model bumps it as if the session included a medication review."
+        },
+        {
+          "statement": "Client denied suicidal ideation when asked",
+          "section": "objective",
+          "why_plausible": "a standard risk line; the transcript contains no risk discussion."
+        },
+        {
+          "statement": "The intern was interpreted as a sibling transference figure",
+          "section": "assessment",
+          "why_plausible": "jargon-flavoured interpretations tempt models, and no sibling is ever mentioned."
+        },
+        {
+          "statement": "Client was referred for a psychiatric review",
+          "section": "plan",
+          "why_plausible": "referrals are common in note templates and the recap names none."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-034",
+      "transcript": "Fourth session with Elena, couples work but she came alone, partner away for work. She said the argument on Saturday started over the dishwasher and ended with him sleeping in the spare room, which is the third time this month. Then, and this is where I slowed down, she said she sometimes wonders what the point is, and when I asked directly about self-harm or suicide she said no, no thoughts like that, it was about the marriage, not her life. Good, that is documented. She said the worst part is that he goes cold and she chases, and she knows she chases, and she cannot stop. I named the cycle, pursuer and withdrawer, and she recognised it instantly, said it was her parents' dance too. She asked me whether I think they can survive, and I did not answer yes or no, I said that is what the work is for. Homework, she will write down what she actually wanted to say under the anger, one incident. Next time both of them come in and we do the same exercise live. I am watching the contempt that leaks in when she imitates his voice.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Partner away for work; client attended alone",
+          "keywords": [
+            "alone",
+            "partner"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Saturday argument ended with the partner in the spare room, third time this month",
+          "keywords": [
+            "spare",
+            "room",
+            "third"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Client denied self-harm and suicide when asked directly; clarified it was about the marriage",
+          "keywords": [
+            "self-harm",
+            "suicide",
+            "marriage"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Cycle described: he goes cold, she chases, and she cannot stop",
+          "keywords": [
+            "cold",
+            "chases"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "Pursuer-withdrawer cycle named; client links it to her parents' pattern",
+          "keywords": [
+            "pursuer",
+            "withdrawer",
+            "parents"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Client asked if the couple can survive; therapist did not answer yes or no",
+          "keywords": [
+            "survive",
+            "answer"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Homework: write what she wanted to say under the anger, one incident",
+          "keywords": [
+            "write",
+            "anger",
+            "incident"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Next session both partners attend; same exercise live",
+          "keywords": [
+            "both",
+            "exercise",
+            "live"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "next_focus",
+          "statement": "Watch the contempt that leaks when she imitates his voice",
+          "keywords": [
+            "contempt",
+            "imitates",
+            "voice"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client disclosed a history of cutting in adolescence",
+          "section": "subjective",
+          "why_plausible": "the session touches self-harm screening, so a weak model upgrades the denial into a history."
+        },
+        {
+          "statement": "Couple was referred to a weekend intensive programme",
+          "section": "plan",
+          "why_plausible": "relationship notes like concrete next steps; no referral appears in the recap."
+        },
+        {
+          "statement": "Partner is taking citalopram for depression",
+          "section": "objective",
+          "why_plausible": "the partner is described only as cold and absent; a sloppy model supplies a diagnosis and a drug for him."
+        },
+        {
+          "statement": "Client has consulted a divorce lawyer",
+          "section": "subjective",
+          "why_plausible": "the survival question invites a dramatic answer the recap deliberately leaves open."
+        },
+        {
+          "statement": "Therapist used the empty chair technique",
+          "section": "plan",
+          "why_plausible": "a stock couples technique; this session used naming and homework instead."
+        }
+      ],
+      "risk_phrases": [
+        "she said she sometimes wonders what the point is",
+        "when I asked directly about self-harm or suicide she said no, no thoughts like that"
+      ]
+    },
+    {
+      "id": "r-035",
+      "transcript": "Session six with Tomas, EMDR prep continuing. We did the window of tolerance mapping again and this time he could name the early signs without me prompting, jaw, shoulders, the feeling like the room gets smaller. Then, mid-sentence about his father, he stopped and said he was out of the window, so we grounded, feet on the floor, named five things in the room, and he came back in about four minutes, which is faster than last month. He said the memory was there but further away, like through a window, his words. No reprocessing today, I held the frame, resourcing only. He asked when we start the actual EMDR, and I said when his window holds for a full session, and he took that well, he said he would rather be bored than flooded. Childhood history, the shouting, the belt, he referenced it without going in. He slept badly, three nights of five or six hours. Plan is bilateral stimulation with the calm place again next week, then reassess. I want to track the jaw cue as an early marker and see if it moves earlier each session.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Client named early window-of-tolerance signs unprompted: jaw, shoulders, the room shrinking",
+          "keywords": [
+            "jaw",
+            "shoulders",
+            "window"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Client left his window mid-sentence; grounded via feet and five things; back in about four minutes, faster than last month",
+          "keywords": [
+            "grounded",
+            "four",
+            "minutes"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client describes the memory as further away, like through a window",
+          "keywords": [
+            "memory",
+            "window"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "No reprocessing; resourcing only this session",
+          "keywords": [
+            "reprocessing",
+            "resourcing"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Client asked when EMDR starts; accepts pacing, prefers bored to flooded",
+          "keywords": [
+            "bored",
+            "flooded"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Childhood history (shouting, belt) referenced without going in",
+          "keywords": [
+            "childhood",
+            "shouting",
+            "belt"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Poor sleep: five to six hours on three nights",
+          "keywords": [
+            "slept",
+            "three",
+            "nights"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Next week: bilateral stimulation with the calm place, then reassess",
+          "keywords": [
+            "calm",
+            "place",
+            "bilateral"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "next_focus",
+          "statement": "Track the jaw cue as an early marker, and whether it appears earlier each session",
+          "keywords": [
+            "jaw",
+            "marker"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client completed a full trauma narrative this session",
+          "section": "objective",
+          "why_plausible": "EMDR notes often claim processing; the recap explicitly says no reprocessing happened."
+        },
+        {
+          "statement": "Client is taking prazosin for nightmares",
+          "section": "plan",
+          "why_plausible": "nightmares and a trauma history make a medication line feel expected; the transcript names none."
+        },
+        {
+          "statement": "Client's father served in the military",
+          "section": "subjective",
+          "why_plausible": "models fill in backstory around the shouting and the belt because templates like detail."
+        },
+        {
+          "statement": "Therapist used a body scan with a weighted blanket",
+          "section": "plan",
+          "why_plausible": "grounding props tempt note writers; only feet, breath and naming were used."
+        },
+        {
+          "statement": "Client denied current suicidal thoughts",
+          "section": "objective",
+          "why_plausible": "trauma notes carry reflex risk lines; risk is never raised in this session."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-036",
+      "transcript": "Fifth session with Rosa, interpreter joined, the same one as before, which helps. She had a scan on Monday, abdominal, and the results are not back yet, so the whole session was about the wait. She told me she checked the patient portal eleven times on Monday, she counted, and by Tuesday she made a deal with herself, twice in the morning, twice at night, which she kept. That is genuinely new. She said the lump feeling in her throat is back, she knows it is probably the anxiety, and also she is sure it is not, both things at once, and we did not fight that, we labelled it the doubting voice and let it talk. I taught her worry postponement again, fifteen minutes at seven pm, and she practised in session with me. Her daughter called from Madrid and that settled her for a day. Sleep is four to five hours, she wakes at three and cannot get back. She wants the results to arrive before next week if they can. Next session we go back to the body scan practice, and I want to see whether the portal limit held under the scan wait or whether the results letter undid it.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Abdominal scan on Monday; results pending",
+          "keywords": [
+            "scan",
+            "monday",
+            "results"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Client checked the patient portal eleven times Monday, then limited it to twice morning and night and kept the limit",
+          "keywords": [
+            "portal",
+            "eleven",
+            "twice"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Throat lump feeling is back; client holds both that it is probably the anxiety and that it is not",
+          "keywords": [
+            "throat",
+            "lump",
+            "doubting"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Worry postponement taught again: fifteen minutes at 7 pm, practised in session",
+          "keywords": [
+            "postponement",
+            "fifteen",
+            "seven"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Daughter called from Madrid; settled her for a day",
+          "keywords": [
+            "daughter",
+            "madrid"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Sleep four to five hours; wakes at three",
+          "keywords": [
+            "sleep",
+            "four",
+            "three"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "subjective",
+          "statement": "Client wants the results to arrive before next week",
+          "keywords": [
+            "results",
+            "arrive"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Next session returns to the body scan practice",
+          "keywords": [
+            "body",
+            "scan",
+            "practice"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "next_focus",
+          "statement": "See whether the portal limit held during the scan wait or the results letter undid it",
+          "keywords": [
+            "portal",
+            "held",
+            "letter"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Scan results showed a benign cyst and the client was reassured",
+          "section": "objective",
+          "why_plausible": "notes like closed loops; the recap deliberately leaves the results pending."
+        },
+        {
+          "statement": "Client was prescribed citalopram for health anxiety",
+          "section": "plan",
+          "why_plausible": "health anxiety invites a medication answer, and citalopram is the generic first guess."
+        },
+        {
+          "statement": "Client's husband attended the session",
+          "section": "objective",
+          "why_plausible": "family involvement is assumed by sloppy summarisers; only the daughter's call is mentioned."
+        },
+        {
+          "statement": "Client reported two panic attacks this week",
+          "section": "subjective",
+          "why_plausible": "portal checking and body symptoms tempt a panic label the transcript never gives."
+        },
+        {
+          "statement": "Therapist used a symptom diary with a 1-10 rating scale",
+          "section": "plan",
+          "why_plausible": "diaries are stock CBT homework; this session used portal limits and postponement."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-037",
+      "transcript": "Second session with the Okafor family, well, the parents, the kids come next time. Picking up from last week, we mapped the morning routine again and it turns out the shouting starts at the sock stage, every single day, socks. Dad laughed, then said it is not funny, and he is right. The seven-year-old has started calling himself stupid when he cannot find things, which stopped the room, and mum said she has heard it too, so that is the thing we are working on now. We tried the two-choice rule, socks are this pair or that pair, nothing else, and they will run it for a week and text me how it goes. There is also a real question about whether the school mornings are just too tight, both parents leave at eight, so we are going to look at bedtime moving twenty minutes earlier. They disagree about whether the younger one is just strong-willed or actually struggling, and I did not resolve it, we will keep it open. Next week the kids come for the first time, so I will do the session in two parts, parents first, then play with the little one while mum and dad watch.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Parents attended alone; children join next session",
+          "keywords": [
+            "parents",
+            "kids",
+            "next"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Morning shouting starts at the sock stage, every day",
+          "keywords": [
+            "shouting",
+            "sock",
+            "morning"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "The seven-year-old calls himself stupid when he cannot find things; both parents have heard it",
+          "keywords": [
+            "seven-year-old",
+            "stupid"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Two-choice rule for socks trialled for a week, with a text update",
+          "keywords": [
+            "two-choice",
+            "rule",
+            "week"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Bedtime to move twenty minutes earlier; both parents leave at eight",
+          "keywords": [
+            "bedtime",
+            "twenty",
+            "minutes"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "assessment",
+          "statement": "Parents disagree whether the younger child is strong-willed or struggling; question kept open",
+          "keywords": [
+            "strong-willed",
+            "struggling",
+            "open"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Next session in two parts: parents first, then play with the youngest while the parents watch",
+          "keywords": [
+            "two",
+            "parts",
+            "play"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Look at whether the school mornings are structurally too tight",
+          "keywords": [
+            "tight",
+            "mornings"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "The seven-year-old was referred to a child mental health service",
+          "section": "plan",
+          "why_plausible": "self-labelling in a seven-year-old tempts an automatic referral the recap never mentions."
+        },
+        {
+          "statement": "Mum disclosed she has started antidepressants",
+          "section": "objective",
+          "why_plausible": "parenting stress invites a medication detail; neither parent's medication is discussed."
+        },
+        {
+          "statement": "The children attended and the therapist used a feelings chart",
+          "section": "objective",
+          "why_plausible": "it contradicts attendance; a sloppy summariser forgets who was in the room."
+        },
+        {
+          "statement": "Parents agreed to a sticker reward system",
+          "section": "plan",
+          "why_plausible": "reward charts are the default parenting advice; this session used the two-choice rule instead."
+        },
+        {
+          "statement": "The seven-year-old said, in the session, that losing things makes him feel stupid",
+          "section": "subjective",
+          "why_plausible": "the self-label is real but was reported by the parents; a weak model quotes the child directly as if he had attended."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-038",
+      "transcript": "Session fourteen with Danny, recovery maintenance. He is on naltrexone, has been since the detox in March, says it kills the buzz when he slips, which is exactly why he stays on it. Big thing, he told his brother about the relapse himself, did not wait for me to script it, and the brother took it better than he expected. He had one slip, two pints, three weeks ago, and he came in with it unasked, which is a first. We did the decisional balance again on the Friday pub ritual, and he found his own argument, that he does not actually like the people there, he likes the pint, and the pint is the problem. I asked about mood, he said flat some days, and when I screened for risk he said no thoughts of hurting himself, none of that, so we are clear there. He is sleeping better, seven hours on the good nights. Plan, he keeps the naltrexone, keeps the Thursday meeting, and he will practise leaving the pub after one soda in the scenario we rehearsed. Next week I want to look at the flatness, whether it is the recovery, the winter, or something we have not named.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Client on naltrexone since the March detox; stays on it because it kills the buzz when he slips",
+          "keywords": [
+            "naltrexone",
+            "march",
+            "buzz"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Client told his brother about the relapse himself; the brother took it better than expected",
+          "keywords": [
+            "relapse",
+            "brother",
+            "expected"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "One slip, two pints, three weeks ago; disclosed unprompted",
+          "keywords": [
+            "pints",
+            "three",
+            "unasked"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "assessment",
+          "statement": "Decisional balance on the Friday pub ritual; client's own argument: he likes the pint, not the people",
+          "keywords": [
+            "pint",
+            "people",
+            "argument"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Risk screened: client denied thoughts of hurting himself",
+          "keywords": [
+            "thoughts",
+            "hurting",
+            "himself"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Mood flat on some days",
+          "keywords": [
+            "flat",
+            "days"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Sleeping better, seven hours on good nights",
+          "keywords": [
+            "sleeping",
+            "seven"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Continue naltrexone and the Thursday meeting",
+          "keywords": [
+            "naltrexone",
+            "thursday",
+            "meeting"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "plan",
+          "statement": "Practise leaving the pub after one soda in the rehearsed scenario",
+          "keywords": [
+            "pub",
+            "soda",
+            "scenario"
+          ]
+        },
+        {
+          "id": "f10",
+          "section": "next_focus",
+          "statement": "Explore the flatness: recovery, winter, or something unnamed",
+          "keywords": [
+            "flatness",
+            "winter"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client was switched from naltrexone to disulfiram",
+          "section": "plan",
+          "why_plausible": "medication reviews are assumed by sloppy summarisers; this session kept the same prescription."
+        },
+        {
+          "statement": "Client reported his cravings are completely gone",
+          "section": "subjective",
+          "why_plausible": "recovery notes reward progress; the recap says the drug blunts the buzz, not that cravings stopped."
+        },
+        {
+          "statement": "Client attends AA five times a week",
+          "section": "plan",
+          "why_plausible": "meeting frequency is a template field; only one Thursday meeting is named."
+        },
+        {
+          "statement": "Client's brother is also in recovery and attends meetings with him",
+          "section": "objective",
+          "why_plausible": "a supportive brother invites the assumption that he shares the programme."
+        },
+        {
+          "statement": "Client disclosed suicidal ideation in the past month",
+          "section": "assessment",
+          "why_plausible": "a risk screen happened, so a weak model can invert the denial into a disclosure."
+        }
+      ],
+      "risk_phrases": [
+        "he said no thoughts of hurting himself, none of that"
+      ]
+    },
+    {
+      "id": "r-039",
+      "transcript": "Session seven with Nino. She said something at the start that reframed the whole hour, that she feels like two people, the one who is proud of leaving and the one who is ashamed of leaving, and she is tired of pretending the proud one is the real one. I did not interpret it, I just stayed with it, and she sat with the silence better than she has before, nearly a full minute. Her English is good but when it gets emotional she reaches for her first language, she said three words in Georgian today and then translated them for me, roughly, something like without the ground. So that became the image for the hour. Work is fine, she got the contract extension. She saw her mother's name pop up on her phone and did not answer, third time, and she noticed the relief, and then the guilt about the relief. No rush from me on any of it. Next week I will bring back the image of no ground and ask where she learned to stand without it. I am tracking whether the shame side gets more airtime than the pride side, because she leads with pride and hides the rest.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client feels like two people: proud of leaving and ashamed of leaving; tired of pretending the proud one is real",
+          "keywords": [
+            "proud",
+            "ashamed",
+            "leaving"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Client tolerated nearly a full minute of silence, better than before",
+          "keywords": [
+            "silence",
+            "minute"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Reaches for Georgian when emotional; three words translated roughly as without the ground",
+          "keywords": [
+            "georgian",
+            "translated",
+            "ground"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Contract extension confirmed at work",
+          "keywords": [
+            "contract",
+            "extension"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Did not answer her mother's call, third time; noticed relief, then guilt about the relief",
+          "keywords": [
+            "mother",
+            "relief",
+            "guilt"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "assessment",
+          "statement": "Therapist did not interpret; client stayed with the material",
+          "keywords": [
+            "interpret",
+            "stayed"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Next week revisit the no-ground image and where she learned to stand without it",
+          "keywords": [
+            "ground",
+            "stand",
+            "learned"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Track whether shame gets less airtime than pride; she leads with pride",
+          "keywords": [
+            "shame",
+            "pride",
+            "airtime"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client disclosed a relationship she has hidden from her mother",
+          "section": "subjective",
+          "why_plausible": "the unanswered call invites a hidden-relationship story the recap never gives."
+        },
+        {
+          "statement": "Therapist used chair work to dialogue between the two parts",
+          "section": "plan",
+          "why_plausible": "two-parts language lures technique jargon; the session stayed with the image instead."
+        },
+        {
+          "statement": "Client has decided to return to Georgia for good",
+          "section": "plan",
+          "why_plausible": "leaving is central, so models escalate it into a migration decision."
+        },
+        {
+          "statement": "Client reported insomnia",
+          "section": "objective",
+          "why_plausible": "nothing about sleep appears; insomnia is a stock symptom sloppy notes attach."
+        },
+        {
+          "statement": "Client meets criteria for dissociative identity disorder",
+          "section": "assessment",
+          "why_plausible": "the two-people metaphor is exactly the trap that makes weak models reach for a dissociative label."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-040",
+      "transcript": "Picking up from last week with Grace, CBT-I, week two. Sleep diary came back and it is not as bad as she feared, she averages five and a half hours but the wake after sleep onset is the problem, about ninety minutes most nights. We set the window, she agreed to eleven to six, no naps, and she hates it already, she said it feels like punishment, and we talked about that, the compliance piece, because if she does not believe in it she will not do it. She did the stimulus control, out of bed after twenty minutes, three nights out of five, and two of those nights she got back in and slept. Her partner is sleeping in the spare room for now so her tossing does not wake him, and she feels guilty about that. No alcohol since we started, that is two weeks, which she is proud of. Next week we look at the wake time, if she holds the window I will move it to eleven thirty. I want to watch the belief that sleep is a test she keeps failing, it came up twice today.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Sleep diary: averages five and a half hours; wake after sleep onset around ninety minutes",
+          "keywords": [
+            "diary",
+            "ninety",
+            "minutes"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Sleep window set at eleven to six; no naps",
+          "keywords": [
+            "window",
+            "eleven",
+            "six"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client says the window feels like punishment; compliance discussed",
+          "keywords": [
+            "punishment",
+            "compliance"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Stimulus control done three of five nights; returned to bed and slept on two",
+          "keywords": [
+            "stimulus",
+            "three",
+            "nights"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Partner sleeps in the spare room because of her tossing; client feels guilty",
+          "keywords": [
+            "spare",
+            "room",
+            "guilty"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "No alcohol for two weeks",
+          "keywords": [
+            "alcohol",
+            "two",
+            "weeks"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Next week review the wake time; if the window holds, move it to eleven thirty",
+          "keywords": [
+            "wake",
+            "time",
+            "eleven"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Watch the belief that sleep is a test she keeps failing; it came up twice",
+          "keywords": [
+            "test",
+            "failing",
+            "twice"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client was started on zopiclone to support the sleep window",
+          "section": "plan",
+          "why_plausible": "sleep cases invite a hypnotic; the transcript names no medication."
+        },
+        {
+          "statement": "Client has stopped caffeine completely",
+          "section": "objective",
+          "why_plausible": "CBT-I templates expect caffeine talk; the session never mentions it."
+        },
+        {
+          "statement": "The sleep diary shows an average of seven hours",
+          "section": "objective",
+          "why_plausible": "a lazy summariser rounds up to a normal figure the diary does not show."
+        },
+        {
+          "statement": "Client denied nightmares since starting therapy",
+          "section": "objective",
+          "why_plausible": "nightmares are a stock sleep-note line; the recap says nothing about them."
+        },
+        {
+          "statement": "Therapist recommended a weighted blanket and blue-light glasses",
+          "section": "plan",
+          "why_plausible": "sleep-hygiene kit is the default filler when a model has no real plan."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-041",
+      "transcript": "Session two with Hannah, picking up from the intake. She came in with a list, actual paper list, reasons to leave and reasons to stay, and the lists are almost the same length, which is the whole problem, she said. Reasons to leave, she feels invisible, they have not had a real conversation since his promotion. Reasons to stay, she still laughs with him, and she said the word still like it was doing heavy lifting. I asked what she wants and she said both, and then corrected herself, she said what she wants is to stop wanting both. We did not problem-solve, we stayed with the contradiction, and she found it hard, she tried to make me pick for her, twice. Her sister thinks she should leave, her mother thinks she should try harder, and she is carrying both of those voices around. One concrete thing, she booked a weekend away for them in November, she is not sure why she did it. Next week I want to ask what invisible looks like in a normal week, get it out of the abstract, and I am watching the list-writing, whether it is a decision tool or a way to not decide.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Client brought a written list of reasons to leave and stay; the lists are nearly equal",
+          "keywords": [
+            "list",
+            "leave",
+            "stay"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Feels invisible; no real conversation since his promotion",
+          "keywords": [
+            "invisible",
+            "promotion"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Still laughs with him; said the word still like it was doing heavy lifting",
+          "keywords": [
+            "laughs",
+            "still"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Wants both; corrected herself: wants to stop wanting both",
+          "keywords": [
+            "wants",
+            "both",
+            "stop"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "Contradiction held rather than solved; client tried to make the therapist choose, twice",
+          "keywords": [
+            "contradiction",
+            "pick",
+            "twice"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Sister says leave, mother says try harder; client carries both voices",
+          "keywords": [
+            "sister",
+            "mother",
+            "voices"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Booked a weekend away for November; unsure why",
+          "keywords": [
+            "weekend",
+            "november"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Ask what invisible looks like in a normal week; watch whether list-writing is decision or delay",
+          "keywords": [
+            "invisible",
+            "normal",
+            "decide"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client and her husband have started couples counselling elsewhere",
+          "section": "plan",
+          "why_plausible": "individual sessions about a relationship invite an assumed conjoint referral."
+        },
+        {
+          "statement": "Client disclosed an affair that ended last year",
+          "section": "subjective",
+          "why_plausible": "lists of reasons to leave tempt a dramatic secret the recap does not contain."
+        },
+        {
+          "statement": "Client reported panic attacks before the weekend away",
+          "section": "objective",
+          "why_plausible": "a booked trip plus ambivalence tempts a symptom the session never mentions."
+        },
+        {
+          "statement": "Therapist suggested a three-month trial separation",
+          "section": "plan",
+          "why_plausible": "models love decisive interventions; the therapist here deliberately did not advise."
+        },
+        {
+          "statement": "Husband has agreed to attend the next session",
+          "section": "plan",
+          "why_plausible": "couples notes expect joint attendance; the recap never says he agreed to anything."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-042",
+      "transcript": "Session eleven with Pavel, GAD, cognitive work continuing. He brought the thought record, four entries, and the one that mattered was the one about the team meeting, where he wrote that everyone would notice his hands shaking and conclude he is not ready for the lead role. We tested it together, evidence for, evidence against, and the against column won on the facts, three people have actually told him he is ready, one of them his director. He takes escitalopram, ten milligrams, six months now, says the baseline hum is quieter but the spikes still come. Sleep is okay, six and a half hours. The thing I noticed, he can do the restructuring in the room and then abandon it by Thursday, so we talked about that gap, and he named it himself, the Thursday cliff. Plan, he will do the decatastrophising sheet for the next meeting, and we will review it before it happens, not after. Next focus, the safety behaviours in meetings, he sits at the back near the door and always pre-reads the agenda twice, and I want to map what those buy him.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Thought record brought in with four entries; the key one about the team meeting",
+          "keywords": [
+            "record",
+            "four",
+            "entries"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Fear: others will notice his hands shaking and conclude he is not ready for the lead role",
+          "keywords": [
+            "shaking",
+            "ready",
+            "lead"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "Evidence against outweighed the fear; three people including his director say he is ready",
+          "keywords": [
+            "evidence",
+            "director",
+            "three"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Takes escitalopram 10 mg for six months; baseline hum quieter, spikes remain",
+          "keywords": [
+            "escitalopram",
+            "six",
+            "spikes"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Sleep six and a half hours, okay",
+          "keywords": [
+            "sleep",
+            "half"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "assessment",
+          "statement": "Client restructures in session but abandons it by Thursday; he named it the Thursday cliff",
+          "keywords": [
+            "thursday",
+            "cliff"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Decatastrophising sheet for the next meeting; review before it happens, not after",
+          "keywords": [
+            "decatastrophising",
+            "before"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Map safety behaviours: back row near the door, agenda pre-read twice",
+          "keywords": [
+            "safety",
+            "behaviours",
+            "door"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Escitalopram was reduced to 5 mg",
+          "section": "plan",
+          "why_plausible": "a dose is named, so sloppy summarisers invent a change that was never discussed."
+        },
+        {
+          "statement": "Client disclosed he was bullied at school",
+          "section": "subjective",
+          "why_plausible": "the shaking-hands fear tempts a school-bullying backstory the recap never gives."
+        },
+        {
+          "statement": "Client denied suicidal thoughts during the session",
+          "section": "objective",
+          "why_plausible": "anxiety notes carry reflex risk lines; no risk discussion appears here."
+        },
+        {
+          "statement": "Therapist ran a simulated meeting with colleagues role-playing",
+          "section": "plan",
+          "why_plausible": "exposure to the feared situation is the textbook move, so weak models invent it."
+        },
+        {
+          "statement": "Client's director has formally offered him the lead role",
+          "section": "subjective",
+          "why_plausible": "praise from the director gets upgraded into an offer by a model rounding the story up."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-043",
+      "transcript": "Session five with Wei, interpreter, Mandarin, the video one this time because the phone line kept dropping last week. Anger work. The incident he brought, he lost it at the delivery driver, shouted, slammed the door, and then sat in the hallway shaking, which he described like a hangover. We mapped the build-up, he can name it now, the heat in the chest, the narrowing, and today he said something new, that the anger is always about being made to feel small, and the driver was not the point. We did the pause practice, six seconds, breathe and name one thing in the room, and he did it twice in session without me prompting. His wife told him he is softer at home since we started, he reported that with a shy kind of pride. Work is still loud, the factory floor, he says everyone shouts there, so we talked about the difference between the floor and home. No incidents at home this week. Plan, keep the pause practice daily, log one moment where he catches the heat early. Next week I want to go to the small feeling, where it started, but only if he takes us there.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Interpreter joined by video (Mandarin); the phone line had kept dropping",
+          "keywords": [
+            "interpreter",
+            "video",
+            "phone"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Incident with the delivery driver: shouted, slammed the door, then shook like a hangover",
+          "keywords": [
+            "driver",
+            "shouted",
+            "hangover"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client links the anger to being made to feel small; the driver was not the point",
+          "keywords": [
+            "anger",
+            "small"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Client can name the build-up cues: heat in the chest, narrowing",
+          "keywords": [
+            "heat",
+            "chest",
+            "narrowing"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Pause practice: six seconds, breathe, name one thing in the room; done twice unprompted",
+          "keywords": [
+            "pause",
+            "six",
+            "seconds"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Wife says he is softer at home; reported with shy pride",
+          "keywords": [
+            "wife",
+            "softer",
+            "pride"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "assessment",
+          "statement": "Contrast drawn between the shouting culture of the factory floor and home",
+          "keywords": [
+            "factory",
+            "floor",
+            "shouts"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "objective",
+          "statement": "No incidents at home this week",
+          "keywords": [
+            "incidents",
+            "home",
+            "week"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "plan",
+          "statement": "Daily pause practice with a log of one early-heat moment",
+          "keywords": [
+            "practice",
+            "log",
+            "heat"
+          ]
+        },
+        {
+          "id": "f10",
+          "section": "next_focus",
+          "statement": "Go to the small feeling and where it started, only if he leads there",
+          "keywords": [
+            "small",
+            "started"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client was referred to an anger management group",
+          "section": "plan",
+          "why_plausible": "anger notes invite a group referral; this session stayed individual."
+        },
+        {
+          "statement": "Client hit a wall during the incident",
+          "section": "subjective",
+          "why_plausible": "the recap says he shouted and slammed a door; weak models escalate to physical violence."
+        },
+        {
+          "statement": "Client's wife has threatened to leave if it happens again",
+          "section": "subjective",
+          "why_plausible": "a dramatic ultimatum fits the template, but the wife's only reported words are supportive."
+        },
+        {
+          "statement": "The interpreter was a family friend",
+          "section": "objective",
+          "why_plausible": "family-adjacent interpreters are common, so models assume a relationship the recap leaves open."
+        },
+        {
+          "statement": "Client was started on quetiapine for irritability",
+          "section": "plan",
+          "why_plausible": "irritability tempts an antipsychotic line no one in this session proposed."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-044",
+      "transcript": "Session eight with Laura. She came in lower than last week, much lower. About halfway through she said, and I am writing it down properly, that some mornings she thinks everyone would be fine without her, and that she would not do anything, she has no plan, but the thought is there and it scares her that it is there. So we stopped the trauma work, we did the safety plan, we went through it line by line, her sister, her GP on Thursday, the crisis line in her phone, and she agreed to call her sister tonight and to contact me if the thoughts get louder. She said the flashback about the hospital corridor came twice, both times at night, and she used the container technique from session four and it worked one of the two times. We did not touch reprocessing, it would have been wrong today. Her sleep is two, three hours. I will check in by text tomorrow, she consented to that, and we will review the plan at the start of next session before anything else. I also want to ask about the mornings specifically, what time the thought arrives.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Some mornings client thinks everyone would be fine without her; no plan; the thought scares her",
+          "keywords": [
+            "mornings",
+            "fine",
+            "plan"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Safety plan done line by line: sister, GP on Thursday, crisis line; will call her sister tonight",
+          "keywords": [
+            "safety",
+            "crisis",
+            "sister"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "Therapist will check in by text tomorrow; client consented",
+          "keywords": [
+            "text",
+            "tomorrow",
+            "consented"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Flashback about the hospital corridor twice, both at night; container technique worked once of two",
+          "keywords": [
+            "corridor",
+            "container",
+            "one"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "No reprocessing done; therapist judged it wrong to proceed today",
+          "keywords": [
+            "reprocessing",
+            "wrong"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Sleep two to three hours",
+          "keywords": [
+            "sleep",
+            "two",
+            "three"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Review the safety plan at the start of next session, before anything else",
+          "keywords": [
+            "review",
+            "plan",
+            "start"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Ask what time in the mornings the thought arrives",
+          "keywords": [
+            "mornings",
+            "thought",
+            "arrives"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client has an active plan to end her life and was admitted",
+          "section": "assessment",
+          "why_plausible": "the recap explicitly says no plan; sloppy models escalate passive thoughts into acute risk."
+        },
+        {
+          "statement": "Client is taking fluoxetine 20 mg",
+          "section": "plan",
+          "why_plausible": "a distress escalation tempts a medication line the session never had."
+        },
+        {
+          "statement": "Client completed a full EMDR session targeting the corridor memory",
+          "section": "objective",
+          "why_plausible": "the recap says reprocessing was deliberately skipped; weak notes claim the work was done."
+        },
+        {
+          "statement": "Client's sister is a mental health nurse",
+          "section": "objective",
+          "why_plausible": "the sister is a support contact only; models dress her up with a profession."
+        },
+        {
+          "statement": "Therapist arranged an emergency psychiatric appointment for tomorrow",
+          "section": "plan",
+          "why_plausible": "risk notes attract over-escalation; the actual plan is a text check-in and a GP visit on Thursday."
+        }
+      ],
+      "risk_phrases": [
+        "she thinks everyone would be fine without her",
+        "she would not do anything, she has no plan"
+      ]
+    },
+    {
+      "id": "r-045",
+      "transcript": "Session three with Adam, dad of the twins, picking up from last week. He said the homework flopped, he was supposed to do the ten minutes of special time with each twin and he did it once with one of them, so we took the flop apart, what got in the way, and it was mostly his own guilt, he feels like he is performing when he is told to play. So we dropped the script, no agenda, he just has to be in the room with one kid for ten minutes and follow their lead, and he laughed and said he can do that. The thing he keeps circling, and this is the real one, he does not know who he is outside of the provider role, the mortgage, the twins, the wife's shifts, and when the house is quiet he feels like a shell. We did not go far with it, it was the first time he said it out loud. Sleep is fine. He is taking the twins to the park on Sunday, just him, first time. Next week I want to stay with the shell image and see what is under it, and keep the special time in place but quieter.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Homework done once with one twin; the flop was unpacked in session",
+          "keywords": [
+            "homework",
+            "once",
+            "twins"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Guilt got in the way; feels like performing when told to play",
+          "keywords": [
+            "guilt",
+            "performing",
+            "play"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "Revised task: ten minutes following one child's lead, no script",
+          "keywords": [
+            "minutes",
+            "lead",
+            "script"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Does not know who he is outside the provider role: mortgage, twins, wife's shifts; feels like a shell when the house is quiet",
+          "keywords": [
+            "provider",
+            "shell",
+            "quiet"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "First time he said it out loud; the session did not push further",
+          "keywords": [
+            "first",
+            "loud"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Sleep fine",
+          "keywords": [
+            "sleep",
+            "fine"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Taking the twins to the park on Sunday, first time just him",
+          "keywords": [
+            "park",
+            "sunday",
+            "first"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Stay with the shell image; keep the special time in place but quieter",
+          "keywords": [
+            "shell",
+            "image",
+            "quieter"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client's wife works night shifts as a nurse",
+          "section": "objective",
+          "why_plausible": "shifts are mentioned, so models supply a profession and a schedule the recap never gives."
+        },
+        {
+          "statement": "Client disclosed two beers every night",
+          "section": "subjective",
+          "why_plausible": "a stressed dad tempts a substance detail that is absent."
+        },
+        {
+          "statement": "The twins are seven and in different school classes",
+          "section": "objective",
+          "why_plausible": "twin logistics invite invented specifics; no age or school detail appears."
+        },
+        {
+          "statement": "Client was advised to join a fathers' group",
+          "section": "plan",
+          "why_plausible": "parenting notes like referrals; this session's plan is behavioural, not social."
+        },
+        {
+          "statement": "Client reported his own father was absent growing up",
+          "section": "subjective",
+          "why_plausible": "identity-in-role material tempts an absent-father backstory the recap does not contain."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-046",
+      "transcript": "Session four with June, grief, her mother died in June, yes the month and the name, she has heard the joke enough, we do not make it. Today we did the somatic tracking, we have been building to it, and she found the grief sits in her throat and her right hand, of all places, and when we stayed with the hand it started to shake, and she said that is where she used to hold her mother's hand at the hospital. That was the hour, really, we stayed there, no interpretation, just tracking. She noticed the tightness loosens if she breathes into the hand, slightly, not a cure, a millimetre. She also said, and I want to remember this, that she is not ready to clear out the flat, the flat can wait, she is not asking me to fix that. Her brother keeps pushing about the flat, and that is the live conflict. She is eating better, two real meals a day, first time in weeks. Plan, continue the somatic tracking, five minutes a day at home, hand on hand. Next week I want to ask what the hand was doing for her mother, if she knows.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Somatic tracking: the grief sits in the throat and right hand; the hand shook when stayed with",
+          "keywords": [
+            "throat",
+            "hand",
+            "shake"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "The right hand is where she used to hold her mother's hand at the hospital",
+          "keywords": [
+            "hospital",
+            "mother"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Breathing into the hand loosens the tightness slightly",
+          "keywords": [
+            "breathes",
+            "loosens"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Not ready to clear out her mother's flat; brother keeps pushing; the flat can wait",
+          "keywords": [
+            "flat",
+            "brother",
+            "wait"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "No interpretation offered; the session tracked somatic material",
+          "keywords": [
+            "somatic",
+            "interpretation"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Eating better: two real meals a day, first time in weeks",
+          "keywords": [
+            "meals",
+            "two",
+            "weeks"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Home practice: somatic tracking five minutes daily, hand on hand",
+          "keywords": [
+            "five",
+            "minutes",
+            "hand"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Ask what the hand was doing for her mother",
+          "keywords": [
+            "hand",
+            "mother"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client's mother died of pancreatic cancer",
+          "section": "objective",
+          "why_plausible": "grief notes want a cause; the recap gives none."
+        },
+        {
+          "statement": "Client has been prescribed diazepam for acute grief",
+          "section": "plan",
+          "why_plausible": "acute distress tempts a benzodiazepine line no clinician in this recap mentions."
+        },
+        {
+          "statement": "Client reported hearing her mother's voice calling her name at night",
+          "section": "subjective",
+          "why_plausible": "grief-hallucination imagery is a template favourite; nothing like it appears."
+        },
+        {
+          "statement": "Therapist used the empty chair to say goodbye",
+          "section": "plan",
+          "why_plausible": "a stock grief technique; this session used somatic tracking only."
+        },
+        {
+          "statement": "Client has taken three months off work",
+          "section": "objective",
+          "why_plausible": "nothing about work appears; leave-taking is a lazy filler."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-047",
+      "transcript": "Session ten with Olena, interpreter on video, Ukrainian, the same interpreter, which she says matters, she does not want to retell to a stranger. We are still in the stabilisation phase, honestly this whole month is stabilisation. Today we worked with the parts map, we have been building it for three weeks, and she placed the frightened child part near the chest and the manager part, her word, the one who works two jobs and never rests, near the head. The manager part is proud, she said, and also it is the one that will not let her sleep. We did a short dialogue, her words to the manager, and the manager answered, and what came out is that rest feels like danger, rest was when things happened. That is the sentence I am carrying to next week. Her cousin in Warsaw calls every Sunday, that helps. Sleep is five hours, broken. No nightmares this week, first week in a month. Plan, keep the parts map, add the rest-resentment question, we will look at what rest meant in her house growing up. I want to go slow, she is not ready for any narrative work and I will not push it.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Consistent interpreter on video (Ukrainian); client values not retelling to a stranger",
+          "keywords": [
+            "interpreter",
+            "ukrainian",
+            "stranger"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "assessment",
+          "statement": "The month is stabilisation; narrative work is not yet appropriate",
+          "keywords": [
+            "stabilisation",
+            "phase"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Parts map: frightened child near the chest; manager part near the head (her word: manager)",
+          "keywords": [
+            "parts",
+            "map",
+            "chest",
+            "manager"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "The manager part is proud but will not let her sleep",
+          "keywords": [
+            "manager",
+            "proud",
+            "sleep"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "Dialogue produced the core statement: rest feels like danger; rest was when things happened",
+          "keywords": [
+            "rest",
+            "danger"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Cousin in Warsaw calls every Sunday",
+          "keywords": [
+            "cousin",
+            "warsaw",
+            "sunday"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Sleep five hours, broken; no nightmares this week, first in a month",
+          "keywords": [
+            "sleep",
+            "five",
+            "nightmares"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Keep the parts map; add the rest-resentment question",
+          "keywords": [
+            "parts",
+            "rest"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "next_focus",
+          "statement": "Explore what rest meant in her childhood home; go slow, no narrative work",
+          "keywords": [
+            "rest",
+            "growing"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client has completed a trauma narrative of the events",
+          "section": "objective",
+          "why_plausible": "the recap says narrative work is deliberately deferred; weak notes claim completion."
+        },
+        {
+          "statement": "Client is taking sertraline for PTSD symptoms",
+          "section": "plan",
+          "why_plausible": "trauma notes invite medication lines; none is named here."
+        },
+        {
+          "statement": "Client's two children are still in a war zone",
+          "section": "subjective",
+          "why_plausible": "refugee framing tempts invented family jeopardy the recap never states."
+        },
+        {
+          "statement": "Therapist used eye movement desensitisation for twenty minutes",
+          "section": "plan",
+          "why_plausible": "the modality label is in the air, so sloppy models insert a technique that did not happen."
+        },
+        {
+          "statement": "Client has stopped working her second job",
+          "section": "objective",
+          "why_plausible": "two jobs are named as her pattern; models like tidy improvements the recap does not report."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-048",
+      "transcript": "Session nine with Felix, social anxiety, and he is doing the thing where he reports progress and then apologises for it, which is its own pattern. He did the presentation, the department one, thirty people, and he took the propranolol forty minutes before, forty milligrams, his GP's arrangement, and he said his hands did not shake and his voice held. The thought still ran the whole time, everyone is watching my face, but the body did not obey it, and he noticed the thought was lying to him in real time, his phrase. That is the first time he has caught it live, in the situation, not in review. He still over-prepared, twelve slides for a five minute slot, and he knows it, he called it armour. After the presentation a colleague asked him to join the lunch group, and he said maybe, which for him is huge, and we rehearsed the yes, literally, what he would say if they ask again. Sleep is fine. Plan, he goes to the lunch if asked, and we will do a post-mortem either way. Next week, the apology reflex, every time he reports something good he flinches, and I want to look at that in the room as it happens.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Presentation to thirty people done; propranolol 40 mg forty minutes before (his GP's arrangement); hands steady, voice held",
+          "keywords": [
+            "presentation",
+            "propranolol",
+            "forty"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "The thought ran throughout but the body did not obey; he caught it lying in real time",
+          "keywords": [
+            "thought",
+            "watching",
+            "lying"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "First time catching the thought live in the situation, not in review",
+          "keywords": [
+            "live",
+            "situation",
+            "review"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Over-prepared: twelve slides for a five-minute slot; called it armour",
+          "keywords": [
+            "twelve",
+            "slides",
+            "armour"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "A colleague invited him to the lunch group; he said maybe; therapist rehearsed the yes",
+          "keywords": [
+            "lunch",
+            "maybe",
+            "rehearsed"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "assessment",
+          "statement": "Pattern: reports progress then apologises for it",
+          "keywords": [
+            "progress",
+            "apologises"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Attend the lunch if asked; post-mortem either way",
+          "keywords": [
+            "lunch",
+            "post-mortem"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Watch the apology reflex in the room when he reports good news",
+          "keywords": [
+            "apology",
+            "reflex"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Propranolol was increased to 80 mg",
+          "section": "plan",
+          "why_plausible": "a dose is named, so a sloppy model invents a titration."
+        },
+        {
+          "statement": "Client avoids all social contact outside work",
+          "section": "subjective",
+          "why_plausible": "social anxiety tempts maximal avoidance; the recap shows him saying maybe to lunch."
+        },
+        {
+          "statement": "Client denied suicidal ideation",
+          "section": "objective",
+          "why_plausible": "a reflex risk line; no risk discussion appears in this session."
+        },
+        {
+          "statement": "Therapist used a video-recorded exposure of the presentation",
+          "section": "plan",
+          "why_plausible": "exposure notes invite recording gear; none was used."
+        },
+        {
+          "statement": "Client meets criteria for avoidant personality disorder",
+          "section": "assessment",
+          "why_plausible": "social anxiety is the classic lure for a bigger label than the recap supports."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-049",
+      "transcript": "Second session with Ingrid, picking up from the intake. She manages the rota for A and E, which means she is the person everyone is angry at, her words. Last week we talked about the Sunday dread and today she came with a concrete thing, she has started answering emails at ten pm again, she had stopped for a month and then the sick leave cover started and she fell back in. We looked at the chain, the trigger is the inbox count badge, and she said seeing a number over fifty makes her chest tight before she has read anything. So the plan is small and stupid on purpose, she turns the badge off, no numbers, and we will see if the chest reacts to the badge or to the work. She also said something about her father, he managed a pub and never took a day off, and she heard his voice when she was about to log off, which is new information. She is not sleeping before midnight. Next week I want to go to the father material if it is still live, and check the badge experiment. Also, she has not taken a lunch break away from the desk in three weeks, and we are going to fix that first, one lunch, outside, this week.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Client manages the A and E rota; the person everyone is angry at, her words",
+          "keywords": [
+            "rota",
+            "angry"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Resumed answering emails at 10 pm after a month off; the sick leave cover triggered the relapse",
+          "keywords": [
+            "emails",
+            "ten",
+            "cover"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Inbox badge over fifty makes her chest tight before reading anything",
+          "keywords": [
+            "badge",
+            "fifty",
+            "chest"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Experiment: turn the badge numbers off; see whether the chest reacts to the badge or the work",
+          "keywords": [
+            "badge",
+            "numbers",
+            "experiment"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Father managed a pub and never took a day off; she heard his voice when about to log off",
+          "keywords": [
+            "father",
+            "pub",
+            "voice"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Not sleeping before midnight",
+          "keywords": [
+            "sleeping",
+            "midnight"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "next_focus",
+          "statement": "Go to the father material if still live; check the badge experiment",
+          "keywords": [
+            "father",
+            "badge"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "One lunch break outside the desk this week, first in three weeks",
+          "keywords": [
+            "lunch",
+            "outside",
+            "three"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client has been signed off work for two weeks",
+          "section": "plan",
+          "why_plausible": "burnout narratives tempt a GP line; the recap has her working throughout."
+        },
+        {
+          "statement": "Client was prescribed sertraline by her GP",
+          "section": "plan",
+          "why_plausible": "work-stress notes invite an SSRI; no medication appears."
+        },
+        {
+          "statement": "Client has started drinking a bottle of wine a night",
+          "section": "subjective",
+          "why_plausible": "unwinding with wine is a template filler; the recap never mentions alcohol."
+        },
+        {
+          "statement": "Therapist used a worry tree to sort the concerns",
+          "section": "plan",
+          "why_plausible": "a stock CBT tool sloppy models insert regardless of what happened."
+        },
+        {
+          "statement": "Client's manager has agreed to redistribute the rota",
+          "section": "objective",
+          "why_plausible": "the recap's only organisational fact is the badge experiment; models like tidy endings."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-050",
+      "transcript": "Session six with Camila. She said the thing she has been circling for weeks, that she does not feel Brazilian enough for the Brazilian group and not British enough for anything else, and then she laughed and said that sounds dramatic, and I said it does not, and she cried, which she has not done in this room before. We talked about her accent in English, how she hears it as a scoreboard, and how in Portuguese she is funny, properly funny, and in English she is polite. Both true, I think, not a distortion. She has a work thing coming, a client dinner, and she is dreading the small talk, so we practised three openers and she chose the weather one, which she can do. Her mother calls every day and asks when she is coming home, home being Sao Paulo, and she does not know the answer, and the not knowing is starting to feel like an answer she is avoiding. She is sleeping okay, six, seven hours. Plan, she tries one opener at the dinner, and I want her to write down one moment where her accent did not matter to her. Next week we look at the phone calls with her mother and what happens in her body when the question comes.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Does not feel Brazilian enough for the Brazilian group or British enough for anything else",
+          "keywords": [
+            "brazilian",
+            "british"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Client cried for the first time in this room after the therapist did not call it dramatic",
+          "keywords": [
+            "cried",
+            "dramatic"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Hears her accent as a scoreboard; funny in Portuguese, polite in English",
+          "keywords": [
+            "accent",
+            "scoreboard",
+            "funny"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Practised three small-talk openers; chose the weather one for the client dinner",
+          "keywords": [
+            "openers",
+            "weather",
+            "dinner"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Mother calls daily asking when she is coming home to Sao Paulo; the not knowing feels like an avoided answer",
+          "keywords": [
+            "mother",
+            "sao",
+            "answer"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Sleeping six to seven hours, okay",
+          "keywords": [
+            "sleeping",
+            "six",
+            "seven"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Write down one moment where her accent did not matter to her",
+          "keywords": [
+            "moment",
+            "accent",
+            "matter"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Look at the mother's phone calls and what happens in her body when the question comes",
+          "keywords": [
+            "calls",
+            "body",
+            "question"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client is considering giving up her Brazilian citizenship",
+          "section": "plan",
+          "why_plausible": "belonging language tempts a dramatic legal step the recap never suggests."
+        },
+        {
+          "statement": "Client is pregnant and worried about telling her mother",
+          "section": "objective",
+          "why_plausible": "a daily-calling mother plus ambivalence tempts a life event that is absent."
+        },
+        {
+          "statement": "Therapist used a cultural genogram",
+          "section": "plan",
+          "why_plausible": "identity work invites genogram jargon; the session used openers and reflection."
+        },
+        {
+          "statement": "Therapist offered cognitive restructuring for the accent thoughts",
+          "section": "plan",
+          "why_plausible": "a modality shift is a common invention; the session stayed person-centred."
+        },
+        {
+          "statement": "Client's father is English and never learned Portuguese",
+          "section": "subjective",
+          "why_plausible": "mixed heritage is assumed from the belonging theme; no parent detail is given."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-051",
+      "transcript": "Session twelve with Rob, panic work. The supermarket one again, he has been avoiding the big one for two months and this week he went in, with the plan, aisle by aisle, and he made it to the third aisle before the wave, and he rode it out standing still, no escape, which is the whole assignment, and it crested in about four minutes instead of the usual ten. He was proud and also furious, furious that this is his life, and both are allowed. We screened as we do every few sessions and he denies any thoughts of suicide or self-harm, flat no, which is consistent. Between sessions he had one night panic, three am, and he used the cold water trick and it shortened it. He asked me, again, whether he will ever be normal, and I said normal is not the target, the target is that the wave does not run the day, and he wrote that down. Sleep is choppy, five hours. Plan, he goes back to the same supermarket twice this week, same time of day, and logs the peak. Next week we look at the fury, it showed up with the pride today and I do not want to leave it alone.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Entered the big supermarket, reached the third aisle before the wave; rode it out without escaping",
+          "keywords": [
+            "supermarket",
+            "third",
+            "aisle"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "The wave crested in about four minutes versus the usual ten",
+          "keywords": [
+            "four",
+            "minutes",
+            "ten"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Proud and furious at once; fury that this is his life",
+          "keywords": [
+            "proud",
+            "furious"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Screened as usual: denies any thoughts of suicide or self-harm, flat no, consistent",
+          "keywords": [
+            "denies",
+            "suicide",
+            "self-harm"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "One 3 am panic between sessions; the cold water trick shortened it",
+          "keywords": [
+            "cold",
+            "water",
+            "shortened"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "assessment",
+          "statement": "Normal is not the target; the target is that the wave does not run the day; client wrote it down",
+          "keywords": [
+            "normal",
+            "target",
+            "wave"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Sleep choppy, five hours",
+          "keywords": [
+            "sleep",
+            "choppy"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Return to the same supermarket twice this week, same time of day, log the peak",
+          "keywords": [
+            "supermarket",
+            "twice",
+            "peak"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "next_focus",
+          "statement": "Look at the fury that showed up with the pride",
+          "keywords": [
+            "fury",
+            "pride"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client was prescribed lorazepam as needed for panic",
+          "section": "plan",
+          "why_plausible": "panic notes almost beg for a rescue medication; the recap names none."
+        },
+        {
+          "statement": "Client reported passive suicidal ideation",
+          "section": "assessment",
+          "why_plausible": "a screen happened, so a sloppy model can flip the denial into a positive finding."
+        },
+        {
+          "statement": "Client has avoided all supermarkets for two years",
+          "section": "objective",
+          "why_plausible": "avoidance is real but the duration is two months; weak models inflate timelines."
+        },
+        {
+          "statement": "Therapist accompanied the client on the supermarket trip",
+          "section": "objective",
+          "why_plausible": "graded exposure notes tempt in-vivo coaching; the recap says he went in with a plan."
+        },
+        {
+          "statement": "The panic was traced to a childhood incident",
+          "section": "assessment",
+          "why_plausible": "origins are a template favourite; the session offered no such material."
+        }
+      ],
+      "risk_phrases": [
+        "he denies any thoughts of suicide or self-harm, flat no"
+      ]
+    },
+    {
+      "id": "r-052",
+      "transcript": "Session five with Tomas and Bea, couples, open relationship, they have been open for two years and the rules were fine until Bea's new thing, her word, started taking the Thursday slot that used to be theirs. Tomas says he is fine with the relationship being open and not fine with Thursdays, and Bea says the Thursday thing is not a rule, it was never a rule, and that is the argument, whether it was a rule. I slowed it down, who decided the rules, when, and it turns out neither of them remembers making any of them, they accreted, which is a great word, Tomas used it. The live thing is the not knowing, Tomas wants a list, Bea says a list kills it. We did a structured speaker-listener round, five minutes each, no rebuttal, and they did it, first time in months, both of them said afterwards that the other one sounded different. No decision on Thursdays, we did not try for one. Next week we look at the original rules conversation, if there was one, and what each of them is actually afraid the list means. Also, both asked about individual sessions, which I think is a good sign, and I said we can talk about it.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Open for two years; the conflict is Bea's new partner taking the Thursday slot",
+          "keywords": [
+            "open",
+            "thursday",
+            "slot"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Tomas is fine with openness, not fine with Thursdays; Bea says Thursday was never a rule",
+          "keywords": [
+            "thursdays",
+            "rule"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "Rules accreted rather than agreed; neither remembers making them",
+          "keywords": [
+            "accreted",
+            "remembers"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Tomas wants a list; Bea says a list kills it",
+          "keywords": [
+            "list",
+            "kills"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Structured speaker-listener round done, five minutes each, no rebuttal; first time in months",
+          "keywords": [
+            "structured",
+            "five",
+            "rebuttal"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Both said afterwards that the other one sounded different",
+          "keywords": [
+            "sounded",
+            "different"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "assessment",
+          "statement": "No decision on Thursdays; none attempted",
+          "keywords": [
+            "decision",
+            "thursdays"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Both asked about individual sessions; to be discussed",
+          "keywords": [
+            "individual",
+            "sessions",
+            "talk"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "next_focus",
+          "statement": "Revisit the original rules conversation; what the list means to each of them",
+          "keywords": [
+            "original",
+            "rules",
+            "list"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "The couple has agreed to close the relationship for six months",
+          "section": "plan",
+          "why_plausible": "open-relationship notes tempt a tidy reversal; the recap ends with no decision."
+        },
+        {
+          "statement": "Bea disclosed she is in love with the new partner",
+          "section": "subjective",
+          "why_plausible": "the Thursday partner is central, so models supply feelings the recap never states."
+        },
+        {
+          "statement": "Tomas has been sleeping in the spare room",
+          "section": "objective",
+          "why_plausible": "conflict notes expect withdrawal; the session describes a speaking exercise instead."
+        },
+        {
+          "statement": "Therapist referred them to a polyamory support group",
+          "section": "plan",
+          "why_plausible": "niche referrals are the lazy filler; the session plan is internal to the therapy."
+        },
+        {
+          "statement": "Tomas said he never feels jealous",
+          "section": "subjective",
+          "why_plausible": "he said he is fine with openness, which weak models flatten into never jealous."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-053",
+      "transcript": "Session seven with Maren. Her best friend died in August, cycling accident, and Maren is the executor, which nobody warned her about, she says the paperwork grief is a whole separate grief. She is on fluoxetine, twenty milligrams, started in September, and she says it has taken the floor out of the worst of it, her image, she can still feel sad, it is just not drowning. Today she brought the anger, she is angry at the driver, angry at the road, angry at her friend for cycling that route, and the last one she has not said out loud before, and she said it and then looked at me like I would judge her. I did not, we sat with it. She cannot listen to his voicemails yet, they are still on her phone, she knows they are there. Sleep is six hours, unbroken, better. She walked the route once, on purpose, and cried at the top of the hill, and she said it was not as bad as the imagining. Plan, she writes the angry letter, does not send it, and we read it together next week if she wants. Next focus, the voicemails, when she is ready, and I will not push the timeline.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Best friend died in August in a cycling accident; client is the executor; the paperwork grief is separate",
+          "keywords": [
+            "august",
+            "cycling",
+            "executor"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "On fluoxetine 20 mg since September; it takes the floor out of the worst, not drowning",
+          "keywords": [
+            "fluoxetine",
+            "twenty",
+            "september"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Anger at the driver, the road, and the friend for cycling that route; the last was new and feared judgment",
+          "keywords": [
+            "driver",
+            "road",
+            "judge"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "His voicemails are still on her phone; she cannot listen yet",
+          "keywords": [
+            "voicemails",
+            "phone",
+            "listen"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Sleep six hours, unbroken, better",
+          "keywords": [
+            "sleep",
+            "six",
+            "unbroken"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Walked the route once on purpose; cried at the top of the hill; not as bad as the imagining",
+          "keywords": [
+            "route",
+            "hill",
+            "imagining"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Write the angry letter without sending; read it together next week if she wants",
+          "keywords": [
+            "angry",
+            "letter",
+            "send"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "The voicemails when she is ready; the timeline will not be pushed",
+          "keywords": [
+            "voicemails",
+            "ready",
+            "timeline"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Fluoxetine was increased to 40 mg",
+          "section": "plan",
+          "why_plausible": "a dose is named, so weak models invent a change."
+        },
+        {
+          "statement": "Client has deleted the voicemails",
+          "section": "objective",
+          "why_plausible": "the recap says they are still on her phone; sloppy notes resolve the arc prematurely."
+        },
+        {
+          "statement": "The friend's death was a suicide",
+          "section": "assessment",
+          "why_plausible": "grief-plus-anger tempts a darker cause of death, but the recap states a cycling accident."
+        },
+        {
+          "statement": "Client has joined a cycling safety charity in his memory",
+          "section": "plan",
+          "why_plausible": "memorial activity is a template filler; no such step is reported."
+        },
+        {
+          "statement": "Client denied any anger toward her friend",
+          "section": "subjective",
+          "why_plausible": "the anger at the friend is the session's centrepiece; a lazy model keeps only the safe targets."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-054",
+      "transcript": "Session four with Mr. Haddad, interpreter, Arabic, phone, and I will note the phone line was better than the video platform we tried, the interpreter said the same. He is three months off the tablets, the painkillers, he was on them after the back injury and then not after, his description. He said the evenings are the hard part, the boredom, and he has started walking after the last prayer, twenty minutes, and it is helping, he is surprised. He also said he cannot tell his brother, the shame is too big, and we did not push on that, shame has its own pace. His wife knows, she found out before he told anyone, and she checks the cabinet, which he said he hates and also understands, both. We did the trigger map, the pharmacy on the high street is a trigger, so the plan is he changes his walking route for now, past the park instead. His sleep is improving, six hours. Next week I want to look at the boredom itself, not as a threat, as information. Also he asked whether the notes go to his GP and I explained the limits again, that seemed to settle him.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Interpreter by phone (Arabic); the line was better than the video platform",
+          "keywords": [
+            "interpreter",
+            "phone",
+            "video"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Three months off painkillers since the back injury",
+          "keywords": [
+            "months",
+            "painkillers",
+            "injury"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Evenings are hardest (boredom); walking twenty minutes after the last prayer helps",
+          "keywords": [
+            "evenings",
+            "boredom",
+            "walking"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Cannot tell his brother; shame too big; not pushed",
+          "keywords": [
+            "brother",
+            "shame"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Wife found out before he told anyone; she checks the cabinet; he hates it and understands it",
+          "keywords": [
+            "wife",
+            "cabinet",
+            "understands"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Trigger map: the high street pharmacy; walking route changed past the park",
+          "keywords": [
+            "pharmacy",
+            "park",
+            "route"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Sleep improving, six hours",
+          "keywords": [
+            "sleep",
+            "six"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Explore boredom as information rather than threat",
+          "keywords": [
+            "boredom",
+            "information"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "objective",
+          "statement": "Asked about GP note limits; explained again; seemed to settle him",
+          "keywords": [
+            "notes",
+            "gp",
+            "limits"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client is prescribed methadone",
+          "section": "plan",
+          "why_plausible": "opioid histories tempt substitution therapy; this client's drug was prescribed painkillers and no substitution is mentioned."
+        },
+        {
+          "statement": "Client disclosed he relapsed last week",
+          "section": "objective",
+          "why_plausible": "recovery notes expect slips; the recap's three months clean stands."
+        },
+        {
+          "statement": "Client's brother is also in recovery",
+          "section": "subjective",
+          "why_plausible": "a feared brother tempts the assumption that he shares the problem."
+        },
+        {
+          "statement": "Therapist used a urine screening contract",
+          "section": "plan",
+          "why_plausible": "monitoring is a lazy addition; the session used a trigger map and a route change."
+        },
+        {
+          "statement": "Client reported his cravings have stopped completely",
+          "section": "subjective",
+          "why_plausible": "walking helping gets over-rounded into resolution by weak models."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-055",
+      "transcript": "Session fifteen with Dana, picking up from the review, and she said the strange thing, that she is objectively better, she sleeps, she is working, and she feels worse, because now she has the energy to notice. I said that makes sense, and she argued with me, gently, and I let her. We did the two-column thing on it, the evidence she is better and the evidence it feels worse, and both columns filled, which is the point, they are not competing. The intrusive images are down to maybe once a week, from daily in the spring, and they still land hard when they land. She is still doing the wind-down routine, most nights. Work is stable, the restructure landed and her role survived, which she has not celebrated, she said celebrating feels like tempting fate. That word, fate, is new, so I noted it. Plan, she writes one line a day about what is better, not to argue with the worse, just to keep both on the page. Next week, the tempting fate belief, where it comes from, and I want to look at her mother's voice in it if it appears.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Objectively better (sleep, work) but feels worse now she has the energy to notice",
+          "keywords": [
+            "better",
+            "worse",
+            "notice"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "assessment",
+          "statement": "Two-column exercise: both columns filled; the evidence is not competing",
+          "keywords": [
+            "columns",
+            "filled",
+            "competing"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Intrusive images down to about once a week from daily in the spring; still land hard",
+          "keywords": [
+            "images",
+            "week",
+            "spring"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Wind-down routine continues most nights",
+          "keywords": [
+            "wind-down",
+            "routine",
+            "nights"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Restructure landed; her role survived; she has not celebrated",
+          "keywords": [
+            "restructure",
+            "role",
+            "survived"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Celebrating feels like tempting fate; the word fate is new",
+          "keywords": [
+            "celebrating",
+            "fate",
+            "tempting"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "One line a day about what is better; keep both on the page",
+          "keywords": [
+            "line",
+            "day",
+            "page"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Explore the tempting fate belief and her mother's voice in it",
+          "keywords": [
+            "fate",
+            "mother",
+            "voice"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client has stopped the wind-down routine",
+          "section": "objective",
+          "why_plausible": "the recap says she keeps it most nights; sloppy notes let routines lapse."
+        },
+        {
+          "statement": "Client was prescribed quetiapine for the intrusive images",
+          "section": "plan",
+          "why_plausible": "intrusive imagery tempts a heavy medication line the recap never has."
+        },
+        {
+          "statement": "Client's role was cut in the restructure",
+          "section": "objective",
+          "why_plausible": "the recap says her role survived; models invert restructuring outcomes for drama."
+        },
+        {
+          "statement": "Therapist used EMDR to target the intrusive images",
+          "section": "plan",
+          "why_plausible": "intrusive images plus a spring history lure an EMDR claim; the session was cognitive-behavioural."
+        },
+        {
+          "statement": "Client reported the intrusive images are completely gone",
+          "section": "objective",
+          "why_plausible": "once a week gets rounded to zero by optimistic summarisers."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-056",
+      "transcript": "Second session with Selam, interpreter in the room this time, Amharic, which she prefers, the phone ones tire her. Picking up from last week, the panic after the car accident, she was a passenger, no injuries, but the sound is what stayed, the braking sound. She said she has not been in a car since, she walks everywhere, ninety minutes a day some days, and she is exhausted. We started the hierarchy today, baby steps she called them, first just sitting in a parked car with the engine off, and she said even hearing that makes her chest tight, so we did not push past naming it. She did agree, which surprised me, to sit in my colleague's parked car in the car park for two minutes before next session, with the interpreter waiting outside. Her son drives her everywhere currently and she hates being a passenger in her own life, her phrase. Sleep is four, five hours, the sound comes at night sometimes. Plan, the parked car, two minutes, and we will debrief whatever happens, even if she does not manage it. Next week I want to map the sound itself, where in her body it lands first.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Interpreter in the room (Amharic); she prefers it to phone interpreting",
+          "keywords": [
+            "interpreter",
+            "amharic",
+            "phone"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Panic since the car accident (passenger, no injuries); the braking sound is what stayed",
+          "keywords": [
+            "accident",
+            "passenger",
+            "sound"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Avoiding cars since; walks everywhere, up to ninety minutes a day; exhausted",
+          "keywords": [
+            "car",
+            "walks",
+            "ninety"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Hierarchy started: first step is sitting in a parked car with the engine off",
+          "keywords": [
+            "hierarchy",
+            "parked",
+            "engine"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Agreed to two minutes in a colleague's parked car before next session; interpreter waits outside",
+          "keywords": [
+            "minutes",
+            "colleague",
+            "waiting"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Son drives her everywhere; she hates being a passenger in her own life",
+          "keywords": [
+            "son",
+            "drives",
+            "passenger"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Sleep four to five hours; the sound comes at night sometimes",
+          "keywords": [
+            "sleep",
+            "four",
+            "night"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Map where the sound lands in her body first",
+          "keywords": [
+            "sound",
+            "body",
+            "lands"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client was injured in the accident and spent a night in hospital",
+          "section": "objective",
+          "why_plausible": "trauma notes assume injury; the recap says no injuries."
+        },
+        {
+          "statement": "Client was prescribed a benzodiazepine for travel anxiety",
+          "section": "plan",
+          "why_plausible": "car anxiety tempts a PRN sedative that is absent."
+        },
+        {
+          "statement": "Client has started driving herself short distances",
+          "section": "objective",
+          "why_plausible": "progress gets invented; the recap says she has not been in a car since."
+        },
+        {
+          "statement": "Therapist used EMDR on the accident memory",
+          "section": "plan",
+          "why_plausible": "trauma modality jargon lures an EMDR claim the session does not make."
+        },
+        {
+          "statement": "Client's husband was the driver",
+          "section": "objective",
+          "why_plausible": "someone drives her everywhere, so models assume it is the husband, not the son."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-057",
+      "transcript": "Session thirteen with Nadia, anger work, and this one had a moment. She was describing the fight with her sister, the inheritance one, and she said she could have killed her, meaning it as a figure of speech, and I asked directly, because that is what you do, whether she had thoughts of harming her sister or anyone, and she said no, of course not, it is a saying, and she was not offended, she said she would rather I ask. So that is documented. The real material is the shame under the anger, she apologises to furniture, her line, and we tracked it to the scene at her mother's funeral where she was told to stop crying because it was upsetting the guests. She has been swallowing ever since, her word again, she is full of lines today. She walked the long way home to avoid her sister's street, and she knows it, and she does not want to stop doing it yet, which we respected. Plan, she writes the unsent letter to the aunt who said the funeral thing. Next week, the swallowing, and whether it connects to the jaw tension she reported at intake.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Fight with sister over the inheritance; said she could have killed her, as a figure of speech",
+          "keywords": [
+            "sister",
+            "inheritance",
+            "saying"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Direct risk screen after the phrase: no to harming her sister or anyone; glad she was asked",
+          "keywords": [
+            "harming",
+            "anyone",
+            "asked"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Shame under the anger: apologises to furniture; traced to her mother's funeral and being told to stop crying",
+          "keywords": [
+            "shame",
+            "furniture",
+            "funeral"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "assessment",
+          "statement": "Swallowing pattern named; possible link to the jaw tension reported at intake",
+          "keywords": [
+            "swallowing",
+            "jaw",
+            "intake"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Walks the long way home to avoid her sister's street; not ready to stop; respected",
+          "keywords": [
+            "walked",
+            "street",
+            "avoid"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Unsent letter to the aunt who made the funeral comment",
+          "keywords": [
+            "letter",
+            "aunt",
+            "funeral"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "next_focus",
+          "statement": "Explore the swallowing and whether it connects to the jaw tension",
+          "keywords": [
+            "swallowing",
+            "jaw",
+            "connects"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client punched a wall during the argument",
+          "section": "subjective",
+          "why_plausible": "the killing figure of speech tempts escalation into violence the recap rules out."
+        },
+        {
+          "statement": "Client was prescribed quetiapine for irritability",
+          "section": "plan",
+          "why_plausible": "irritability tempts an antipsychotic line; no medication is discussed."
+        },
+        {
+          "statement": "Client has cut contact with her sister permanently",
+          "section": "plan",
+          "why_plausible": "avoidance is real but limited to a street route; models make it permanent estrangement."
+        },
+        {
+          "statement": "Client reported passive suicidal ideation",
+          "section": "assessment",
+          "why_plausible": "a risk screen happened, so weak models flip the denial into a finding."
+        },
+        {
+          "statement": "Therapist used the empty chair for the funeral scene",
+          "section": "plan",
+          "why_plausible": "grief-flavoured anger lures the stock technique; the session used tracking and a letter."
+        }
+      ],
+      "risk_phrases": [
+        "she said she could have killed her, meaning it as a figure of speech",
+        "whether she had thoughts of harming her sister or anyone, and she said no, of course not"
+      ]
+    },
+    {
+      "id": "r-058",
+      "transcript": "Session ten with Grace, no, the other Grace, I need to start using surnames in these, Graham. Grace Graham, health anxiety, and the thyroid thing is still the engine. She is on levothyroxine, seventy-five micrograms, has been for a year, and the endocrinologist says the numbers are fine, and she believes the numbers and not the endocrinologist, if that makes sense, she said it better than that. We did the formulation today, the maintenance cycle, how the checking keeps the worry alive, she checks her neck in every reflective surface, shop windows, phone screen, and she counted, forty times a day, which shocked her. So the behavioural experiment is the phone screen one, she photographs the neck once a day, one photo, and no mirrors in between, and she will rate the anxiety before and after checking. She is terrified the ratings will go up, and I said they might, at first, and that is data too. Sleep is six hours. She asked whether I think she is making it up, and I said no, the worry is real, the thyroid is real, they can both be real. Next week the photo experiment review, and I want to ask what she thinks the checking buys her, protection from what exactly.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "On levothyroxine 75 mcg for a year; the endocrinologist says the numbers are fine; she believes the numbers, not the doctor",
+          "keywords": [
+            "levothyroxine",
+            "seventy-five",
+            "endocrinologist"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "assessment",
+          "statement": "Maintenance cycle formulated: the checking keeps the worry alive",
+          "keywords": [
+            "checking",
+            "worry",
+            "cycle"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Checks her neck in reflective surfaces (shop windows, phone screen); counted forty times a day",
+          "keywords": [
+            "neck",
+            "windows",
+            "forty"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Behavioural experiment: one neck photo daily, no mirrors between; rate anxiety before and after",
+          "keywords": [
+            "photo",
+            "mirrors",
+            "ratings"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Terrified the ratings will rise; therapist said they might at first, and that is data too",
+          "keywords": [
+            "terrified",
+            "ratings",
+            "data"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "subjective",
+          "statement": "Asked if the therapist thinks she is making it up; the worry and the thyroid can both be real",
+          "keywords": [
+            "making",
+            "real"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Sleep six hours",
+          "keywords": [
+            "sleep",
+            "six"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Review the photo experiment; ask what the checking buys her and protection from what",
+          "keywords": [
+            "checking",
+            "buys",
+            "protection"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Levothyroxine was increased to 100 mcg",
+          "section": "plan",
+          "why_plausible": "a named medication plus a worried patient invites a dose change that never happened."
+        },
+        {
+          "statement": "A scan showed a thyroid nodule requiring biopsy",
+          "section": "objective",
+          "why_plausible": "thyroid anxiety tempts a scary finding the recap withholds."
+        },
+        {
+          "statement": "Client denied any reassurance-seeking behaviours",
+          "section": "objective",
+          "why_plausible": "the forty checks are the session's core; a sloppy note contradicts itself."
+        },
+        {
+          "statement": "Therapist used interoceptive exposure to neck sensations",
+          "section": "plan",
+          "why_plausible": "body-focused anxiety invites exposure jargon; the actual experiment is a photo task."
+        },
+        {
+          "statement": "Client has stopped reading about thyroid disease online",
+          "section": "objective",
+          "why_plausible": "online reading is the template's default behaviour; this recap never mentions it."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-059",
+      "transcript": "Session four with Kacper, and we are doing the dream work, which is new for me with him, he brought one unprompted. Picking up from last week, he said the falling dream has changed, before it was falling off a roof, and now it is falling off a scaffold, which he says is different because a scaffold is something you build, his observation, I did not supply it. He writes them in Polish, the dreams, then translates in the room, and he says the translation loses the texture, and we agreed he can read the Polish aloud first and then tell me, which he did, and it sounded different, slower, more like a confession. Work is the scaffold, he is on a contract that ends in March, and he is scaffolding someone else's project, again his words, I am noticing he is very good at images. Sleep is five hours, he wakes at four, the falling happens in the last hour before waking. He is not drinking, he said that unprompted too, three months dry. Plan, he keeps the dream diary, one line per dream, no analysis, and reads the next one in Polish first. Next week I want the scaffold, what he is building and who for, and I will not interpret the falling before he does.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "The falling dream changed from a roof to a scaffold; he reads the scaffold as something you build",
+          "keywords": [
+            "scaffold",
+            "roof",
+            "build"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Writes dreams in Polish, translates in session; will now read the Polish aloud first",
+          "keywords": [
+            "polish",
+            "translates",
+            "aloud"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Translation loses the texture; the Polish reading sounds slower, more like a confession",
+          "keywords": [
+            "translation",
+            "texture",
+            "confession"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Contract ends in March; working on someone else's project; the scaffold as image",
+          "keywords": [
+            "contract",
+            "march",
+            "project"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Sleep five hours; wakes at four; the falling happens in the last hour",
+          "keywords": [
+            "wakes",
+            "four",
+            "falling"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Three months dry; reported unprompted",
+          "keywords": [
+            "dry",
+            "unprompted"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Dream diary, one line per dream, no analysis; the next one read in Polish first",
+          "keywords": [
+            "diary",
+            "line",
+            "polish"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Explore the scaffold: what he is building and for whom; do not interpret the falling first",
+          "keywords": [
+            "scaffold",
+            "building",
+            "interpret"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client reported nightmares about the war",
+          "section": "subjective",
+          "why_plausible": "a Polish client with falling dreams tempts a war backstory the recap never gives."
+        },
+        {
+          "statement": "Client was prescribed zolpidem for the sleep problem",
+          "section": "plan",
+          "why_plausible": "broken sleep tempts a hypnotic; no medication appears."
+        },
+        {
+          "statement": "Client's contract was extended until June",
+          "section": "objective",
+          "why_plausible": "the recap says March; sloppy notes extend contracts for good news."
+        },
+        {
+          "statement": "Therapist used free association on the roof image",
+          "section": "plan",
+          "why_plausible": "dream work invites the stock technique label; the session used a diary and reading aloud."
+        },
+        {
+          "statement": "Client disclosed he has started drinking again",
+          "section": "objective",
+          "why_plausible": "three months dry is stated; a lazy model flips stability into relapse."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-060",
+      "transcript": "Second session with Linh, interpreter on video, Vietnamese, and this week the internet held, last week it did not, so we got a full hour, which is its own win. Picking up from last week, the class thing, she teaches, no, she is a teaching assistant, and the observation lesson is in two weeks and she has been rehearsing answers to questions nobody has asked yet, in the shower, on the bus. We named the fortune telling, she does not like the term, so we call it the rehearsal, her term, and the experiment is to rehearse once, deliberately, and then stop and note what actually happens, and I asked her to note the gap between the rehearsal and the reality. She said something quietly, through the interpreter, that her mother in Da Nang thinks she is doing so well and she cannot tell her about the anxiety, because the sacrifice would look wasted, roughly, the interpreter and I both sat with that one. She avoids the staff room, eats at her desk. Sleep is okay. She agreed to one staff room coffee this week, ten minutes, timer on. Next week, the mother material, if it comes, and the coffee debrief. I want to be careful not to turn the coffee into a test.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Interpreter on video (Vietnamese); full hour this week after last week's dropout",
+          "keywords": [
+            "interpreter",
+            "video",
+            "vietnamese"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Teaching assistant; observation lesson in two weeks; rehearses answers to unasked questions",
+          "keywords": [
+            "teaching",
+            "assistant",
+            "observation"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "Fortune telling renamed the rehearsal, at her preference",
+          "keywords": [
+            "rehearsal",
+            "term"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Experiment: rehearse once deliberately, stop, note the gap between rehearsal and reality",
+          "keywords": [
+            "rehearse",
+            "gap",
+            "reality"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Mother in Da Nang thinks she is doing well; cannot tell her about the anxiety; the sacrifice would look wasted",
+          "keywords": [
+            "mother",
+            "sacrifice",
+            "wasted"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Avoids the staff room; eats at her desk",
+          "keywords": [
+            "staff",
+            "room",
+            "desk"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "One staff room coffee this week, ten minutes, timer on",
+          "keywords": [
+            "coffee",
+            "ten",
+            "timer"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "Mother material if it comes; coffee debrief without turning it into a test",
+          "keywords": [
+            "mother",
+            "coffee",
+            "test"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client's mother lives with her in the UK",
+          "section": "objective",
+          "why_plausible": "the mother is central, so models relocate her from Da Nang."
+        },
+        {
+          "statement": "Client was prescribed a beta blocker for the observation lesson",
+          "section": "plan",
+          "why_plausible": "performance anxiety tempts a propranolol line no one here suggests."
+        },
+        {
+          "statement": "Therapist used a video-recorded mock lesson for exposure",
+          "section": "plan",
+          "why_plausible": "teacher anxiety invites recording kit; the actual experiment is a staff room coffee."
+        },
+        {
+          "statement": "Client has applied for a full teaching role",
+          "section": "plan",
+          "why_plausible": "career progression is a tidy filler; nothing about applications appears."
+        },
+        {
+          "statement": "Client denied any family pressure",
+          "section": "subjective",
+          "why_plausible": "the mother material is the session's heart; a sloppy note flattens it to a denial."
+        }
+      ],
+      "risk_phrases": []
+    }
+  ]
+}

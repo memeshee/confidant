@@ -1,0 +1,5 @@
+{"model": "gemma3:1b-it-qat", "threads": 2, "load_ms": 2623, "eval_count": 87, "tok_s": 2.88, "wall_s": 34.4, "llama_server_rss_mb": 1067}
+{"model": "gemma3:1b-it-qat", "threads": 4, "load_ms": 2864, "eval_count": 70, "tok_s": 3.78, "wall_s": 22.3, "llama_server_rss_mb": 1067}
+{"model": "gemma3:1b-it-qat", "threads": 6, "load_ms": 2883, "eval_count": 80, "tok_s": 10.16, "wall_s": 16.9, "llama_server_rss_mb": 1067}
+{"model": "gemma3:1b-it-qat", "threads": 8, "load_ms": 2624, "eval_count": 81, "tok_s": 3.68, "wall_s": 30.9, "llama_server_rss_mb": 1068}
+{"rows": [{"model": "gemma3:1b-it-qat", "threads": 2, "load_ms": 2623, "eval_count": 87, "tok_s": 2.88, "wall_s": 34.4, "llama_server_rss_mb": 1067}, {"model": "gemma3:1b-it-qat", "threads": 4, "load_ms": 2864, "eval_count": 70, "tok_s": 3.78, "wall_s": 22.3, "llama_server_rss_mb": 1067}, {"model": "gemma3:1b-it-qat", "threads": 6, "load_ms": 2883, "eval_count": 80, "tok_s": 10.16, "wall_s": 16.9, "llama_server_rss_mb": 1067}, {"model": "gemma3:1b-it-qat", "threads": 8, "load_ms": 2624, "eval_count": 81, "tok_s": 3.68, "wall_s": 30.9, "llama_server_rss_mb": 1068}]}

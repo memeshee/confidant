@@ -1,0 +1,27 @@
+corpus: 8 recaps · arm=local+guard model=google/gemma-3-27b-it
+  [1/8] r-031  recall 9/9  right-section 4/9  distractors 0/4  unsupported 0/14  words 170 (x0.944)  19211 ms
+  [2/8] r-032  recall 8/9  right-section 6/9  distractors 0/4  unsupported 0/10  words 134 (x0.684)  21303 ms
+  [3/8] r-033  recall 8/9  right-section 5/9  distractors 1/5  unsupported 0/13  words 164 (x0.837)  14764 ms
+  [4/8] r-034  recall 7/9  right-section 4/9  distractors 0/5  unsupported 0/11  words 134 (x0.687)  10662 ms
+  [5/8] r-035  recall 8/9  right-section 5/9  distractors 0/5  unsupported 0/11  words 105 (x0.556)  9533 ms
+  [6/8] r-036  recall 9/9  right-section 2/9  distractors 0/5  unsupported 0/12  words 154 (x0.755)  11175 ms
+  [7/8] r-037  recall 5/8  right-section 4/8  distractors 3/5  unsupported 0/12  words 138 (x0.687)  10926 ms
+  [8/8] r-038  recall 9/10  right-section 4/10  distractors 1/5  unsupported 0/14  words 131 (x0.649)  13636 ms
+
+SUMMARY {
+  "arm": "local+guard",
+  "model": "google/gemma-3-27b-it",
+  "recaps": 8,
+  "seconds": 111.4,
+  "fact_recall": 0.875,
+  "fact_section_accuracy": 0.4722,
+  "distractor_rate": 0.1316,
+  "unsupported_rate": 0.0,
+  "mean_claims_per_note": 12.125,
+  "mean_refused_by_guardrail": 0.0,
+  "brevity": 0.7249,
+  "median_ms": 12405,
+  "mean_tok_s": 31.1137,
+  "usd_per_note": 0.0
+}
+written: eval/results/eval-remote-27b-guardrail-8.json

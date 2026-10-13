@@ -1,0 +1,19 @@
+# secrets first
+.env
+*.env
+*.key
+*.pem
+secrets/
+# build + scratch
+target/
+node_modules/
+.next/
+dist/
+out/
+*.gguf
+models/
+*.mp4
+*.mp3
+*.wav
+scratch/
+.DS_Store

@@ -1,0 +1,2932 @@
+{
+  "recaps": [
+    {
+      "id": "r-091",
+      "transcript": "Okay so, Dana, um, I was twelve minutes late today, traffic and the parking deck, no excuse really. I apologized when she came in and she said it was fine but she went quiet, kind of guarded, and I noticed it so I named it. She said she's used to being the one who waits, and that landed hard. We spent most of the hour on that, actually, the lateness, what it stirred up, and she talked about her mom being late to school pickup every day when she was a kid. Honestly it was a good session, weirdly. She did tear up when she said the line about always being the one left waiting on the curb. We didn't get to the sleep stuff at all. Plan is I start on time next week, I'll set a phone alarm, and we pick up the sleep log then. I said I'd own it if I'm late again. She said she'd rather I just be on time. Fair.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client said she is used to being the one who waits, and the comment landed hard.",
+          "keywords": [
+            "used to being the one who waits",
+            "landed hard"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Client went quiet and guarded when the clinician arrived twelve minutes late, and the moment was named in the room.",
+          "keywords": [
+            "twelve minutes late",
+            "guarded",
+            "named it"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client connected the theme to her mother being late to school pickup every day in childhood.",
+          "keywords": [
+            "mom being late",
+            "school pickup"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Client teared up describing always being the one left waiting on the curb.",
+          "keywords": [
+            "tear up",
+            "curb"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "The lateness itself became the session material and the sleep material was not reached.",
+          "keywords": [
+            "lateness",
+            "sleep stuff"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Clinician will set a phone alarm and start on time next week.",
+          "keywords": [
+            "phone alarm",
+            "start on time"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "next_focus",
+          "statement": "The sleep log will be picked up at the next session.",
+          "keywords": [
+            "sleep log",
+            "pick up"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "subjective",
+          "statement": "Client said she would rather the clinician simply be on time; clinician said she would own it if late again.",
+          "keywords": [
+            "be on time",
+            "own it"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client said, 'I feel abandoned every time you are late.'",
+          "section": "subjective",
+          "why_plausible": "The guarded reaction invites a dramatic paraphrase, but the word abandoned never appears; she described being used to waiting."
+        },
+        {
+          "statement": "Sessions will move to twice weekly to repair the rupture.",
+          "section": "plan",
+          "why_plausible": "Rupture-repair work sometimes prompts intensifying frequency, but the recap only commits to starting on time."
+        },
+        {
+          "statement": "Client meets criteria for generalized anxiety disorder.",
+          "section": "assessment",
+          "why_plausible": "Worry themes could tempt a diagnosis, but none was assessed in this session."
+        },
+        {
+          "statement": "Client endorsed passive suicidal ideation during the rupture discussion.",
+          "section": "subjective",
+          "why_plausible": "Strong affect around abandonment can cue a risk line; none was disclosed here."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-092",
+      "transcript": "Marcus no-showed. Eight o'clock, I waited the full fifteen like the policy says, texted him at eight-ten, called at eight-twenty, nothing. Left a voicemail, kept it neutral, just 'checking in, hope you're okay, let me know about next week.' Honestly my first thought was something happened, he's been shaky since the breakup, but I also noticed I was annoyed, and I sat with that for a minute. I used the rest of the hour to finish the two intakes from Tuesday, which needed doing anyway. The no-show policy is in the intake packet, he signed it, it says the fee applies unless it's an emergency, so I'll bring it up gently next time and waive it this once if he reschedules this week. I wrote a note in his chart, nothing clinical, just the facts and that I reached out twice. Also I need to check whether the insurance portal flagged the missed visit. Reminder to myself: don't lead with the fee, lead with the check-in.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Client did not attend the eight o'clock session and did not call.",
+          "keywords": [
+            "no-showed",
+            "Eight o'clock"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "Clinician waited the full fifteen minutes per policy, then texted and left a voicemail.",
+          "keywords": [
+            "full fifteen",
+            "texted",
+            "voicemail"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "Voicemail was kept neutral: checking in, hope you're okay, let me know about next week.",
+          "keywords": [
+            "checking in",
+            "next week"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "assessment",
+          "statement": "Clinician noticed annoyance alongside concern about the client's instability since the breakup.",
+          "keywords": [
+            "annoyed",
+            "breakup"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "The remaining hour was used to finish the two intakes from Tuesday.",
+          "keywords": [
+            "two intakes",
+            "Tuesday"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "The no-show fee will be waived this once if the client reschedules this week.",
+          "keywords": [
+            "waive it this once",
+            "reschedules this week"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Chart note recorded the facts and two outreach attempts, with no clinical interpretation.",
+          "keywords": [
+            "chart",
+            "reached out twice"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "assessment",
+          "statement": "Clinician reminded herself to lead with the check-in rather than the fee.",
+          "keywords": [
+            "the check-in",
+            "the fee"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client sent a message saying he did not want to be here anymore.",
+          "section": "subjective",
+          "why_plausible": "Instability after the breakup invites a crisis message; no message arrived and the voicemail was the only contact."
+        },
+        {
+          "statement": "Session was rescheduled for tomorrow at the same time.",
+          "section": "next_focus",
+          "why_plausible": "Rescheduling language in the voicemail could tempt a specific slot; no replacement time was agreed."
+        },
+        {
+          "statement": "Client diagnosed with adjustment disorder following the breakup.",
+          "section": "assessment",
+          "why_plausible": "The breakup context invites a diagnosis the clinician never made."
+        },
+        {
+          "statement": "Client's bupropion was noted as 150 mg.",
+          "section": "objective",
+          "why_plausible": "Chart-adjacent recaps often get medication detail grafted on; no medication was mentioned."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-093",
+      "transcript": "So Priya's claim came back rejected, the portal wants a diagnosis code in box 21 and it won't process without one, and I'm not going to guess a code to satisfy the form. I wrote the superbill myself, session dates, my license number, the fee, and left the code field for the billing person to sort with the client. I told Priya on the phone that the paperwork hiccup isn't about her care, it's admin, and she laughed and said welcome to her world, she works in billing too. We also used ten minutes of that call to check in, she's sleeping better, still tense at family dinners, her sister's wedding is coming up. Diagnosis-wise I've been treating this as anxiety, that's what I've documented all along, but I'm not inventing anything more specific than that on a form. Next session is Thursday, we'll do the exposure list then. I also need to ask my supervisor whether the superbill wording is right. And note to self: the portal locks after three attempts, so do not poke it again tonight.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "The insurance portal rejected the claim because it requires a diagnosis code.",
+          "keywords": [
+            "rejected",
+            "diagnosis code"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Clinician refuses to guess a code to satisfy the form.",
+          "keywords": [
+            "guess a code",
+            "the form"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "The superbill lists session dates, license number and fee, with the code field left for the billing person.",
+          "keywords": [
+            "superbill",
+            "license number",
+            "code field"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Client works in billing herself and laughed at the paperwork problem.",
+          "keywords": [
+            "billing too",
+            "laughed"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Client is sleeping better but still tense at family dinners.",
+          "keywords": [
+            "sleeping better",
+            "family dinners"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "objective",
+          "statement": "Her sister's wedding is coming up and is a current stressor.",
+          "keywords": [
+            "sister's wedding",
+            "coming up"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "assessment",
+          "statement": "Anxiety is the documented working focus; nothing more specific will be invented on a form.",
+          "keywords": [
+            "documented",
+            "anxiety"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "next_focus",
+          "statement": "The exposure list will be built at Thursday's session.",
+          "keywords": [
+            "exposure list",
+            "Thursday"
+          ]
+        },
+        {
+          "id": "f9",
+          "section": "plan",
+          "statement": "Clinician will ask her supervisor about the superbill wording and will not retry the portal tonight.",
+          "keywords": [
+            "supervisor",
+            "portal locks"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Claim resubmitted under code F41.1 for generalized anxiety disorder.",
+          "section": "plan",
+          "why_plausible": "The portal demands a code and anxiety is the documented focus, so a model will supply the commonest anxiety code even though no code was stated and the clinician refused to guess."
+        },
+        {
+          "statement": "Sessions increased to weekly to support the exposure work.",
+          "section": "plan",
+          "why_plausible": "Exposure plans often come with a frequency bump; none was agreed."
+        },
+        {
+          "statement": "Client said, 'I can't afford to keep fighting the insurance company.'",
+          "section": "subjective",
+          "why_plausible": "Billing frustration invites a money quote; she actually laughed and said welcome to her world."
+        },
+        {
+          "statement": "Client meets criteria for panic disorder with agoraphobia.",
+          "section": "assessment",
+          "why_plausible": "Exposure work hints at panic, but the documented focus is anxiety only."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-094",
+      "transcript": "Yeah, quick one. Ben, twenty minutes, he had a panic thing at the grocery store Saturday, aisle four, thought he was dying, classic. No, he didn't call anyone, he rode it out in the parking lot. We did the breathing, the long exhale, four in, six out, twice through, and he said it took the edge off. Homework: practice it daily, and next week we map the store, where he can leave fast, the exits. He's fine, just rattled. Short session because I had a back-to-back.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client had a panic episode at the grocery store on Saturday.",
+          "keywords": [
+            "panic",
+            "grocery store",
+            "Saturday"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "He thought he was dying and rode it out in the parking lot without calling anyone.",
+          "keywords": [
+            "dying",
+            "parking lot",
+            "call anyone"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "Breathing practice used a long exhale, four in, six out, twice through.",
+          "keywords": [
+            "four in",
+            "six out",
+            "twice"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Client reported the breathing took the edge off.",
+          "keywords": [
+            "took the edge off",
+            "breathing"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Homework is daily practice.",
+          "keywords": [
+            "daily",
+            "Homework"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "next_focus",
+          "statement": "Next week's session will map the store and identify exits for leaving fast.",
+          "keywords": [
+            "map the store",
+            "exits"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client was given lorazepam 0.5 mg to use as needed.",
+          "section": "plan",
+          "why_plausible": "Panic presentations tempt a PRN medication; none was discussed."
+        },
+        {
+          "statement": "Client agreed to attend sessions twice weekly until the panic settles.",
+          "section": "plan",
+          "why_plausible": "Acute panic can prompt a frequency increase; the recap only keeps the usual rhythm."
+        },
+        {
+          "statement": "Client reported thoughts that he would be better off dead.",
+          "section": "subjective",
+          "why_plausible": "Panic can be mistaken for despair; he was frightened, not hopeless."
+        },
+        {
+          "statement": "Client said, 'I thought I was having a heart attack.'",
+          "section": "subjective",
+          "why_plausible": "A classic panic phrase, but his words were about thinking he was dying."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-095",
+      "transcript": "Rosa cancelled two hours before the session, third time this month, so I called her, we had the fee conversation. Policy says under twenty-four hours it's the full fee, I said it gently, and she got quiet, then said she can't afford it right now, her hours got cut at the warehouse. So we did something practical instead, we talked money for twenty minutes, her budget, what she can do, and I offered to move her to the sliding scale starting next month and hold the fee this once, since this is new information, not a pattern of blowing me off. She cried a little, relief I think. Then we scheduled her for next Wednesday, same time. I need to update her file with the sliding scale agreement and check with my billing person how to document a fee waiver so it doesn't look like an error. Also remind her about the portal appointment reminders. Honestly, good call, even though it ate my lunch break.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Client cancelled two hours before the session, the third time this month.",
+          "keywords": [
+            "two hours",
+            "third time"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Clinician explained the under-twenty-four-hours policy and the full fee.",
+          "keywords": [
+            "twenty-four hours",
+            "full fee"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client said her hours got cut at the warehouse and she cannot afford the fee right now.",
+          "keywords": [
+            "hours got cut",
+            "warehouse"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Clinician offered the sliding scale starting next month and held the fee this once.",
+          "keywords": [
+            "sliding scale",
+            "this once"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "Clinician framed the cancellation as new information rather than a pattern of blowing her off.",
+          "keywords": [
+            "new information",
+            "blowing me off"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Client rescheduled for next Wednesday at the same time.",
+          "keywords": [
+            "next Wednesday",
+            "same time"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "File to be updated with the sliding scale agreement and the fee waiver documented.",
+          "keywords": [
+            "fee waiver",
+            "file"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Client to be reminded about the portal appointment reminders.",
+          "keywords": [
+            "portal",
+            "reminders"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Sessions reduced to every other week to ease the financial strain.",
+          "section": "plan",
+          "why_plausible": "Money pressure invites a frequency change; only the fee and the scale changed here."
+        },
+        {
+          "statement": "Client said, 'I'll just quit therapy then.'",
+          "section": "subjective",
+          "why_plausible": "Fee conversations tempt a dramatic exit quote; she went quiet, then talked budget."
+        },
+        {
+          "statement": "Client meets criteria for major depressive disorder.",
+          "section": "assessment",
+          "why_plausible": "Tears and strain could pull a depression diagnosis; none was assessed."
+        },
+        {
+          "statement": "Client to start sertraline 50 mg through her primary care.",
+          "section": "plan",
+          "why_plausible": "A new financial stressor often gets paired with a medication story; no medication was mentioned."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-096",
+      "transcript": "Tomas asked me to write a letter for his employer, something for HR, because he's been on the performance plan and he wants documentation that he's in treatment. I said yes but was clear about what I will and won't put in it, no diagnosis details unless he signs a specific release, just that he's engaged in care, attending regularly, and that I support reasonable accommodations for focus and deadlines. He's relieved, said his manager is actually decent, it's the new tracking software that's wrecking him. We spent the rest of the session on the job stress, the monitoring, the metrics meeting every morning, and how he's sleeping maybe five hours. Plan: I draft the letter Thursday, he reviews it before anything goes to HR, and we practice the conversation with his manager next session. I billed him for the full hour. Also I owe him the invoice from last month, I keep forgetting.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client requested a letter for his employer because he is on a performance plan.",
+          "keywords": [
+            "letter for his employer",
+            "performance plan"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Clinician agreed to state engagement in care and support for accommodations, without diagnosis details absent a release.",
+          "keywords": [
+            "release",
+            "accommodations"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "The letter will note regular attendance and support around focus and deadlines.",
+          "keywords": [
+            "attending regularly",
+            "focus and deadlines"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Client attributes the strain to new tracking software and morning metrics meetings.",
+          "keywords": [
+            "tracking software",
+            "metrics meeting"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Client is sleeping about five hours.",
+          "keywords": [
+            "five hours",
+            "sleeping"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Clinician to draft the letter Thursday; client reviews it before anything reaches HR.",
+          "keywords": [
+            "draft the letter",
+            "Thursday",
+            "reviews it"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "next_focus",
+          "statement": "Next session will rehearse the conversation with his manager.",
+          "keywords": [
+            "practice the conversation",
+            "manager"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Client billed for the full hour; last month's invoice is still owed.",
+          "keywords": [
+            "full hour",
+            "invoice"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "The letter will confirm a diagnosis of ADHD.",
+          "section": "plan",
+          "why_plausible": "Focus and deadline accommodations suggest ADHD; the clinician explicitly kept any diagnosis out of the letter."
+        },
+        {
+          "statement": "Sessions will continue weekly for six weeks to document treatment.",
+          "section": "plan",
+          "why_plausible": "Documentation letters often prompt a stated cadence; none was stated."
+        },
+        {
+          "statement": "Client said, 'My manager is out to get me.'",
+          "section": "subjective",
+          "why_plausible": "Workplace strain tempts a conflict quote; he actually called his manager decent."
+        },
+        {
+          "statement": "Client's methylphenidate dose was increased to 20 mg.",
+          "section": "objective",
+          "why_plausible": "Medication detail gets grafted onto work-performance stories; no medication was mentioned."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-097",
+      "transcript": "Supervision with Barb today, I brought Lena, the one who keeps pushing every boundary I set, and Barb got me to see I've been avoiding the actual conversation because Lena reminds me of my sister, which, ouch. We talked about how I over-explain when I'm anxious in session and how that hands her the power, Barb's words, not mine. Barb suggested I script the boundary piece, short sentences, no justifying, and role play it with her before Thursday. I also flagged the Marcus no-show for consultation, whether waiving the fee muddies the frame, and she said one waiver is a gift, a pattern is a frame problem. Fair. I have to write this up for my CE log. Also: supervision moved to the third Friday next month because of her vacation, I put it in the calendar. Next supervision I bring the boundary session recording, with Lena's consent, which I still need to ask for.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Clinician brought the client with the boundary struggles to supervision.",
+          "keywords": [
+            "boundary",
+            "Lena"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "assessment",
+          "statement": "Supervisor suggested the clinician avoids the real conversation because the client reminds her of her sister.",
+          "keywords": [
+            "my sister",
+            "avoiding"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "Over-explaining when anxious in session was framed as handing the power over.",
+          "keywords": [
+            "over-explain",
+            "the power"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Clinician to script boundary statements in short sentences with no justifying, and role play before Thursday.",
+          "keywords": [
+            "script",
+            "role play",
+            "Thursday"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Fee waiver discussed: one waiver is a gift, a pattern is a frame problem.",
+          "keywords": [
+            "one waiver",
+            "frame problem"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Supervision moves to the third Friday next month because of the supervisor's vacation.",
+          "keywords": [
+            "third Friday",
+            "vacation"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Next supervision the clinician brings the boundary session recording, pending client consent.",
+          "keywords": [
+            "recording",
+            "consent"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "The session must be written up for the CE log.",
+          "keywords": [
+            "CE log",
+            "write this up"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Supervisor said, 'You should terminate with this client.'",
+          "section": "plan",
+          "why_plausible": "Boundary-heavy cases tempt dramatic supervision advice; Barb suggested scripting, not ending."
+        },
+        {
+          "statement": "Supervision will now happen twice a month.",
+          "section": "plan",
+          "why_plausible": "Scheduling chatter invites a cadence claim; only the next date was mentioned."
+        },
+        {
+          "statement": "Client given a borderline personality disorder diagnosis for the supervision discussion.",
+          "section": "assessment",
+          "why_plausible": "Boundary conflicts cue that label; no diagnosis was named."
+        },
+        {
+          "statement": "Client's quetiapine 25 mg noted for sleep.",
+          "section": "objective",
+          "why_plausible": "Supervision write-ups sometimes accumulate medication detail; none appears here."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-098",
+      "transcript": "The school counsellor, Denise, called me about Arjun, with the release signed last week, so we could actually talk. His exam anxiety is spiking, he's been leaving the classroom when tests start, and the counsellor wants the maths teacher to let him take tests in the resource room, which honestly sounds right to me. We agreed on a simple plan: the teacher gives him a five-minute heads up before handing out papers, he gets the resource room, and Denise checks in with him after each exam. I said I'd send her a short summary of the coping skills we've been drilling, the grounding stuff, so the language is consistent. I also flagged that his parents don't know about the panic on the first day of term, and that's his call to make, not ours. Next session we prep for the biology exam Friday. Note: send the summary by Wednesday so Denise can share it at the team meeting.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "plan",
+          "statement": "The school counsellor called after the release was signed.",
+          "keywords": [
+            "school counsellor",
+            "release signed"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client has been leaving the classroom when tests start because of exam anxiety.",
+          "keywords": [
+            "leaving the classroom",
+            "exam anxiety"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "Plan: a five-minute heads up before papers, resource room for tests, counsellor checks in after each exam.",
+          "keywords": [
+            "five-minute heads up",
+            "resource room"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Clinician to send a summary of the grounding and coping skills so the language stays consistent.",
+          "keywords": [
+            "grounding",
+            "coping skills"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "subjective",
+          "statement": "Parents do not know about the panic on the first day of term; disclosure is his call.",
+          "keywords": [
+            "first day of term",
+            "his call"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "next_focus",
+          "statement": "Next session prepares for the biology exam on Friday.",
+          "keywords": [
+            "biology exam",
+            "Friday"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "The summary is to be sent by Wednesday for the team meeting.",
+          "keywords": [
+            "Wednesday",
+            "team meeting"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Teacher said, 'He's just not trying hard enough.'",
+          "section": "subjective",
+          "why_plausible": "School coordination stories tempt a dismissive teacher quote; the actual issue was logistics."
+        },
+        {
+          "statement": "Client diagnosed with social anxiety disorder.",
+          "section": "assessment",
+          "why_plausible": "Classroom avoidance cues that label; the clinician documented exam anxiety and a support plan only."
+        },
+        {
+          "statement": "Denise will call the clinician every week.",
+          "section": "plan",
+          "why_plausible": "Coordination plans tempt a standing check-in cadence; none was agreed."
+        },
+        {
+          "statement": "Client's sertraline started at 25 mg.",
+          "section": "plan",
+          "why_plausible": "Exam-anxiety cases often get a medication subplot; none was mentioned."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-099",
+      "transcript": "Dana, back from last week, and we did get to the sleep log finally, four hours most nights, and then about halfway in she said something that stopped me, she said sometimes she thinks everyone would be fine without her, and that it's not a plan, she's not going to do anything, but the thought is there most days now. So we stopped the sleep stuff and did the safety conversation properly. I asked directly about intent, she said no, no plan, no means she'd use, but she's isolated, hasn't told her sister, and the thoughts have gotten more frequent since the layoff news. We made a safety plan, her friend Priya, different Priya, funny, she's the call person, crisis line in her phone, and she agreed to text me a check-in Thursday. I asked about means at home, she said no firearms, no stockpiled meds. I want her to see the GP this week, and I'm calling her Friday to confirm. I told her I'd rather over-check than miss it. She rolled her eyes but she agreed.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client reported sleeping about four hours most nights.",
+          "keywords": [
+            "four hours",
+            "sleep log"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client said she sometimes thinks everyone would be fine without her; no plan, but the thought is there most days now.",
+          "keywords": [
+            "fine without her",
+            "most days"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Direct risk assessment: no plan, no means she would use; no firearms, no stockpiled meds.",
+          "keywords": [
+            "no plan",
+            "no firearms",
+            "stockpiled meds"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "assessment",
+          "statement": "Thoughts are more frequent since the layoff news; client is isolated and has not told her sister.",
+          "keywords": [
+            "layoff news",
+            "isolated"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Safety plan: friend Priya is the call person and the crisis line is saved in her phone.",
+          "keywords": [
+            "friend Priya",
+            "crisis line"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Client will text a check-in Thursday; clinician calls Friday to confirm the GP appointment.",
+          "keywords": [
+            "text me",
+            "GP",
+            "Friday"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Clinician would rather over-check than miss it.",
+          "keywords": [
+            "over-check",
+            "miss it"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client disclosed a specific plan to overdose on her remaining medication.",
+          "section": "subjective",
+          "why_plausible": "Active-sounding thoughts tempt escalation; she explicitly denied plan and means."
+        },
+        {
+          "statement": "Client's trazodone was increased to 100 mg for sleep.",
+          "section": "objective",
+          "why_plausible": "Sleep complaints invite a medication detail; none was discussed."
+        },
+        {
+          "statement": "Client agreed to daily check-in calls until Friday.",
+          "section": "plan",
+          "why_plausible": "Safety planning tempts a denser contact schedule; only a single text check-in was agreed."
+        },
+        {
+          "statement": "Client meets criteria for a major depressive episode with psychotic features.",
+          "section": "assessment",
+          "why_plausible": "Hopeless-sounding cognitions invite severity inflation; no diagnosis was made."
+        },
+        {
+          "statement": "Client said, 'I want to die.'",
+          "section": "subjective",
+          "why_plausible": "Risk discussions get paraphrased into stronger quotes than her actual hedge, which denied plan and intent."
+        }
+      ],
+      "risk_phrases": [
+        "sometimes she thinks everyone would be fine without her",
+        "the thought is there most days now"
+      ]
+    },
+    {
+      "id": "r-100",
+      "transcript": "Quick note, Nadia, telehealth today because the office was getting the carpet replaced, and of course her audio dropped three times, we lost maybe eight minutes to that. Content: she's been on escitalopram six weeks now, psychiatrist manages it, and the nausea is finally fading but she says she feels flat, like the volume is turned down on everything, including the good stuff. I asked how flat, she said she can still laugh, it's just muted. We talked about whether to wait it out or ask the psychiatrist about a change, and I said I'd encourage her to raise it at her med review next month rather than me calling, since it's their call. The flatness worries me a bit with her history of depression, so I'll keep watching it session to session. Homework: keep the mood log, mark flat days versus sad days. And I need to fix the telehealth setup, the bandwidth thing keeps happening. Next session back in person, Tuesday.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Session was telehealth because the office was getting the carpet replaced; audio dropped three times, losing about eight minutes.",
+          "keywords": [
+            "telehealth",
+            "carpet",
+            "audio dropped"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client has been on escitalopram six weeks; the nausea is fading but she feels flat.",
+          "keywords": [
+            "escitalopram",
+            "six weeks",
+            "flat"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client can still laugh but describes the volume as turned down on everything, including the good stuff.",
+          "keywords": [
+            "turned down",
+            "muted"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Clinician will encourage the client to raise the flatness at her med review next month rather than calling the psychiatrist directly.",
+          "keywords": [
+            "med review",
+            "psychiatrist"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "The flatness is being watched given the client's history of depression.",
+          "keywords": [
+            "flatness",
+            "history of depression"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Homework: mood log marking flat days versus sad days.",
+          "keywords": [
+            "mood log",
+            "flat days",
+            "sad days"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Next session is in person on Tuesday; the bandwidth issue needs fixing.",
+          "keywords": [
+            "in person",
+            "bandwidth"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Escitalopram dose was increased from 10 mg to 20 mg.",
+          "section": "plan",
+          "why_plausible": "Flatness on an SSRI invites a dose-change story; the clinician deferred to the psychiatrist and no numbers were stated."
+        },
+        {
+          "statement": "Client meets criteria for persistent depressive disorder.",
+          "section": "assessment",
+          "why_plausible": "Weeks of flatness cue that label; the clinician documented a side-effect watch, not a diagnosis."
+        },
+        {
+          "statement": "Client said, 'I feel nothing at all anymore.'",
+          "section": "subjective",
+          "why_plausible": "Flatness tempts an absolute quote; she specifically said she can still laugh."
+        },
+        {
+          "statement": "Client stated she sometimes wonders if life is worth living.",
+          "section": "subjective",
+          "why_plausible": "Emotional blunting can cue a risk line; none was disclosed."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-101",
+      "transcript": "Short one, I was behind all day so we kept it tight. Aisha, fifteen minutes, she's doing well on the sertraline, four weeks in, no side effects she's noticed, sleep's back to normal, work's still annoying but manageable. Nothing new, no crisis stuff. She asked if she should keep going, I said yes, keep the schedule, full review in three weeks. She asked about tapering eventually, I said that's a spring conversation, don't rush it. Next session is the full hour, Thursday. That's it.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Session was brief because the clinician was running behind.",
+          "keywords": [
+            "behind",
+            "kept it tight"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client is doing well on sertraline four weeks in, with no side effects noticed.",
+          "keywords": [
+            "sertraline",
+            "four weeks",
+            "side effects"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Sleep is back to normal; work remains annoying but manageable.",
+          "keywords": [
+            "back to normal",
+            "annoying",
+            "manageable"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Keep the current schedule with a full review in three weeks.",
+          "keywords": [
+            "keep the schedule",
+            "three weeks"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Tapering discussion deferred to spring.",
+          "keywords": [
+            "tapering",
+            "spring"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "next_focus",
+          "statement": "Next session is the full hour on Thursday.",
+          "keywords": [
+            "full hour",
+            "Thursday"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Sertraline was increased to 100 mg at this visit.",
+          "section": "plan",
+          "why_plausible": "A brief med check tempts a titration line; no dose was mentioned."
+        },
+        {
+          "statement": "Client reported a return of panic symptoms last week.",
+          "section": "subjective",
+          "why_plausible": "Brief check-ins tempt new symptoms; the recap says nothing new and no crisis."
+        },
+        {
+          "statement": "Sessions will taper to monthly from now on.",
+          "section": "plan",
+          "why_plausible": "Wellness and tapering questions tempt a frequency change; the schedule is unchanged."
+        },
+        {
+          "statement": "Client said, 'I think I'm cured.'",
+          "section": "subjective",
+          "why_plausible": "Good progress tempts a triumphant quote; she asked practical questions instead."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-102",
+      "transcript": "End of day call with a prospective client, or rather her daughter called first, classic, and I did the fifteen-minute consult. The mom is seventy-eight, recently widowed, not sleeping, and the daughter wants me to see her, but here's the thing, she's already on two meds from her GP and there was a fall in September, and honestly she needs someone who can do home visits and coordinate with the GP properly, which is not my setup, I'm telehealth and a third-floor walkup office. So I gave the daughter three names from my referral list, one does geriatric work, one does home visits, and I told her to call the GP's office too about the sleep, that's medical before it's therapy. I wrote the consult up in ten minutes after. Felt a bit like turning away business, but it's the right call and my list is finally paying off. Note: refresh the referral list, two of the names are stale.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "The prospective client's daughter made the initial call; a fifteen-minute consult was completed.",
+          "keywords": [
+            "daughter",
+            "fifteen-minute consult"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Prospect is seventy-eight, recently widowed, not sleeping, on two medications from the GP, with a fall in September.",
+          "keywords": [
+            "seventy-eight",
+            "widowed",
+            "fall in September"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "Prospect needs home visits and GP coordination, which the clinician's telehealth and walkup setup cannot provide.",
+          "keywords": [
+            "home visits",
+            "walkup"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Three referral names were given; one does geriatric work, one does home visits.",
+          "keywords": [
+            "referral list",
+            "geriatric"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Daughter advised to call the GP's office about the sleep as medical before therapy.",
+          "keywords": [
+            "GP's office",
+            "medical"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "The consult was written up in ten minutes.",
+          "keywords": [
+            "wrote the consult up",
+            "ten minutes"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "assessment",
+          "statement": "Clinician noted it felt like turning away business but was the right call.",
+          "keywords": [
+            "turning away business",
+            "right call"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "The referral list needs refreshing; two names are stale.",
+          "keywords": [
+            "refresh",
+            "stale"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Prospective client described as having major neurocognitive disorder.",
+          "section": "assessment",
+          "why_plausible": "Age and a fall cue a cognitive label; the clinician framed needs in functional terms only."
+        },
+        {
+          "statement": "GP's sleep medication noted as zopiclone 7.5 mg.",
+          "section": "objective",
+          "why_plausible": "Medication counts invite a named drug; none was named."
+        },
+        {
+          "statement": "Clinician agreed to add the client to her caseload starting next month.",
+          "section": "plan",
+          "why_plausible": "A consult can end in acceptance; this one ended in referral out."
+        },
+        {
+          "statement": "Daughter said, 'You're the only one who can help her.'",
+          "section": "subjective",
+          "why_plausible": "Family desperation tempts a pleading quote; the call was practical."
+        },
+        {
+          "statement": "The mother expressed she no longer wishes to live.",
+          "section": "subjective",
+          "why_plausible": "Bereavement and poor sleep cue a risk line; none was reported."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-103",
+      "transcript": "Quick check-in call, not a session. Caleb, ten minutes, he missed Tuesday's session so I wanted eyes on him. He's okay, low but okay, and the dark thoughts came back Sunday night but he used the plan, called his brother, went for a walk, slept. He was clear, no intent, tired more than scared. Thursday stays as is, and he'll text a thumbs up each night this week, low effort. He offered to pay for the call, I said ten minutes doesn't get billed. Note: document the call.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Brief check-in call after the client missed Tuesday's session.",
+          "keywords": [
+            "check-in call",
+            "missed Tuesday's"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client is low but okay; tired more than scared.",
+          "keywords": [
+            "low but okay",
+            "tired"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "The dark thoughts returned Sunday night; client used the plan, called his brother, walked, slept.",
+          "keywords": [
+            "dark thoughts",
+            "Sunday night",
+            "called his brother"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Client was clear there was no intent.",
+          "keywords": [
+            "no intent",
+            "clear"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Thursday session stays as is; client will text a thumbs up each night this week.",
+          "keywords": [
+            "thumbs up",
+            "each night"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Clinician declined to bill the ten-minute call and will document it.",
+          "keywords": [
+            "doesn't get billed",
+            "document the call"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client disclosed he had taken an overdose of his sleeping tablets on Sunday.",
+          "section": "subjective",
+          "why_plausible": "Dark thoughts tempt an escalation; he denied intent and used the plan."
+        },
+        {
+          "statement": "His quetiapine was reduced from 50 mg.",
+          "section": "objective",
+          "why_plausible": "Check-in calls often carry med changes; none was mentioned."
+        },
+        {
+          "statement": "Check-in calls will happen every night at eight.",
+          "section": "plan",
+          "why_plausible": "Nightly contact tempts a fixed slot; only a thumbs up text was agreed."
+        },
+        {
+          "statement": "Client said, 'I almost didn't make it through Sunday.'",
+          "section": "subjective",
+          "why_plausible": "A hard Sunday tempts a dramatic quote; he described using the plan calmly."
+        }
+      ],
+      "risk_phrases": [
+        "the dark thoughts came back Sunday night",
+        "no intent"
+      ]
+    },
+    {
+      "id": "r-104",
+      "transcript": "Devon, and we spent the first ten minutes on pharmacy nonsense, his bupropion is out of stock at the chain and the refill needs a prior authorization, which apparently expired, and he's been off it five days and feeling it, foggy, irritable. I told him to call the pharmacy and his prescriber's office today, not wait, and if it's not sorted by Monday to call me and I'll help him escalate. The actual session: the irritability is scaring him, he snapped at his kid over nothing, and we worked on what to do in the moment, leaving the room, naming it out loud, repair afterwards. He's not a yeller historically, so this is new, and I said new med gaps can do this, don't read it as your true self. Next session Monday, and I want him to log the foggy days so we have data. Also I owe him a note for work, his employer wants documentation of the appointment time. Add to admin pile.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Bupropion is out of stock; the prior authorization expired; client off it five days, foggy and irritable.",
+          "keywords": [
+            "bupropion",
+            "prior authorization",
+            "five days"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Client to call the pharmacy and prescriber's office today; clinician will help escalate if unresolved by Monday.",
+          "keywords": [
+            "prescriber's office",
+            "escalate",
+            "Monday"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "The irritability is scaring the client; he snapped at his kid over nothing.",
+          "keywords": [
+            "irritability",
+            "snapped at his kid"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "In-the-moment plan: leave the room, name it out loud, repair afterwards.",
+          "keywords": [
+            "leaving the room",
+            "repair"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "Medication gaps can produce this; clinician advised not reading it as his true self.",
+          "keywords": [
+            "med gaps",
+            "true self"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "next_focus",
+          "statement": "Client to log the foggy days before Monday.",
+          "keywords": [
+            "log the foggy days",
+            "Monday"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Clinician owes a note for work documenting the appointment time.",
+          "keywords": [
+            "note for work",
+            "appointment time"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Bupropion XL 300 mg was restarted by the prescriber.",
+          "section": "plan",
+          "why_plausible": "A med-gap story tempts a restart with numbers; the recap leaves the fix to the prescriber."
+        },
+        {
+          "statement": "Irritability attributed to intermittent explosive disorder.",
+          "section": "assessment",
+          "why_plausible": "Anger outbursts cue a disorder label; the clinician attributed it to the medication gap."
+        },
+        {
+          "statement": "Client said, 'I'm turning into my father.'",
+          "section": "subjective",
+          "why_plausible": "Irritability tempts an inheritance quote; his words were about it scaring him."
+        },
+        {
+          "statement": "Client reported thoughts of driving off the road.",
+          "section": "subjective",
+          "why_plausible": "Distress and medication changes tempt a risk line; none was reported."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-105",
+      "transcript": "Ines, and the anniversary is coming, three years since Mateo died, and she's been dreading it for weeks, she said it's like a countdown she can't stop watching. We talked about the day itself, what she wants it to look like instead of waiting for it to hit her. She's thinking of cooking his arroz con pollo recipe with her daughter, and visiting the cemetery in the morning, and I said both of those sound like the right shape, ritual instead of ambush. The guilt stuff came up again, the hospital decision, and I didn't argue with it, just let it sit and asked what Mateo would say to her about it, and she laughed through tears, said he'd tell her to stop being dramatic and eat something. So, grief with humor in it. Next session we do the letter to him, the one she's been avoiding. Also she asked to move to every other week in January, budget stuff, and I said yes, we'll review it then. Admin: change her recurring slot.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "The third anniversary of her husband Mateo's death is coming and she has been dreading it.",
+          "keywords": [
+            "anniversary",
+            "Mateo",
+            "dreading"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "She plans to cook his arroz con pollo with her daughter and visit the cemetery in the morning.",
+          "keywords": [
+            "arroz con pollo",
+            "cemetery",
+            "daughter"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "Clinician supported building ritual rather than waiting for the day to ambush her.",
+          "keywords": [
+            "ritual",
+            "ambush"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Guilt about the hospital decision resurfaced; she imagined Mateo telling her to stop being dramatic and eat something.",
+          "keywords": [
+            "hospital decision",
+            "stop being dramatic"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "Grief presented with humor alongside tears.",
+          "keywords": [
+            "humor",
+            "tears"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "next_focus",
+          "statement": "Next session will do the letter to him that she has been avoiding.",
+          "keywords": [
+            "the letter to him",
+            "avoiding"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Client requested every other week starting January for budget reasons; review then.",
+          "keywords": [
+            "every other week",
+            "January",
+            "budget"
+          ]
+        },
+        {
+          "id": "f8",
+          "section": "plan",
+          "statement": "Admin: change her recurring slot.",
+          "keywords": [
+            "recurring slot",
+            "Admin"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client said, 'I wish I had died instead of him.'",
+          "section": "subjective",
+          "why_plausible": "Survivor guilt tempts this quote; her actual words were about the hospital decision and his teasing."
+        },
+        {
+          "statement": "Client reported she no longer sees a reason to continue.",
+          "section": "subjective",
+          "why_plausible": "Anniversary dread cues a risk line; none was disclosed."
+        },
+        {
+          "statement": "Prolonged grief disorder noted in the assessment.",
+          "section": "assessment",
+          "why_plausible": "A three-year anniversary cues that diagnosis; the clinician documented ritual and guilt themes instead."
+        },
+        {
+          "statement": "Client's sleep aid was increased to 10 mg.",
+          "section": "objective",
+          "why_plausible": "Grief recaps often accumulate sleep-med detail; none appears here."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-106",
+      "transcript": "Sam, and we did the planner thing again, third week, and he actually used it four out of seven days, which is the best run yet, so we spent time on what worked on those days instead of the misses. Turns out the days he used it were the days he wrote in it the night before, not the morning, so that's the experiment now, night-before planning, ten minutes max. He also told me he's been avoiding his inbox and it's at two hundred unread, which is stressing him, so we broke that down, twenty minutes, oldest first, archive anything over a month. Small stuff but he left lighter. Also, admin note for me: I'm three notes behind after this week and it's making me sloppy, so Friday morning is a catch-up block, no clients, just notes and billing. And I need to reschedule his session the week of the conference, he's flexible, so email him the two options.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client used the planner four out of seven days, his best run yet.",
+          "keywords": [
+            "planner",
+            "four out of seven",
+            "best run"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "assessment",
+          "statement": "Planner use followed night-before writing, so the experiment is night-before planning capped at ten minutes.",
+          "keywords": [
+            "night-before planning",
+            "ten minutes max"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client has been avoiding his inbox, now at two hundred unread, which is stressing him.",
+          "keywords": [
+            "inbox",
+            "two hundred unread"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Inbox plan: twenty minutes, oldest first, archive anything over a month.",
+          "keywords": [
+            "oldest first",
+            "archive"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Client left lighter after working the small stuff.",
+          "keywords": [
+            "left lighter",
+            "Small stuff"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Clinician is three notes behind; Friday morning is a catch-up block for notes and billing.",
+          "keywords": [
+            "three notes behind",
+            "Friday morning",
+            "catch-up block"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Client's conference-week session needs rescheduling; email him the two options.",
+          "keywords": [
+            "conference",
+            "two options"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client meets criteria for attention deficit hyperactivity disorder, combined type.",
+          "section": "assessment",
+          "why_plausible": "Planner struggles cue ADHD; none was assessed here."
+        },
+        {
+          "statement": "Started methylphenidate 10 mg twice daily.",
+          "section": "plan",
+          "why_plausible": "Executive-function work tempts a stimulant line; no medication was discussed."
+        },
+        {
+          "statement": "Sessions will move to twice weekly for skills practice.",
+          "section": "plan",
+          "why_plausible": "Skills work tempts a frequency bump; none was agreed."
+        },
+        {
+          "statement": "Client said, 'I'm hopeless with systems.'",
+          "section": "subjective",
+          "why_plausible": "Planner misses tempt a self-critical quote; he actually had his best run."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-107",
+      "transcript": "Wren asked for a copy of her records today, wants to read them, which is her right and I said absolutely, I'll send everything except anything that could hurt her to read and anything about other people, and we'll go through it together in a session if she wants. Then we actually read one note together, the one from March, and she cried because it said she was making progress, and she'd forgotten that was in there. Good session on the strength stuff after that, what she's survived, the move, the job, the divorce. She's tougher than she thinks. Plan: records request in writing, I have thirty days, I'll do it next week, and we process whatever comes up. Also flag: her old therapist's notes aren't mine to release, I need to explain that carefully. Next session Thursday. And I still owe her the superbill for her insurance, third reminder to myself.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "plan",
+          "statement": "Client requested her records; clinician will release them on a request in writing, excluding anything harmful or about other people.",
+          "keywords": [
+            "request in writing",
+            "other people"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "objective",
+          "statement": "One March note was read together; it described her progress and made her cry.",
+          "keywords": [
+            "March",
+            "progress",
+            "cried"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Strengths reviewed: the move, the job, the divorce.",
+          "keywords": [
+            "the move",
+            "the job",
+            "the divorce"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "assessment",
+          "statement": "Clinician noted she is tougher than she thinks.",
+          "keywords": [
+            "tougher than she thinks",
+            "survived"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Clinician has thirty days and will complete the request next week.",
+          "keywords": [
+            "thirty days",
+            "next week"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "The old therapist's notes are not hers to release; this needs careful explanation.",
+          "keywords": [
+            "old therapist's notes",
+            "release"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Next session Thursday; the superbill is still owed.",
+          "keywords": [
+            "superbill",
+            "Thursday"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Notes describe borderline personality disorder.",
+          "section": "assessment",
+          "why_plausible": "Intense-sounding histories cue that label; no diagnosis appears in the recap."
+        },
+        {
+          "statement": "Client said, 'I want to know everything you've written about me.'",
+          "section": "subjective",
+          "why_plausible": "Records requests tempt a blanket quote; she asked to read them and then engaged with one note."
+        },
+        {
+          "statement": "Records will be released within seven days.",
+          "section": "plan",
+          "why_plausible": "Release timelines vary and tempt a compressed deadline; the clinician stated thirty days."
+        },
+        {
+          "statement": "The March note documented a suicide attempt.",
+          "section": "objective",
+          "why_plausible": "Dramatic chart content is tempting; the March note actually recorded progress."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-108",
+      "transcript": "Jonas, and the big thing is he wants his partner to come in, not for couples work exactly, he said he wants her to hear it from me that his depression is real and not laziness, which, heavy. We talked about what that request is really about, him wanting a witness, and I said I can do one joint session focused on psychoeducation, but not as a fix-it for the relationship, and if they need couples work that's a different referral, and I gave him two names. He's been on the trazodone for sleep, it's helping, he's getting six hours instead of four, still groggy in the morning but worth it. The shame piece took most of the hour, the 'lazy' word, where he learned it, his dad, of course. Plan: joint session in two weeks if she agrees, he asks her this weekend, and we keep working the shame stuff individually. Admin: I need a bigger room for the joint session, book the room with the couch.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client wants his partner to hear from the clinician that his depression is real and not laziness.",
+          "keywords": [
+            "partner",
+            "laziness",
+            "witness"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "One joint session for psychoeducation is agreed, not couples work; two referral names were given for that.",
+          "keywords": [
+            "psychoeducation",
+            "two names"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Trazodone is helping sleep: six hours instead of four, groggy in the morning but worth it.",
+          "keywords": [
+            "trazodone",
+            "six hours",
+            "groggy"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "assessment",
+          "statement": "The word 'lazy' and its shame took most of the hour, traced to his dad.",
+          "keywords": [
+            "shame piece",
+            "his dad"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Joint session in two weeks if she agrees; he asks her this weekend.",
+          "keywords": [
+            "two weeks",
+            "this weekend"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "next_focus",
+          "statement": "Individual work continues on the shame stuff.",
+          "keywords": [
+            "shame stuff",
+            "individually"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Admin: book the room with the couch for the joint session.",
+          "keywords": [
+            "room with the couch",
+            "book"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Trazodone increased to 100 mg nightly.",
+          "section": "objective",
+          "why_plausible": "A working sleep med tempts a titration line; no dose was stated."
+        },
+        {
+          "statement": "Client meets criteria for major depressive disorder, moderate.",
+          "section": "assessment",
+          "why_plausible": "The word depression tempts a formal diagnosis; none was made."
+        },
+        {
+          "statement": "Partner said, 'He just needs to try harder.'",
+          "section": "subjective",
+          "why_plausible": "The laziness theme tempts a partner quote; the partner has not attended and no quote exists."
+        },
+        {
+          "statement": "Client disclosed he had stopped taking his medication entirely.",
+          "section": "subjective",
+          "why_plausible": "Nonadherence is a common insert; the recap says the opposite, that trazodone is helping."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-109",
+      "transcript": "Tessa, and I need to write this one carefully because it was heavy. She came in and told me she'd scratched her arm again, twice since we last met, not deep, but again, and she was ashamed telling me, kept apologizing. We went through it without flinching, what was happening right before, both times it was after the argument with her mom about the phone, and we mapped the sequence: argument, bathroom, urge, scratch, shame, hide. The good news, she told her friend first this time, which is new, so the hiding is cracking. We rebuilt the safety plan, the ice, the marker thing, call her friend, and I asked about worse, she said no, she hasn't wanted to die, it's the pressure, it comes out on her skin. I believe her, and I said so. I want her mom in for a session, not to disclose the scratching, just the communication stuff, Tessa gets to decide what's shared. Next session Monday. Also I texted her the crisis line again, no reply needed.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client scratched her arm again, twice since the last session, not deep, and felt ashamed telling the clinician.",
+          "keywords": [
+            "scratched her arm",
+            "twice",
+            "ashamed"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "assessment",
+          "statement": "Both episodes followed arguments with her mom about the phone; sequence mapped: argument, bathroom, urge, scratch, shame, hide.",
+          "keywords": [
+            "argument with her mom",
+            "phone",
+            "urge"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "She told her friend first this time, which the clinician framed as the hiding cracking.",
+          "keywords": [
+            "told her friend first",
+            "hiding is cracking"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Safety plan rebuilt: ice, the marker thing, call her friend.",
+          "keywords": [
+            "ice",
+            "marker thing",
+            "call her friend"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "objective",
+          "statement": "Client said she has not wanted to die; it is pressure that comes out on her skin.",
+          "keywords": [
+            "hasn't wanted to die",
+            "pressure",
+            "skin"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Mom invited for a session on the communication stuff, without disclosing the scratching; client decides what is shared.",
+          "keywords": [
+            "communication stuff",
+            "decide what's shared"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Clinician texted the crisis line again, no reply needed.",
+          "keywords": [
+            "crisis line",
+            "no reply needed"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client reported a suicide attempt over the weekend.",
+          "section": "subjective",
+          "why_plausible": "Self-harm content tempts escalation; she explicitly denied wanting to die."
+        },
+        {
+          "statement": "Client meets criteria for borderline personality disorder.",
+          "section": "assessment",
+          "why_plausible": "Self-harm and family conflict cue that label; the clinician used no diagnosis."
+        },
+        {
+          "statement": "Started fluoxetine 20 mg.",
+          "section": "plan",
+          "why_plausible": "A heavy session tempts a medication line; none was discussed."
+        },
+        {
+          "statement": "Client said, 'I do it because I deserve the pain.'",
+          "section": "subjective",
+          "why_plausible": "Shame content tempts an explanatory quote; her sequence was argument-driven."
+        }
+      ],
+      "risk_phrases": [
+        "she'd scratched her arm again",
+        "she hasn't wanted to die",
+        "the pressure, it comes out on her skin"
+      ]
+    },
+    {
+      "id": "r-110",
+      "transcript": "Okay, administrative disaster first. I sent a scheduling text to the wrong number, meant for one client, landed with another, no clinical content, thank god, just 'see you Thursday at four,' but still, wrong person got a text with a first name in it. I caught it in two minutes, sent a follow-up, 'please disregard, sent in error,' and I logged it in my incident file the way my supervisor taught me, what happened, when, what I did. Then the session with Nadia was fine, we picked up the flatness thing from last week, she raised it with her psychiatrist like we planned and they're watching it, no changes yet. She said the mood log is helping her see the flat days cluster around her cycle, which is a useful pattern. Next session Tuesday, in person, and I've now added a rule to my phone, never text from the couch, only from the desk where the chart is open. Also: recheck every number before hitting send, every time.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "A scheduling text with a first name was sent to the wrong number; no clinical content was included.",
+          "keywords": [
+            "wrong number",
+            "no clinical content"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "A correction was sent two minutes later; the incident was logged with what happened and what was done.",
+          "keywords": [
+            "incident file",
+            "two minutes"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client raised the flatness with her psychiatrist; it is being watched with no changes yet.",
+          "keywords": [
+            "psychiatrist",
+            "watching it"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "The mood log shows flat days clustering around her cycle.",
+          "keywords": [
+            "mood log",
+            "flat days",
+            "cycle"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Next session is Tuesday, in person.",
+          "keywords": [
+            "Tuesday",
+            "in person"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "New rule: never text from the couch, only from the desk where the chart is open.",
+          "keywords": [
+            "never text from the couch",
+            "the desk"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Recheck every number before hitting send.",
+          "keywords": [
+            "recheck every number",
+            "hitting send"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "The misdirected text included session content and required a breach report to the state board.",
+          "section": "objective",
+          "why_plausible": "Wrong-recipient texts often escalate; this one carried no clinical content and went to the incident file."
+        },
+        {
+          "statement": "Sessions will move to monthly given her improvement.",
+          "section": "next_focus",
+          "why_plausible": "Steady improvement tempts a frequency change; the schedule is unchanged."
+        },
+        {
+          "statement": "Premenstrual dysphoric disorder noted in the assessment.",
+          "section": "assessment",
+          "why_plausible": "A cycle-linked mood pattern cues that diagnosis; the clinician only noted the pattern."
+        },
+        {
+          "statement": "Client said, 'I feel like a zombie on these meds.'",
+          "section": "subjective",
+          "why_plausible": "Mood-log talk tempts a med complaint quote; the flatness is being watched by the psychiatrist, no changes yet."
+        },
+        {
+          "statement": "Escitalopram raised to 15 mg.",
+          "section": "plan",
+          "why_plausible": "Med-watch stories tempt a number; none was stated."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-111",
+      "transcript": "Mei, and she's ready to finish, or she thinks she is, and honestly I agree, the panic stuff has been quiet for three months, she's using the tools, her partner notices, and she said she wants to try life without the training wheels, her words. So we're planning the ending, four more sessions, spaced out, two weeks, then three weeks, then a check-in a month after, and I said the door stays open, no drama, just come back if it gets loud again. She laughed. We did spend a chunk of it on the fear of finishing, which is its own thing, who is she without the weekly hour, and I normalized that, most people feel it. Plan: I'll write the ending plan into the chart, and she takes the panic worksheets. Admin: that frees her Tuesday slot, which means I can finally call the two people on my waitlist, in order, no queue-jumping. And I should send her a closing summary letter when we're done, remind me.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client is ready to finish; panic has been quiet for three months and she is using the tools.",
+          "keywords": [
+            "ready to finish",
+            "three months",
+            "tools"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Ending plan: four more sessions spaced to two weeks, then three weeks, then a check-in a month after.",
+          "keywords": [
+            "four more sessions",
+            "check-in a month after"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "The fear of finishing came up: who is she without the weekly hour; clinician normalized it.",
+          "keywords": [
+            "fear of finishing",
+            "weekly hour"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "assessment",
+          "statement": "Clinician agrees with the ending and framed it as the door staying open.",
+          "keywords": [
+            "door stays open",
+            "agree"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "The ending plan goes into the chart; client takes the panic worksheets.",
+          "keywords": [
+            "ending plan",
+            "panic worksheets"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Her Tuesday slot frees up; clinician will call the two waitlist people in order.",
+          "keywords": [
+            "Tuesday slot",
+            "waitlist",
+            "in order"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Send a closing summary letter when we're done.",
+          "keywords": [
+            "closing summary letter",
+            "when we're done"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Sessions end immediately and a follow-up is scheduled in six months.",
+          "section": "plan",
+          "why_plausible": "Endings tempt a single date; the actual plan is a gradual taper."
+        },
+        {
+          "statement": "Panic disorder considered in remission.",
+          "section": "assessment",
+          "why_plausible": "Improvement language tempts a formal remission statement; none was documented."
+        },
+        {
+          "statement": "Client said, 'I'm afraid I'll fall apart without you.'",
+          "section": "subjective",
+          "why_plausible": "Ending anxiety tempts a dependent quote; she laughed and talked about training wheels."
+        },
+        {
+          "statement": "Client reported a return of panic attacks last week.",
+          "section": "subjective",
+          "why_plausible": "Termination recaps tempt a relapse check; the recap says panic has been quiet for three months."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-112",
+      "transcript": "Hugo, and the checking is down, he's at four door checks instead of the old twenty, which he's proud of, and I made sure we sat in that pride for a minute instead of jumping to the next goal. The fluoxetine is at his steady dose now, eight weeks, and the only complaint is the appetite thing, he's up a bit of weight, and he asked if that's the price, and I said it's a conversation for his prescriber, there are options, don't white-knuckle it silently. We did the exposure list ranking, ten items, and he put the stove one at seven, which honestly is braver than I'd have guessed. Homework: two stove checks max, no re-checking the list after, and he logs the urge level before and after. Next session we start at the middle of the list, not the top, I told him why, start where you can win. Also, he asked me to write a note for his landlord about the noise complaint, unrelated, I said that's outside what I can do, gently, and he took it fine.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Checking is down to four door checks from the old twenty; the clinician sat in the pride before moving on.",
+          "keywords": [
+            "four door checks",
+            "twenty",
+            "proud"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Fluoxetine is steady at eight weeks; the only complaint is appetite and some weight gain, referred to the prescriber.",
+          "keywords": [
+            "fluoxetine",
+            "eight weeks",
+            "appetite"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "Exposure list ranked with ten items; the stove one placed at seven.",
+          "keywords": [
+            "exposure list",
+            "ten items",
+            "stove"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Homework: two stove checks max, no re-checking the list, urge level logged before and after.",
+          "keywords": [
+            "two stove checks",
+            "urge level"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "next_focus",
+          "statement": "Next session starts at the middle of the list, not the top, to start where he can win.",
+          "keywords": [
+            "middle of the list",
+            "win"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Clinician declined the landlord note about the noise complaint, gently.",
+          "keywords": [
+            "landlord",
+            "noise complaint"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Client took the refusal fine.",
+          "keywords": [
+            "took it fine",
+            "outside what I can do"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Fluoxetine increased from 20 mg to 40 mg to target residual checking.",
+          "section": "plan",
+          "why_plausible": "Residual symptoms tempt a dose increase; the recap says the dose is steady and appetite is the only issue."
+        },
+        {
+          "statement": "Obsessive-compulsive disorder confirmed with a Yale-Brown score of 24.",
+          "section": "assessment",
+          "why_plausible": "OCD-shaped content tempts a scale score; none was administered in the recap."
+        },
+        {
+          "statement": "Exposure practice assigned twice daily.",
+          "section": "plan",
+          "why_plausible": "ERP homework tempts a denser schedule; the assignment is two checks max with a log."
+        },
+        {
+          "statement": "Client said, 'I'll never be normal.'",
+          "section": "subjective",
+          "why_plausible": "OCD distress tempts a despair quote; he was proud of his progress."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-113",
+      "transcript": "Kofi, and it was one of those sessions where the first half was logistics, he lost his job at the warehouse, and the second half was the real thing. He's been drinking again, most nights, he said six or seven beers, sometimes more, since the layoff, and he knows it's a spiral, his words. Then near the end he said it, he said some mornings he wonders what the point of any of it is, and he doesn't mean it like that, but I didn't let it slide. I asked, directly, about hurting himself, and he said no, he's not there, but he's been there before, years ago, and that's the part that matters, so we did a safety plan, his cousin Deja is the call, and no alcohol as the first line, because the drinking is the fuel. He agreed to AA, I gave him the meeting list, one tonight if he can. I asked him to text me tomorrow. Referral to the GP for the drinking, that's the other piece. I'm documenting all of it.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client lost his warehouse job; drinking escalated to six or seven beers most nights since the layoff.",
+          "keywords": [
+            "warehouse",
+            "six or seven beers",
+            "layoff"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client said some mornings he wonders what the point of any of it is; clinician asked directly about hurting himself.",
+          "keywords": [
+            "point of any of it",
+            "hurting himself",
+            "directly"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Client denied current intent but acknowledged having been there before, years ago.",
+          "keywords": [
+            "not there",
+            "been there before"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "Safety plan: cousin Deja is the call and no alcohol as the first line because the drinking is the fuel.",
+          "keywords": [
+            "cousin Deja",
+            "no alcohol",
+            "fuel"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Client agreed to AA; meeting list given, one tonight if possible.",
+          "keywords": [
+            "AA",
+            "meeting list",
+            "tonight"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Client asked to text tomorrow; GP referral for the drinking is the other piece.",
+          "keywords": [
+            "text me tomorrow",
+            "Referral to the GP"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Clinician is documenting all of it.",
+          "keywords": [
+            "documenting all of it",
+            "spiral"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client disclosed a plan to end his life this week.",
+          "section": "subjective",
+          "why_plausible": "Risk screening tempts escalation; he denied intent and the safety plan was protective."
+        },
+        {
+          "statement": "Started naltrexone 50 mg for cravings.",
+          "section": "plan",
+          "why_plausible": "Alcohol work often pairs with naltrexone; the recap only mentions the GP referral."
+        },
+        {
+          "statement": "Alcohol use disorder, severe, diagnosed at this session.",
+          "section": "assessment",
+          "why_plausible": "The drinking description cues the diagnosis; the clinician documented behavior and referred out."
+        },
+        {
+          "statement": "Client said, 'I drink because my father drank.'",
+          "section": "subjective",
+          "why_plausible": "Drinking stories tempt an origin quote; his words were about the spiral since the layoff."
+        }
+      ],
+      "risk_phrases": [
+        "some mornings he wonders what the point of any of it is",
+        "he's not there",
+        "he's been there before"
+      ]
+    },
+    {
+      "id": "r-114",
+      "transcript": "Nate's back after three months, he ghosted in July, no drama, just life, and he called last week to restart. So the first ten minutes was housekeeping, new insurance card, I need to verify benefits before next week, and the intake update, nothing major changed, no new providers, meds the same. Then the real stuff: the ghosting itself, why he disappeared, and he said he felt like he only deserved therapy when he was falling apart, and once he was okay-ish he bailed, which, that's the work right there. We sat with that, the deserving thing, where it comes from, his family, the scoreboard he keeps. I said the door works both ways, he can come when it's quiet too, and he got a little teary, in a good way. Plan: re-verify insurance this week, restart Tuesdays, and he takes the values card sort home, bring it back filled. Also I need to update his intake packet signature, it's expired.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Client returned after a three-month gap; housekeeping covered a new insurance card and the intake update.",
+          "keywords": [
+            "three months",
+            "insurance card",
+            "intake update"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Benefits need re-verification before next week.",
+          "keywords": [
+            "verify benefits",
+            "next week"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "assessment",
+          "statement": "Client disappears when he is okay-ish, believing he only deserves therapy when falling apart.",
+          "keywords": [
+            "deserved therapy",
+            "falling apart",
+            "bailed"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "The deserving theme traces to his family and a scoreboard he keeps.",
+          "keywords": [
+            "scoreboard",
+            "his family"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "The door works both ways; he can come when it is quiet too.",
+          "keywords": [
+            "both ways",
+            "quiet"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Sessions restart Tuesdays; he takes the values card sort home to fill.",
+          "keywords": [
+            "Tuesdays",
+            "values card sort"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "The intake packet signature is expired and needs updating.",
+          "keywords": [
+            "intake packet",
+            "expired"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client meets criteria for avoidant personality disorder.",
+          "section": "assessment",
+          "why_plausible": "Withdrawal patterns cue that label; none was assessed."
+        },
+        {
+          "statement": "Sessions will run twice weekly until the end of the year.",
+          "section": "plan",
+          "why_plausible": "A returning client tempts a denser schedule; the plan is Tuesdays as before."
+        },
+        {
+          "statement": "Client said, 'I only matter when I'm broken.'",
+          "section": "subjective",
+          "why_plausible": "The deserving theme tempts a tidy quote; his actual words were about bailing once okay-ish."
+        },
+        {
+          "statement": "His sertraline was restarted at 50 mg.",
+          "section": "plan",
+          "why_plausible": "Returning-client housekeeping tempts a medication line; meds were only said to be the same."
+        },
+        {
+          "statement": "Client mentioned he had stopped eating during the gap.",
+          "section": "subjective",
+          "why_plausible": "A three-month gap tempts a deterioration detail; none was reported."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-115",
+      "transcript": "First session with Paolo, intake, and he came in with the questionnaire half done, which is fine, we went through the rest together, sleep five-ish hours, appetite okay, no meds, drinks Fridays only, family history of depression on his mom's side, he volunteered that. The presenting thing is work, he's a chef, the kitchen is brutal, and he's snapping at the line cooks and then going home and hating himself about it, his words, the shame loop. We did the basics, what he wants out of this, he said he wants to stop being two people, work Paolo and real Paolo, which is a good line and we'll come back to it. I gave him the fee rundown, sliding scale available, he took the middle option, and the cancellation policy, twenty-four hours, he read it and signed everything. Plan: he does the week log, sleep and snapping triggers, and we meet Tuesday. I need to enter his intake in the system before then. Good first session, honestly.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Intake completed; questionnaire finished together; sleep about five-ish hours, appetite okay, no meds, drinks Fridays only.",
+          "keywords": [
+            "five-ish hours",
+            "no meds",
+            "Fridays"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Family history of depression on his mom's side, volunteered by the client.",
+          "keywords": [
+            "family history of depression",
+            "his mom's side"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client is a chef snapping at the line cooks and then going home hating himself, described as the shame loop.",
+          "keywords": [
+            "chef",
+            "line cooks",
+            "shame loop"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Client wants to stop being two people: work Paolo and real Paolo.",
+          "keywords": [
+            "two people",
+            "work Paolo",
+            "real Paolo"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Fees: sliding scale offered, client chose the middle option; cancellation policy of twenty-four hours signed.",
+          "keywords": [
+            "sliding scale",
+            "middle option",
+            "twenty-four hours"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Homework: week log of sleep and snapping triggers.",
+          "keywords": [
+            "week log",
+            "snapping triggers"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Next session Tuesday; the intake must be entered in the system before then.",
+          "keywords": [
+            "Tuesday",
+            "intake in the system"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client meets criteria for intermittent explosive disorder.",
+          "section": "assessment",
+          "why_plausible": "Workplace irritability cues it; the clinician framed a shame loop instead."
+        },
+        {
+          "statement": "Started sertraline 25 mg at intake.",
+          "section": "plan",
+          "why_plausible": "An intake tempts a medication line; the recap says no meds."
+        },
+        {
+          "statement": "Client said, 'I'm just like my mother.'",
+          "section": "subjective",
+          "why_plausible": "Family history tempts a resemblance quote; he volunteered the history, nothing more."
+        },
+        {
+          "statement": "Client disclosed thoughts of self-harm after shifts.",
+          "section": "subjective",
+          "why_plausible": "Shame content tempts a risk line; none was disclosed."
+        },
+        {
+          "statement": "Sessions scheduled weekly for a year.",
+          "section": "plan",
+          "why_plausible": "Intakes tempt a stated course length; only Tuesday was set."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-116",
+      "transcript": "Ellie, and we had the coordination call with her prescriber before the session, thirty minutes, which she consented to, so that's on the clock, and the upshot is they're trying methylphenidate, starting low, and they want my read on focus at work and the afternoon crash, so I'm logging that from now on. In the session proper, the crash is real, she's useless by three, and we're working around it, hard tasks in the morning, admin in the afternoon, and she's experimenting with a walk at lunch. She's also noticing the meds make her quieter in meetings, which she doesn't love, she's a talker, and I said bring that to the prescriber, don't sit on it. The bigger theme is she's been calling herself lazy for thirty years and the diagnosis is rewriting that story, so we're being careful with it, a diagnosis shouldn't become a personality. Homework: the focus log, three times a day, one line each. Next session we look at the log together. Admin: send the prescriber a summary note by Friday, with the consent form in the file.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Thirty-minute coordination call with the prescriber, with consent; methylphenidate being tried, starting low.",
+          "keywords": [
+            "coordination call",
+            "methylphenidate",
+            "consented"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "plan",
+          "statement": "Clinician will log focus at work and the afternoon crash for the prescriber.",
+          "keywords": [
+            "afternoon crash",
+            "focus at work"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "Client is useless by three; plan is hard tasks in the morning, admin in the afternoon, walk at lunch.",
+          "keywords": [
+            "useless by three",
+            "hard tasks",
+            "walk at lunch"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Medication makes her quieter in meetings, which she dislikes and will raise with the prescriber.",
+          "keywords": [
+            "quieter in meetings",
+            "talker"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "assessment",
+          "statement": "A thirty-year story of calling herself lazy is being rewritten; clinician cautions a diagnosis should not become a personality.",
+          "keywords": [
+            "thirty years",
+            "personality",
+            "lazy"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Homework: focus log three times a day, one line each.",
+          "keywords": [
+            "focus log",
+            "one line"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Prescriber summary note by Friday; consent form in the file.",
+          "keywords": [
+            "summary note",
+            "Friday",
+            "consent form"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Methylphenidate titrated to 20 mg three times daily.",
+          "section": "plan",
+          "why_plausible": "A med trial tempts specific numbers; the recap says starting low."
+        },
+        {
+          "statement": "ADHD, inattentive type, confirmed by a QB test.",
+          "section": "assessment",
+          "why_plausible": "A new diagnosis tempts test-score detail; no testing is mentioned."
+        },
+        {
+          "statement": "Sessions will move to monthly now that medication has started.",
+          "section": "next_focus",
+          "why_plausible": "Medication starts tempt a frequency change; none was agreed."
+        },
+        {
+          "statement": "Client said, 'This pill is changing who I am.'",
+          "section": "subjective",
+          "why_plausible": "Identity and diagnosis talk tempts a dramatic quote; she described feeling quieter in meetings."
+        },
+        {
+          "statement": "Client reported palpitations and chest pain.",
+          "section": "objective",
+          "why_plausible": "Stimulant starts tempt side-effect reporting; none was reported."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-117",
+      "transcript": "Clara, and she opened with money, she wants to drop to every other week because the budget is tight, and we did the honest version, what's the actual number, and it turns out it's doable if she comes monthly and keeps the sliding scale, so that's what we agreed, monthly for now, review in March. I made sure we didn't spend the whole session on the spreadsheet, so we went to the actual thing, the fight with her brother about the house, the inheritance stuff, and she's carrying a lot of anger she doesn't know what to do with, so we started there, what anger wants, where she feels it in her body. She said her jaw is always tight, which, noted. Plan: monthly cadence, jaw awareness in between, and she writes the unsent letter to her brother, no sending, just the writing. Next session is three weeks out, I put it in the calendar. Admin: adjust her recurring billing to monthly and note the scale review in March.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "plan",
+          "statement": "Client opened with money; the agreement is monthly at the sliding scale, reviewed in March, rather than every other week.",
+          "keywords": [
+            "every other week",
+            "monthly",
+            "March"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Anger about the fight with her brother over the house and inheritance is central.",
+          "keywords": [
+            "her brother",
+            "house",
+            "inheritance"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "Work began on what anger wants and where she feels it in her body.",
+          "keywords": [
+            "what anger wants",
+            "her body"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Client reports her jaw is always tight.",
+          "keywords": [
+            "jaw",
+            "tight"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Homework: write the unsent letter to her brother, no sending.",
+          "keywords": [
+            "unsent letter",
+            "no sending"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "next_focus",
+          "statement": "Next session is three weeks out, already in the calendar.",
+          "keywords": [
+            "three weeks",
+            "calendar"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "plan",
+          "statement": "Admin: recurring billing adjusted to monthly; scale review noted for March.",
+          "keywords": [
+            "recurring billing",
+            "scale review"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client will pause therapy entirely until the finances recover.",
+          "section": "plan",
+          "why_plausible": "Money conversations tempt a stop-or-continue binary; they actually negotiated monthly."
+        },
+        {
+          "statement": "Client said, 'I'll never forgive my brother.'",
+          "section": "subjective",
+          "why_plausible": "Inheritance anger tempts a hard quote; her words were about not knowing what to do with the anger."
+        },
+        {
+          "statement": "Somatic symptom disorder considered in the assessment.",
+          "section": "assessment",
+          "why_plausible": "The jaw tightness cue could tempt a somatic framing; the clinician only noted body awareness."
+        },
+        {
+          "statement": "Client made a threat toward her brother during the session.",
+          "section": "subjective",
+          "why_plausible": "Anger content tempts an escalation; none was reported."
+        },
+        {
+          "statement": "Started buspirone 10 mg.",
+          "section": "plan",
+          "why_plausible": "Anxiety-adjacent tension tempts a medication line; none was discussed."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-118",
+      "transcript": "Good day, actually. Tomas, the letter went out Thursday, HR acknowledged it, and the tracking software meetings got shorter, who knows if that's related. Session was light, he's sleeping six hours, the manager conversation went okay, and most of it went to his brother's wedding speech, dreading it in a fun way. Nothing heavy. Next session we outline the speech, he wants to practice it. Letter is closed, done, and I billed the hour. Also I was on time all day, which, for me, is news. That's it.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "The letter went out Thursday and HR acknowledged it; the tracking software meetings got shorter.",
+          "keywords": [
+            "letter went out",
+            "Thursday",
+            "HR"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "subjective",
+          "statement": "Client is sleeping six hours.",
+          "keywords": [
+            "six hours",
+            "sleeping"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "subjective",
+          "statement": "The manager conversation went okay.",
+          "keywords": [
+            "manager conversation",
+            "okay"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "subjective",
+          "statement": "Most of the session went to his brother's wedding speech, dreading it in a fun way.",
+          "keywords": [
+            "brother's wedding speech",
+            "dreading"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "next_focus",
+          "statement": "Next session will outline the speech for practice.",
+          "keywords": [
+            "outline the speech",
+            "practice"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "The letter is closed and the hour was billed.",
+          "keywords": [
+            "billed the hour",
+            "closed"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "The accommodation letter was confirmed by an ADHD diagnosis.",
+          "section": "objective",
+          "why_plausible": "Letter stories tempt a diagnosis reveal; the recap says the letter simply documented engagement."
+        },
+        {
+          "statement": "Sessions will move to monthly.",
+          "section": "next_focus",
+          "why_plausible": "A light session tempts a frequency change; none was agreed."
+        },
+        {
+          "statement": "Client said, 'HR is finally listening.'",
+          "section": "subjective",
+          "why_plausible": "HR acknowledgment tempts a quote; the recap reports it indirectly."
+        },
+        {
+          "statement": "Client reported a panic attack before the HR meeting.",
+          "section": "subjective",
+          "why_plausible": "Workplace stress tempts a symptom event; the session was described as light."
+        }
+      ],
+      "risk_phrases": []
+    },
+    {
+      "id": "r-119",
+      "transcript": "Yuki, and this was the one where she finally said it, the thing she's been circling for three sessions, she has thoughts of hurting the baby, images, sudden, unwanted, and she's been terrified to say it out loud because she thought saying it would make it true. I normalized it hard, this is one of the most common postpartum experiences and it is not the same as wanting to act, and I said it plainly, the thoughts are intrusive, they distress her, which is actually the protective sign, and she cried with relief, said she's been holding it alone for six weeks. We did the full risk screen anyway, no intent, no plan, no voices, she's horrified by the images, which is the right direction. Plan: I'm calling her OB's office tomorrow with her consent, there's a perinatal support group on Thursdays, she'll tell her partner tonight, and we meet twice next week, because this needs density. I told her the thoughts are not her, her reaction to them is who she is. She nodded. Big session.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "subjective",
+          "statement": "Client disclosed sudden, unwanted intrusive images of hurting the baby, held alone for six weeks, terrified saying it would make it true.",
+          "keywords": [
+            "hurting the baby",
+            "six weeks",
+            "make it true"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "assessment",
+          "statement": "Clinician normalized intrusive postpartum thoughts as common and not the same as wanting to act.",
+          "keywords": [
+            "normalized",
+            "wanting to act"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "objective",
+          "statement": "Full risk screen: no intent, no plan, no voices; distress at the images is the protective sign.",
+          "keywords": [
+            "risk screen",
+            "no voices",
+            "protective sign"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "objective",
+          "statement": "Client cried with relief at being able to say it.",
+          "keywords": [
+            "cried with relief",
+            "holding it alone"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Clinician will call the OB's office tomorrow with consent; perinatal support group on Thursdays.",
+          "keywords": [
+            "OB's office",
+            "perinatal support group",
+            "Thursdays"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Client will tell her partner tonight; sessions twice next week because this needs density.",
+          "keywords": [
+            "partner tonight",
+            "twice next week"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "assessment",
+          "statement": "Clinician framed the thoughts as not her; her reaction to them is who she is.",
+          "keywords": [
+            "not her",
+            "reaction"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client reported she had harmed the baby once and feared she would again.",
+          "section": "subjective",
+          "why_plausible": "Harm-related disclosure tempts the worst-case reading; the recap is explicit that no harm occurred and there is no intent."
+        },
+        {
+          "statement": "Postpartum depression with psychotic features diagnosed.",
+          "section": "assessment",
+          "why_plausible": "Intrusive images can be misread as psychosis; the screen found no voices and no intent."
+        },
+        {
+          "statement": "Started sertraline 50 mg.",
+          "section": "plan",
+          "why_plausible": "Postpartum presentations tempt a medication line; none was discussed."
+        },
+        {
+          "statement": "Client said, 'I'm a monster.'",
+          "section": "subjective",
+          "why_plausible": "Shame content tempts this quote; her actual words were about holding it alone."
+        },
+        {
+          "statement": "Client referred to inpatient care.",
+          "section": "plan",
+          "why_plausible": "Risk screening tempts an escalation of care; the plan is outpatient density and support."
+        }
+      ],
+      "risk_phrases": [
+        "thoughts of hurting the baby",
+        "no intent, no plan",
+        "she's been holding it alone for six weeks"
+      ]
+    },
+    {
+      "id": "r-120",
+      "transcript": "Last one of the day, and honestly I'm still chewing on it. Grace didn't come back after the break, no call, nothing, and I found out through the grapevine, her friend is also my client, which I know is messy, that's its own thing, that she moved to a different therapist because mine was 'too structured,' which stings a bit but fair enough, I run a tight session. I processed it in my own supervision slot, the sting, the rejection thing, and Barb was helpful, she said some clients need a different hand and it's not a verdict on my work. I'm sending Grace a closure letter, brief, door open, no pressure, and I'll archive her chart with a note about the transfer. Also her friend, my other client, I need to watch that boundary carefully, no information flows either way, and I should probably name it with her at some point. That's the day. Tomorrow is notes and the insurance portal, and I'm going to bed.",
+      "facts": [
+        {
+          "id": "f1",
+          "section": "objective",
+          "statement": "Client did not return after the break and transferred to another therapist, reportedly finding the work too structured.",
+          "keywords": [
+            "didn't come back",
+            "too structured",
+            "different therapist"
+          ]
+        },
+        {
+          "id": "f2",
+          "section": "assessment",
+          "statement": "Clinician processed the sting in supervision; Barb framed it as needing a different hand, not a verdict.",
+          "keywords": [
+            "sting",
+            "Barb",
+            "not a verdict"
+          ]
+        },
+        {
+          "id": "f3",
+          "section": "plan",
+          "statement": "A brief closure letter will be sent, door open, no pressure; the chart will be archived with a transfer note.",
+          "keywords": [
+            "closure letter",
+            "archive her chart"
+          ]
+        },
+        {
+          "id": "f4",
+          "section": "plan",
+          "statement": "The dual relationship with the friend-client requires careful boundary watching; no information flows either way.",
+          "keywords": [
+            "boundary",
+            "no information flows"
+          ]
+        },
+        {
+          "id": "f5",
+          "section": "plan",
+          "statement": "Clinician should name the dual relationship with the friend-client at some point.",
+          "keywords": [
+            "name it",
+            "some point"
+          ]
+        },
+        {
+          "id": "f6",
+          "section": "plan",
+          "statement": "Tomorrow is notes and the insurance portal.",
+          "keywords": [
+            "notes",
+            "insurance portal"
+          ]
+        },
+        {
+          "id": "f7",
+          "section": "objective",
+          "statement": "Clinician found out about the transfer through the grapevine.",
+          "keywords": [
+            "grapevine",
+            "her friend"
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "statement": "Client said, 'You were too cold for me.'",
+          "section": "subjective",
+          "why_plausible": "The too-structured feedback tempts a harsher quote; the recap reports it indirectly."
+        },
+        {
+          "statement": "Case closed as a treatment failure with borderline features noted.",
+          "section": "assessment",
+          "why_plausible": "Dropouts tempt a pathology framing; the supervisor framed it as fit."
+        },
+        {
+          "statement": "The friend-client disclosed that Grace is in crisis.",
+          "section": "subjective",
+          "why_plausible": "Dual-relationship stories tempt information flow; the recap says none flows either way."
+        },
+        {
+          "statement": "The closure letter will be followed by a six-month check-in call.",
+          "section": "plan",
+          "why_plausible": "Closure letters tempt a follow-up timeline; the door is simply left open."
+        },
+        {
+          "statement": "Her fluoxetine was continued at 40 mg.",
+          "section": "objective",
+          "why_plausible": "Chart-archiving details tempt medication lines; none was mentioned."
+        }
+      ],
+      "risk_phrases": []
+    }
+  ]
+}

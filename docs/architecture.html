@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confidant — where a client's words can go</title>
+  <!--
+    Self-contained: no CDN, no webfonts, no scripts, no external requests.
+    Renders offline from file:// — which is the point of the product it documents.
+    Type stacks are local-first; Inter Tight / Source Serif 4 / IBM Plex Mono
+    are used when installed, with system grotesk / Georgia / ui-monospace fallbacks.
+  -->
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --color-paper:   #fdfaf5;
+      --color-ink:     #171310;
+      --color-muted:   #8a8078;
+      --color-accent:  #c25a44;
+      --color-rule:    #e7ded1;
+      --font-sans:  'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif;
+      --font-serif: 'Source Serif 4', 'Source Serif Pro', Georgia, 'Liberation Serif', 'DejaVu Serif', serif;
+      --font-mono:  'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
+    }
+
+    body {
+      font-family: var(--font-serif);
+      background: var(--color-paper);
+      color: var(--color-ink);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 3.5rem 2rem 2.5rem;
+    }
+
+    .frame { max-width: 1240px; width: 100%; }
+
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      margin-bottom: 0.6rem;
+    }
+
+    h1 {
+      font-family: var(--font-sans);
+      font-size: clamp(1.55rem, 2.2vw + 0.8rem, 2.1rem);
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      line-height: 1.15;
+      color: var(--color-ink);
+      margin-bottom: 1.6rem;
+    }
+
+    /* The SVG holds its readable width (min-width == the viewBox width, so the
+       type ramp is never silently scaled down); this wrapper lets a narrow
+       screen scroll the diagram instead of the whole page. */
+    .diagram-container { width: 100%; overflow-x: auto; }
+    svg { width: 100%; min-width: 1200px; display: block; }
+
+    .caption {
+      font-family: var(--font-serif);
+      font-size: 1.02rem;
+      line-height: 1.65;
+      max-width: 74ch;
+      margin-top: 1.75rem;
+      color: rgba(23, 19, 16, 0.82);
+    }
+    .caption strong { font-weight: 600; }
+
+    .colophon {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--color-muted);
+      margin-top: 1.1rem;
+      padding-top: 0.9rem;
+      border-top: 1px solid var(--color-rule);
+      max-width: 74ch;
+    }
+
+    /* Paper has no scrollbar, so the local scroller would clip instead of
+       scroll. Let the diagram scale down to the sheet: smaller but whole
+       beats sharp but cut off. Must come after the svg rule above — a media
+       query adds no specificity, so a later plain rule would win. */
+    @media print {
+      body { padding: 0; }
+      .diagram-container { overflow-x: visible; }
+      svg { min-width: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <p class="eyebrow">Confidant · Architecture &amp; trust boundary</p>
+    <h1>Where can a client's words go?</h1>
+
+    <div class="diagram-container">
+      <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img"
+           aria-labelledby="architecture-title architecture-desc">
+        <title id="architecture-title">Where can a client's words go?</title>
+        <desc id="architecture-desc">Architecture diagram of Confidant showing a laptop trust boundary that contains a spoken recap, local speech-to-text, a local model, a deterministic guardrail and a local note store, with three labelled paths crossing the boundary: a one-time model download coming in, and two outbound paths — optional Sentry metadata that never carries clinical text, and remote mode, off by default, which sends the transcript to an endpoint.</desc>
+        <defs>
+          <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#8a8078"/>
+          </marker>
+          <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#c25a44"/>
+          </marker>
+          <marker id="arrow-ink" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#171310"/>
+          </marker>
+        </defs>
+
+        <!-- Background -->
+        <rect width="100%" height="100%" fill="#fdfaf5"/>
+
+        <!-- Hairline rules -->
+        <line x1="40" y1="114" x2="1160" y2="114" stroke="#e7ded1" stroke-width="0.8"/>
+        <line x1="40" y1="724" x2="1160" y2="724" stroke="#e7ded1" stroke-width="0.8"/>
+
+        <!-- ============================================================= -->
+        <!-- THE TRUST BOUNDARY — the one accent element that carries the  -->
+        <!-- diagram's whole job: what is inside this laptop vs outside.   -->
+        <!-- ============================================================= -->
+        <rect x="40" y="128" width="776" height="576" rx="8"
+              fill="rgba(194,90,68,0.04)" stroke="#c25a44" stroke-width="2"/>
+
+        <!-- ===================== ARROWS (before boxes) ================= -->
+        <!-- Inside: recap -> speech-to-text -->
+        <line x1="192" y1="232" x2="232" y2="232" stroke="#8a8078" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <!-- Inside: transcript -> local model -->
+        <line x1="384" y1="232" x2="464" y2="232" stroke="#8a8078" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <!-- Inside: model -> guardrail -> store -->
+        <line x1="540" y1="264" x2="540" y2="304" stroke="#8a8078" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <line x1="540" y1="368" x2="540" y2="408" stroke="#8a8078" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <!-- IN (one-time, not accent: accent marks only what leaves) -->
+        <line x1="856" y1="232" x2="616" y2="232" stroke="#171310" stroke-width="1.2" marker-end="url(#arrow-ink)"/>
+        <!-- OUT: Sentry metadata (opt-in, dashed accent) -->
+        <line x1="616" y1="440" x2="856" y2="440" stroke="#c25a44" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrow-accent)"/>
+        <!-- OUT: remote mode — forks from the transcript, off by default -->
+        <path d="M 424,232 V 632 Q 424,640 432,640 H 856"
+              fill="none" stroke="#c25a44" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrow-accent)"/>
+        <circle cx="424" cy="232" r="2.5" fill="#c25a44"/>
+
+        <!-- ===================== ARROW LABELS (masked) ================= -->
+        <rect x="392" y="210" width="64" height="16" rx="2" fill="#fdfaf5"/>
+        <text x="424" y="221" fill="#8a8078" font-size="8" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.06em">TRANSCRIPT</text>
+
+        <rect x="697" y="210" width="78" height="16" rx="2" fill="#fdfaf5"/>
+        <text x="736" y="221" fill="#8a8078" font-size="8" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.06em">DOWNLOAD ONCE</text>
+
+        <rect x="697" y="418" width="78" height="16" rx="2" fill="#fdfaf5"/>
+        <text x="736" y="429" fill="#c25a44" font-size="8" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.06em">METADATA ONLY</text>
+
+        <rect x="352" y="326" width="66" height="16" rx="2" fill="#fdfaf5"/>
+        <text x="414" y="336" fill="#c25a44" font-size="8" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="end" letter-spacing="0.06em">REMOTE MODE</text>
+
+        <rect x="698" y="618" width="76" height="16" rx="2" fill="#fdfaf5"/>
+        <text x="736" y="629" fill="#c25a44" font-size="8" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.06em">OFF BY DEFAULT</text>
+
+        <!-- ===================== NODES: inside the boundary ============ -->
+        <!-- Spoken recap (input) -->
+        <rect x="72" y="200" width="120" height="64" rx="6" fill="#fdfaf5"/>
+        <rect x="72" y="200" width="120" height="64" rx="6" fill="rgba(138,128,120,0.10)" stroke="#8a8078" stroke-width="1"/>
+        <rect x="80" y="208" width="28" height="12" rx="2" fill="transparent" stroke="rgba(138,128,120,0.45)" stroke-width="0.8"/>
+        <text x="94" y="217" fill="#8a8078" font-size="7" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">MIC</text>
+        <text x="132" y="238" fill="#171310" font-size="12" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif" text-anchor="middle">Spoken recap</text>
+        <text x="132" y="254" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle">20 s &#183; microphone</text>
+
+        <!-- Speech-to-text -->
+        <rect x="232" y="200" width="152" height="64" rx="6" fill="#fdfaf5"/>
+        <rect x="232" y="200" width="152" height="64" rx="6" fill="#ffffff" stroke="#171310" stroke-width="1"/>
+        <rect x="240" y="208" width="28" height="12" rx="2" fill="transparent" stroke="rgba(23,19,16,0.35)" stroke-width="0.8"/>
+        <text x="254" y="217" fill="rgba(23,19,16,0.65)" font-size="7" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">STT</text>
+        <text x="308" y="238" fill="#171310" font-size="12" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif" text-anchor="middle">Speech-to-text</text>
+        <text x="308" y="254" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle">faster-whisper &#183; CPU</text>
+
+        <!-- Local model -->
+        <rect x="464" y="200" width="152" height="64" rx="6" fill="#fdfaf5"/>
+        <rect x="464" y="200" width="152" height="64" rx="6" fill="#ffffff" stroke="#171310" stroke-width="1"/>
+        <rect x="472" y="208" width="28" height="12" rx="2" fill="transparent" stroke="rgba(23,19,16,0.35)" stroke-width="0.8"/>
+        <text x="486" y="217" fill="rgba(23,19,16,0.65)" font-size="7" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">LLM</text>
+        <text x="540" y="238" fill="#171310" font-size="12" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif" text-anchor="middle">Local model</text>
+        <text x="540" y="254" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle">gemma 3 1b &#183; 127.0.0.1</text>
+
+        <!-- Guardrail (the decision point: slightly heavier stroke) -->
+        <rect x="464" y="304" width="152" height="64" rx="6" fill="#fdfaf5"/>
+        <rect x="464" y="304" width="152" height="64" rx="6" fill="#ffffff" stroke="#171310" stroke-width="1.2"/>
+        <rect x="472" y="312" width="32" height="12" rx="2" fill="transparent" stroke="rgba(23,19,16,0.35)" stroke-width="0.8"/>
+        <text x="488" y="321" fill="rgba(23,19,16,0.65)" font-size="7" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">RULE</text>
+        <text x="540" y="342" fill="#171310" font-size="12" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif" text-anchor="middle">Guardrail</text>
+        <text x="540" y="358" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle">traces every sentence</text>
+
+        <!-- Local note store -->
+        <rect x="464" y="408" width="152" height="64" rx="6" fill="#fdfaf5"/>
+        <rect x="464" y="408" width="152" height="64" rx="6" fill="rgba(23,19,16,0.05)" stroke="#8a8078" stroke-width="1"/>
+        <rect x="472" y="416" width="24" height="12" rx="2" fill="transparent" stroke="rgba(138,128,120,0.45)" stroke-width="0.8"/>
+        <text x="484" y="425" fill="#8a8078" font-size="7" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">DB</text>
+        <text x="540" y="446" fill="#171310" font-size="12" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif" text-anchor="middle">Local note store</text>
+        <text x="540" y="462" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle">sqlite &#183; export md/html</text>
+
+        <!-- ===================== NODES: outside the boundary =========== -->
+        <!-- Model weights (in) -->
+        <rect x="856" y="196" width="304" height="72" rx="6" fill="#fdfaf5"/>
+        <rect x="856" y="196" width="304" height="72" rx="6" fill="rgba(23,19,16,0.03)" stroke="rgba(23,19,16,0.30)" stroke-width="1"/>
+        <rect x="864" y="204" width="24" height="12" rx="2" fill="transparent" stroke="rgba(23,19,16,0.30)" stroke-width="0.8"/>
+        <text x="876" y="213" fill="rgba(23,19,16,0.60)" font-size="7" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">IN</text>
+        <text x="1008" y="242" fill="#171310" font-size="12" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif" text-anchor="middle">Model weights</text>
+        <text x="1008" y="258" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle">1.0 GB &#183; one-time</text>
+
+        <!-- Sentry (out, opt-in) -->
+        <rect x="856" y="404" width="304" height="72" rx="6" fill="#fdfaf5"/>
+        <rect x="856" y="404" width="304" height="72" rx="6" fill="rgba(194,90,68,0.04)" stroke="rgba(194,90,68,0.65)" stroke-width="1" stroke-dasharray="4,3"/>
+        <rect x="864" y="412" width="28" height="12" rx="2" fill="transparent" stroke="rgba(194,90,68,0.50)" stroke-width="0.8"/>
+        <text x="878" y="421" fill="rgba(194,90,68,0.90)" font-size="7" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">OUT</text>
+        <text x="1008" y="450" fill="#171310" font-size="12" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif" text-anchor="middle">Sentry</text>
+        <text x="1008" y="466" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle">never clinical text</text>
+
+        <!-- Remote endpoint (out, off by default) -->
+        <rect x="856" y="604" width="304" height="72" rx="6" fill="#fdfaf5"/>
+        <rect x="856" y="604" width="304" height="72" rx="6" fill="rgba(194,90,68,0.04)" stroke="rgba(194,90,68,0.65)" stroke-width="1" stroke-dasharray="4,3"/>
+        <rect x="864" y="612" width="28" height="12" rx="2" fill="transparent" stroke="rgba(194,90,68,0.50)" stroke-width="0.8"/>
+        <text x="878" y="621" fill="rgba(194,90,68,0.90)" font-size="7" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">OUT</text>
+        <text x="1008" y="650" fill="#171310" font-size="12" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif" text-anchor="middle">Remote endpoint</text>
+        <text x="1008" y="666" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle">opt-in &#183; sends the transcript</text>
+
+        <!-- Boundary label, on a paper mask over the line -->
+        <rect x="300" y="122" width="256" height="16" rx="2" fill="#fdfaf5"/>
+        <text x="428" y="134" fill="#c25a44" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.08em">THIS LAPTOP &#183; CLINICAL DATA LIVES HERE</text>
+
+        <!-- Outside eyebrow -->
+        <text x="1008" y="180" fill="#8a8078" font-size="8" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" text-anchor="middle" letter-spacing="0.18em">OUTSIDE THE LAPTOP</text>
+
+        <!-- ===================== TITLE BLOCK ========================== -->
+        <text x="40" y="50" fill="#8a8078" font-size="9" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" letter-spacing="0.18em">CONFIDANT &#183; TRUST BOUNDARY</text>
+        <text x="40" y="84" fill="#171310" font-size="24" font-weight="600" font-family="'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif">Where can a client's words go?</text>
+        <text x="40" y="106" fill="rgba(23,19,16,0.72)" font-size="13.5" font-style="italic" font-family="'Source Serif 4', 'Source Serif Pro', Georgia, 'Liberation Serif', 'DejaVu Serif', serif">Everything clinical stays inside by default &#8212; the labelled paths are the only exits.</text>
+
+        <!-- ===================== ANNOTATIONS ========================== -->
+        <g font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="9" fill="rgba(23,19,16,0.75)">
+          <text x="76" y="302">&#9312; the recording is deleted the moment the transcript exists &#8212;</text>
+          <text x="76" y="316">audio never persists; the note is drafted from text alone.</text>
+
+          <text x="636" y="262">&#9313; a model file, downloaded</text>
+          <text x="636" y="276">once &#8212; after that it runs</text>
+          <text x="636" y="290">with the wifi off.</text>
+
+          <text x="456" y="506">&#9314; the model drafts, but deterministic code decides &#8212; a</text>
+          <text x="456" y="520">sentence whose words can't be found is refused, not filed.</text>
+
+          <text x="856" y="498">&#9315; stage, latency, tokens, cost and a random note</text>
+          <text x="856" y="512">id &#8212; the tracing code has no method that accepts text.</text>
+
+          <text x="856" y="554">&#9316; only when you switch it on: the transcript itself is</text>
+          <text x="856" y="568">sent and the note is drafted remotely &#8212; audio, notes</text>
+          <text x="856" y="582">and history stay local.</text>
+        </g>
+
+        <!-- ===================== LEGEND (bottom strip) ================ -->
+        <text x="40" y="746" fill="#8a8078" font-size="8" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace" letter-spacing="0.18em">LEGEND</text>
+
+        <rect x="124" y="736" width="26" height="12" rx="3" fill="none" stroke="#c25a44" stroke-width="1.5"/>
+        <text x="160" y="746" fill="#8a8078" font-size="8.5" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace">TRUST BOUNDARY &#183; THIS LAPTOP</text>
+
+        <line x1="340" y1="742" x2="368" y2="742" stroke="#c25a44" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrow-accent)"/>
+        <text x="376" y="746" fill="#8a8078" font-size="8.5" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace">OPT-IN &#183; LEAVES THE MACHINE</text>
+
+        <line x1="560" y1="742" x2="588" y2="742" stroke="#171310" stroke-width="1.2" marker-end="url(#arrow-ink)"/>
+        <text x="596" y="746" fill="#8a8078" font-size="8.5" font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, 'Liberation Mono', 'DejaVu Sans Mono', monospace">ONE-TIME DOWNLOAD &#183; COMES IN</text>
+      </svg>
+    </div>
+
+    <p class="caption">
+      Confidant transcribes a spoken recap on the clinician's own laptop, deletes the audio the
+      moment the transcript exists, and drafts the note with a local model — every sentence is then
+      checked against the transcript and refused if its words cannot be found. By default
+      <strong>nothing clinical crosses the boundary</strong>: the only paths out are optional Sentry
+      tracing, which carries stage, latency, token and cost metadata but never clinical text, and
+      remote mode — off by default — which does send the transcript to an endpoint. The only path
+      in is the one-time model download.
+    </p>
+    <p class="colophon">
+      Self-contained figure: no CDN, no webfonts, no scripts, no external requests — it renders offline.
+    </p>
+  </div>
+</body>
+</html>

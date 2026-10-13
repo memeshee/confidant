@@ -1,0 +1,60 @@
+{
+  "_note": "Verbatim output of one real run through the shipped pipeline. Corpus recap r-0xx (synthetic, written for this project), local gemma3:1b-it-qat, no GPU, 6.7 GB RAM. This is the evidence behind the claim that unsupported sentences are refused rather than filed. Published under docs/evidence/ on purpose: it is synthetic content, not client data.",
+  "run": {
+    "note_id": "39ad9fe3-4b47-471f-9fe2-01a0dbad344a",
+    "created_at": "2026-10-13T13:51:25Z",
+    "model": "gemma3:1b-it-qat",
+    "transcript_words": 180,
+    "gen_ms": 199400,
+    "tokens_per_sec": 2.69,
+    "claims_total": 7,
+    "claims_verified": 4,
+    "claims_unverified": 3,
+    "risk_flags": ["rule:no_risk_phrase"],
+    "_latency_caveat": "199 s was measured while two builds and another evaluation were running on the same 8-thread box. It is an under-load figure, not a clean one."
+  },
+  "refused": [
+    {
+      "text": "The primary objective is to expand her exposure to flying fear through a structured approach.",
+      "claimed_quote": "The goal is to progress Priya's exposure hierarchy by gradually introducing her to higher [fear levels]",
+      "why_refused": "The claimed quote is not in the recap. The model reconstructed what it believed the recap said."
+    },
+    {
+      "text": "Priya will engage in daily exposure practice through video watching.",
+      "claimed_quote": "We will continue to watch takeoff videos for ten minutes a day.",
+      "why_refused": "The recap does not contain that sentence. The claim may be substantively true, but its support cannot be verified, so it is not filed."
+    },
+    {
+      "text": "Priya will document her experience and track her progress.",
+      "claimed_quote": "She will log her ratings on the progress.",
+      "why_refused": "Same pattern: a paraphrased quote presented as copied text."
+    }
+  ],
+  "kept": [
+    {
+      "section": "subjective",
+      "text": "Priya's anxiety levels fluctuated, showing a gradual decrease.",
+      "span_text_located": true
+    },
+    {
+      "section": "assessment",
+      "text": "Priya demonstrated a gradual reduction in anxiety levels, progressing from a seven out of ten.",
+      "span_text_located": true
+    },
+    {
+      "section": "assessment",
+      "text": "Priya expressed a complex emotional state, acknowledging both self-satisfaction and a feeling of [self-criticism].",
+      "span_text_located": true
+    },
+    {
+      "section": "next_focus",
+      "text": "Priya's self-critical thoughts were recurring, indicating a continued struggle with self-criticism.",
+      "span_text_located": true
+    }
+  ],
+  "honest_reading": {
+    "what_this_shows": "A 1B model on a CPU laptop cannot reliably copy text verbatim. Three of its seven sentences carried quotes that were reconstructions rather than copies, so the guardrail refused them all. Nothing unsupported reached the note.",
+    "what_this_costs": "The guardrail has a false-negative rate: a sentence whose content is true but whose quote was paraphrased is refused too. It trades recall for precision — a missing line on a draft the clinician reviews, in exchange for never filing a sentence nobody said.",
+    "what_is_measured_next": "The eval table quantifies exactly this trade: fact recall, facts placed in the right section, distractor (invented content) rate, and the share of the model's claims the guardrail refused."
+  }
+}

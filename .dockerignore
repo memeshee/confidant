@@ -1,0 +1,14 @@
+# Keep the image build to source only: no host build output, no secrets, no local state.
+target/
+ui/node_modules/
+ui/.next/
+ui/out/
+.venv/
+scratch/
+.git/
+**/*.key
+**/*.pem
+.env
+*.db
+*.db-wal
+*.db-shm
